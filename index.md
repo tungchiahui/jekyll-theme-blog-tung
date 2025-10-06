@@ -10,4 +10,8 @@ title: 首页
 - 学习笔记
 - 一些随笔和感想  
 
-👉 点击这里进入 [博客文章]({{ '/blog/' | relative_url }})  
+👉 点击这里进入 [博客文章]({{ '/blog/' | relative_url }})
+
+友情链接🔗：
+- Robocon官网：http://robocon.org.cn/
+- RCBBS：https://rcbbs.top/
