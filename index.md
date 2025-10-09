@@ -18,19 +18,21 @@ _探索、学习与创造的记录_
 这里是我记录学习与创作的地方，主要内容包括：
 
 💻 编程与系统开发
-专注于 C/C++、Python 编程，以及基于 Linux 系统环境的开发，涵盖 嵌入式系统（STM32、ESP32）、FreeRTOS 以及底层驱动与控制。
+专注于 C/C++、Python 编程，以及基于 Linux 系统环境的开发。
+涉及 嵌入式系统（STM32、ESP32）、FreeRTOS 与底层驱动实现。
 
 🤖 机器人与自动化
-正在深入学习 ROS1 / ROS2 应用开发，包括运动控制、导航建图与多传感器融合。
+学习与实践 ROS1 / ROS2 平台下的运动控制、导航建图与传感器融合，
+同时探索 OpenCV4 在计算机视觉与环境感知中的应用。
 
-🖥️ 应用与图形界面
-使用 Qt6 开发上位机与可视化工具，探索 OpenCV4 在图像处理与计算机视觉中的应用。
+🖥️ 图形界面与工具开发
+使用 Qt6 构建上位机与可视化调试工具。
 
 🌐 Web 与博客技术
-使用 Jekyll 构建本站，偶尔也会记录一些 HTML / CSS / 前端优化 相关技巧。
+本站基于 Jekyll 搭建，偶尔分享 HTML / CSS / 前端优化 的一些经验。
 
 ✏️ 随笔与思考
-分享我在学习、开发与生活中的一些想法与感悟。
+记录我在学习、开发与生活中的一些想法与感悟。
 
 <div align="center" style="margin: 20px 0;">
   <a href="{{ '/blog/' | relative_url }}" class="btn" style="display:inline-block; padding:10px 20px; border-radius:8px; background:#0078D7; color:white; text-decoration:none; font-weight:bold;">
