@@ -5,8 +5,7 @@ title: 首页
 
 <div align="center">
 
-<h1>🌟 欢迎来到 <b>Tung Chia-hui 的个人网站</b> 👋</h1>
-<br>
+<h2>🌟 欢迎来到 <b>Tung Chia-hui 的个人网站</b> 👋</h2>
 探索、学习与创造的记录
 
 </div>
