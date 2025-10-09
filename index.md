@@ -16,21 +16,21 @@ title: 首页
 
 这里是我记录学习与创作的地方，主要内容包括：
 
-💻 编程与系统开发
+### 💻 编程与系统开发
 专注于 C/C++、Python 编程，以及基于 Linux 系统环境的开发。
 涉及 嵌入式系统（STM32、ESP32）、FreeRTOS 与底层驱动实现。
 
-🤖 机器人与自动化
+### 🤖 机器人与自动化
 学习与实践 ROS1 / ROS2 平台下的运动控制、导航建图与传感器融合，
 同时探索 OpenCV4 在计算机视觉与环境感知中的应用。
 
-🖥️ 图形界面与工具开发
+### 🖥️ 图形界面与工具开发
 使用 Qt6 构建上位机与可视化调试工具。
 
-🌐 Web 与博客技术
+### 🌐 Web 与博客技术
 本站基于 Jekyll 搭建，偶尔分享 HTML / CSS / 前端优化 的一些经验。
 
-✏️ 随笔与思考
+### ✏️ 随笔与思考
 记录我在学习、开发与生活中的一些想法与感悟。
 
 <div align="center" style="margin: 20px 0;">
@@ -45,5 +45,6 @@ title: 首页
 
 | 名称 | 链接 |
 |------|------|
+| 🤖 山东理工大学 Vinci 机器人队 | [https://sdutvincirobot.top/](https://sdutvincirobot.top/) |
 | 🤖 Robocon 官网 | [http://robocon.org.cn/](http://robocon.org.cn/) |
 | 🔧 RCBBS开源RC | [https://rcbbs.top/](https://rcbbs.top/) |
