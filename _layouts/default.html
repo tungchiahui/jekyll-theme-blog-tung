@@ -10,6 +10,11 @@
 
     {% include footer.html %}
 
-    <!-- {% include translate.html %} -->
+    <!-- 这才是liquild的注释，不能用html的注释 -->
+    <!-- 因为liquid会把html的注释也渲染出来 -->
+    {% comment %}
+    {% include translate.html %}
+    {% endcomment %}
+
   </body>
 </html>

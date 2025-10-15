@@ -8,9 +8,16 @@
 ---
 
 🌎 Visit the Global Site  
-👉 [**global.tungchiahui.cn**](https://global.tungchiahui.cn)  
+👉 [**global.tungchiahui.cn**](https://global.eo.tungchiahui.cn)  
 🛠 Deployed to: *Cloudflare Pages*  
 ⚡ Content Delivery Network: *Tencent EdgeOne CDN*
+
+---
+
+🌎 Visit the Global Site  
+👉 [**global.tungchiahui.cn**](https://global.esa.tungchiahui.cn)  
+🛠 Deployed to: *Cloudflare Pages*  
+⚡ Content Delivery Network: *Aliyun Edge Security Acceleration CDN*
 
 ---
 
@@ -23,6 +30,8 @@
 [![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages)
 <br>
 
+[![Deploy with Aliyun Pages](https://img.shields.io/badge/Deploy%20to-Aliyun%20Pages-FF6A00?style=for-the-badge&logo=alibabacloud)](https://home.console.aliyun.com/)
+
 [![Deploy with Cloudflare Pages](https://img.shields.io/badge/Deploy%20to-Cloudflare%20Pages-338af3?style=for-the-badge&logo=cloudflare)](https://dash.cloudflare.com/)
 <br>
 
@@ -33,8 +42,10 @@
 <br>
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
+<br>
 
 </div>
+
 
 ---
 
