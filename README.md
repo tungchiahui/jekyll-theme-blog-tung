@@ -11,7 +11,7 @@
 🌎 Visit the Global Site  
 👉 [**me.tungchiahui.cn**](https://me.tungchiahui.cn)  
 🛠 Deployed to: *Cloudflare Pages*  
-⚡ Content Delivery Network: *Aliyun Edge Security Acceleration CDN*  
+⚡ Content Delivery Network: *Cloudflare CDN*  
 🌐 Route Resolution: *Tencent Cloud DNSPod*
 
 ---
