@@ -9,7 +9,7 @@ description: >-  # 网站描述，用于 meta 标签和搜索引擎
 
 # 网站的根路径配置
 baseurl: "" # 子路径，如果你的网站不是放在根目录，比如 /blog，就填 "/blog"；放在根域名上就留空
-url: "https://tungchiahui.cn" # 网站主域名，建议写完整带 https:// 的，比如 "https://tungchiahui.cn"
+url: "https://me.tungchiahui.cn" # 网站主域名，建议写完整带 https:// 的，比如 "https://tungchiahui.cn"
 
 # ICP 与公安备案号（自定义字段）
 icp: "鲁ICP备2025185601号-2"       # 工信部备案号
@@ -19,7 +19,7 @@ beian: "xxxxxxxxxxxxxx"            # 公安备案号
 # 社交/联系方式配置(没有就注释掉或者删掉这一项就行)
 social:
   email: "mailto:tungchiahui@gmail.com"
-  website: "https://tungchiahui.cn"
+  website: "https://me.tungchiahui.cn"
   github: "https://github.com/tungchiahui"
   qq: "https://qm.qq.com/q/JRhksaNK82?from=qq"
   telegram: "https://t.me/tungchiahui"
