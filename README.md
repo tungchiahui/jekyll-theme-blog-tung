@@ -1,23 +1,18 @@
 # 🚀 Tung_Website
 
 ✨ 访问国内站点  
-👉 [**tungchiahui.cn**](https://tungchiahui.cn)  
-🛠 部署平台：*腾讯 EdgeOne Pages*  
-⚡ 内容分发网络：*腾讯边缘安全加速平台*  
+👉 [**me.tungchiahui.cn**](https://me.tungchiahui.cn)  
+🛠 部署平台：*阿里云 ESA Pages*  
+⚡ 内容分发网络：*阿里云边缘安全加速平台(ESA)* 
+🌐 线路解析：*腾讯云 DNSPod*
 
 ---
 
 🌎 Visit the Global Site  
-👉 [**global.eo.tungchiahui.cn**](https://global.eo.tungchiahui.cn)  
-🛠 Deployed to: *Cloudflare Pages*  
-⚡ Content Delivery Network: *Tencent EdgeOne CDN*
-
----
-
-🌎 Visit the Global Site  
-👉 [**global.esa.tungchiahui.cn**](https://global.esa.tungchiahui.cn)  
+👉 [**me.tungchiahui.cn**](https://me.tungchiahui.cn)  
 🛠 Deployed to: *Cloudflare Pages*  
 ⚡ Content Delivery Network: *Aliyun Edge Security Acceleration CDN*
+🌐 Route Resolution: *Tencent Cloud DNSPod*
 
 ---
 
