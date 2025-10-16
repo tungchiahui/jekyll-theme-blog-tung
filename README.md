@@ -8,14 +8,14 @@
 ---
 
 🌎 Visit the Global Site  
-👉 [**global.tungchiahui.cn**](https://global.eo.tungchiahui.cn)  
+👉 [**global.eo.tungchiahui.cn**](https://global.eo.tungchiahui.cn)  
 🛠 Deployed to: *Cloudflare Pages*  
 ⚡ Content Delivery Network: *Tencent EdgeOne CDN*
 
 ---
 
 🌎 Visit the Global Site  
-👉 [**global.tungchiahui.cn**](https://global.esa.tungchiahui.cn)  
+👉 [**global.esa.tungchiahui.cn**](https://global.esa.tungchiahui.cn)  
 🛠 Deployed to: *Cloudflare Pages*  
 ⚡ Content Delivery Network: *Aliyun Edge Security Acceleration CDN*
 
