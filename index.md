@@ -10,21 +10,6 @@ title: 首页
 
 </div>
 
-
----
-
-## 🎬 网站视频展示
-
-<div align="center" style="margin: 30px 0;">
-  <video controls preload="metadata" style="max-width: 90%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-    <source src="{{ '/assets/videos/header-bg.mp4' | relative_url }}" type="video/mp4">
-    您的浏览器不支持视频播放。
-  </video>
-</div>
-
----
-
-
 ---
 
 ## 🧠 关于本站
@@ -52,6 +37,17 @@ title: 首页
   <a href="{{ '/blog/' | relative_url }}" class="btn" style="display:inline-block; padding:10px 20px; border-radius:8px; background:#0078D7; color:white; text-decoration:none; font-weight:bold;">
     🚀 进入博客文章
   </a>
+</div>
+
+---
+
+## 🎬 ROBOCON
+
+<div align="center" style="margin: 30px 0;">
+  <video controls preload="metadata" style="max-width: 90%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    <source src="{{ '/assets/videos/header-bg.mp4' | relative_url }}" type="video/mp4">
+    您的浏览器不支持视频播放。
+  </video>
 </div>
 
 ---
