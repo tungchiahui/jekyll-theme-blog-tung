@@ -44,3 +44,14 @@ collections:
   pages:
     output: true        # 表示这些页面会生成静态文件
     permalink: /:path/  # URL 规则，比如 _pages/about.md 会变成 /about/
+
+# 启动代码高亮,Markdown相关配置
+markdown: kramdown
+highlighter: rouge
+
+# 代码高亮配置，启用行号
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true  # 全局启用行号
