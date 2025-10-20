@@ -59,3 +59,9 @@ title: 首页
 | 👥 山东理工大学 Vinci 机器人队 | [https://sdutvincirobot.top/](https://sdutvincirobot.top/) |
 | 🤖 Robocon 官网 | [http://robocon.org.cn/](http://robocon.org.cn/) |
 | 🔧 RCBBS 开源RC论坛 | [https://rcbbs.top/](https://rcbbs.top/) |
+
+## 🌍 本站CDN服务
+| 名称 | 链接 |
+|------|------|
+| 🌍 EO + CF R2 | [https://cdn.eo.r2.tungchiahui.cn/](https://cdn.eo.r2.tungchiahui.cn/) |
+| 🌍 ESA + CF R2 | [https://cdn.esa.r2.tungchiahui.cn/](https://cdn.esa.r2.tungchiahui.cn/) |

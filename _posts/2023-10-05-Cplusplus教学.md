@@ -5,8 +5,8 @@ tags:
   - C/C++
 ---
 
-> ⚠️ **注意：本文中的图片因飞书图床时效性已失效**  
-> 若想查看完整图文内容和原版教程，请访问飞书文档：[点击查看完整博客](https://sdutvincirobot.feishu.cn/wiki/DnMHw9hawidQ2xkbk8fcNFSSnCf?from=from_copylink)
+<!-- > ⚠️ **注意：本文中的图片因飞书图床时效性已失效**  
+> 若想查看完整图文内容和原版教程，请访问飞书文档：[点击查看完整博客](https://sdutvincirobot.feishu.cn/wiki/DnMHw9hawidQ2xkbk8fcNFSSnCf?from=from_copylink) -->
 
 * TOC
 {:toc}
@@ -67,7 +67,7 @@ https://www.runoob.com/cplusplus/cpp-tutorial.html
 
 从main函数开始，代码是一行一行运行的。（一个工程里有且只有一个main函数）
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=OGFkODg0NTFkODQwNmFmMmY1ZTI5NjU3M2E0MzIwNGFfaDNPZFhEMXhBc2t2bkpacDFBZ0JrWVNibmQ4VjZrSFJfVG9rZW46U29id2IyVGhWbzNTeEN4Rko3dmNjejFIbmdnXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image1.png)
 
 2.  ## 生命周期
     
@@ -269,7 +269,7 @@ std::cout << "结果是：" << a << std::endl  //输出 结果是: a  并换行
 std::cin >> a     //输入一个变量a
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=NjY3OTAxNTdlNTllM2RkOGNjZTRiNWNkMjdjMWUwZmZfRFlYUGVEZFNsRTJjeUVKMHBLTkY0b01tenJyanExZUFfVG9rZW46WDJFdmJYR3FUb1ZBbzN4TUZoSmNIS3g3bnFjXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image2.png)
 
 5.  # C++命名空间
     
@@ -619,7 +619,7 @@ Books book1("title","author","subject",1);
             4.  typedef float fp32;
                 
         
-        ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YjNiOGIxNTZlYjY5ZmI2OWE0ZmQwNGQxMDY0N2UyMjhfNDBla1BQaU5BallHSDlleFdCUFJPV05Idmt1azRyNzhfVG9rZW46UVJ3WGJkNExYb3Z3c1N4T2xMcmNqMkpxbmxiXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image3.png)
         
 2.  数据解析:
     
@@ -682,7 +682,7 @@ Books book1("title","author","subject",1);
         1.  计算机实际只存储补码，所以原码转换为补码的过程，也可以理解为数据存储到计算机内存中的过程：
             
         
-        ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjM1MmIzOWFhNzYwNjUxYWE3MzY4ZTlkYjg4MDkzZTdfcXZ3TGk4VkdxNzQza0xkOHpBWFMxdlNtZURRV1hoeUFfVG9rZW46RDMxNWI1OXl3b0c0ZTh4NkpCcmNOMVlublFnXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image4.png)
         
         3.  正数：在原、反、补码中，正数的表示是一模一样的
             
@@ -818,9 +818,9 @@ int main ()
 
   
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=MjAzNzdjMTdhMGNkYjdiNTQzOTVlMzRhMTFiYzU3YjlfRTNyc1RHSk8wV2Vyd2JqQmJ6ckRBQkFsZFAyZDQxb2pfVG9rZW46TDZsUmIxSXRYb0l6R1Z4RVk1eGNablJ3bnlmXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image5.png)
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=MGFmOWNhNTczMmQ1MTgxN2QwOTdiZWVjMmQ5ZDEzNTFfMU9zMkI5YnBDYWZ0U28yWE5nZ21ZSEtxY0M4YTV2eDRfVG9rZW46RTROZmJKM0FSb25ES3B4aDU4cmN3OXE5blNlXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image6.png)
 
 当没有指向该内存的，程序会自动释放内存。
 
@@ -1003,7 +1003,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=MzU1ZjJhMDg3Y2M5NGUxZjczNDM3NWU5Y2M3N2YzNDlfRFhkbjl3Qk9aMGVQTDNaVm10MGhpbFg1bWdOdWw0OENfVG9rZW46WHpVeGJxd29Jb0kwYVR4U0E2YmNRNngybjJlXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image7.png)
 
 使用捕获列表传入变量：
 
@@ -1032,7 +1032,7 @@ int main(int argc,char **argv)
 
 答案是9
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=OTNkZWMyZTQ4OWZhYTVlMzg3M2ZjNjQyYWZjMWQyYmVfMlFwTlRKamx6MHZwc0V3N0x0VHNDczBtcTdGc0tCQzRfVG9rZW46QmlrZWJrYmZLb1FtdUp4WEd3SGNKWXc3bkZkXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image8.png)
 
   
 
@@ -1123,7 +1123,7 @@ int main(int argc,char **argv)
 
 答案是10
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjM0OTYxYjIzYzQzNjE2ZDkyYzcwMzg3MWY0ZGVmMTlfRXRHQWd1d2N6UXdSd2YzcEhTTjgyaEFRT0l4QUFmWklfVG9rZW46WDhLamI3YjFqb05ZMll4OGFZWGNad1FQbk9jXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image9.png)
 
 2.  泛型 lambda 参数
     
@@ -1151,7 +1151,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGI1NWZlNGRmNWI5YzFhNDk1ZDZiOTJmODYwYzJjMmJfZ0FYbm5pa2JGNGU1Q1BOd0JCQ3lhQVZsRDBjeGMxMHJfVG9rZW46Um9ROWIwYVAxb3BBb1N4V1NrMGNGSjFibjFiXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image10.png)
 
 3.  捕获\*this
     
@@ -1277,7 +1277,7 @@ int main()
 
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=MDMwOGZjNDA5MTU0YTAxM2IzN2U4MGMyZTFhMmUyYWVfQmtwTkViN0ZRenlVWXBqSWdsSk5qUUJwemNQM1NPWkVfVG9rZW46RHNFc2J6RjM0b3Y4elJ4WlJsb2NyR1RpbjBkXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image11.png)
 
 上面`constexpr auto square = [](int x) constexpr` 有俩`constexpr`，第一个是用来声明`square`的，第二个是用来声明Lambda的，作用不一样，而且这俩都必须要。
 
@@ -1346,7 +1346,7 @@ int main()
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTU3MTdkZGU0MjE1MTFlYzhiNzI5MWQwYWJlYWVjZmVfRjZrWGw5VVN6bzBaT29nNXd6cTVNc3RZcmJrZUtURGlfVG9rZW46RmE0RmJPSzNnb3B3UGt4WTVCNGNlQTFDbkNlXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image12.png)
 
 2.  绑定成员函数
     
@@ -1382,7 +1382,7 @@ int main()
 
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YzZhYmMyNGI4NjBlYTI5NzY3ZmE4MWU4MjkwMmU5ZmVfS2RzdURKR0FOY0RISFBqVlpGQWhqa1ZQV0NFOXZ0enlfVG9rZW46S1luMmIxZjdrb1hxMUp4d2Jxb2NhNThEblFoXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image13.png)
 
 3.  用于高阶函数
     
@@ -1423,7 +1423,7 @@ scr
 
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=Zjc4MjhiNzZkNzQzMzA1Y2U0ZjEyMTk2ZTcwMzUxMzZfSjgwQnJVNWhaU1FBdlo2TVV0bjAwUmdiOXZrdmRrZlZfVG9rZW46VzFOZmJmRnZMb3JCdFp4Y0p4UGNQYW81bnNMXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image14.png)
 
   
 
@@ -1480,7 +1480,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YjUzN2VjYjNlYzNlZjM3YjcwODNhMDIyMjQ1MDhiZjVfYkFIbVBsUlhJckhYZ1VUYnRRbm9hNlppR2VPV0lvWTBfVG9rZW46WWozU2JrcEtlb29JN2N4NWpVVmNmVVdpbkxkXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image15.png)
 
   
 
@@ -1519,7 +1519,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjkzYTIyYjg2ODZhOTMxNjRlMzk0NjA1ZWM1ZDczYjFfRVRCRmd5SFRjbUJOVWxrUDA0aUVCODNZWWZxNXA1MG1fVG9rZW46Q2Q3cmJoZW5Vb1M3NjB4TVpYZWM0Wkcxbm5nXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image16.png)
 
   
 
@@ -1557,7 +1557,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=NTZlZTg4YmNmODlmYzg1OTUyOTNiMjc4NDQ2NjE0ODJfdXo2Z3NCU21YNHVhSUlld1pLTVN6NUtUbWsyelhFT05fVG9rZW46RVAzTWJldTNub3lFU1F4T3R6SWNXWGtKbnhlXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image17.png)
 
   
 
@@ -1767,7 +1767,7 @@ int main()
 
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=NGM3YzU5YzAwNmNmYjQzNDE5ZmY5MGQzMGVlZTU3ZTFfNFNOZ2kwMzBjNlBSVUtVOE9lOVA5SUkxazRLaFcwMkVfVG9rZW46Q2RSQWI4U2dsb1JVMFh4OHNDZmNNeTNlbnRkXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image18.png)
 
   
 
@@ -1888,7 +1888,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=NDg1MzUyNGFkZTk4YjkzNTI0ZWFiZDU0YjNjOGM5MDFfYlV2Y2pubXA1ZUREQlJ4WWRUcVRBc0U5NUdvSXdhMnhfVG9rZW46QVZjamJ2cEg4b0lGRUF4akFLQmM3M1ltbkhoXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image19.png)
 
   
 
@@ -1944,7 +1944,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YzZjMTFiNWMyNmM3NjM2NWFhZjBlMzUwZTBiZTdhNDBfbFBUMlFwU1VjeDhtWUVCaGFNQ2MySGNPQWhFNEF3SVRfVG9rZW46VGhKbmJwZ0Fkb1U5UkZ4bUxtbmNhc3hqbkViXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image20.png)
 
   
 
@@ -1986,7 +1986,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YjY0ZDZmZGU5OTE0NDNhNjU0ZjNiNmFiYjczMTYxMGVfVW5MRXB3MDZOc2VJNTJVWklObTk0UDBjeVVnYVBqcGZfVG9rZW46Wks0WGJDbGNjb2Q1Q0d4MUJMMGNhVlBTbjE2XzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image21.png)
 
 2.  传递引用
     
@@ -2024,7 +2024,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=NDlmYmNiMWY3ZTQyYzBmMDZiNDY3MGUzNDVmODYwNWNfVklzTWNTREdqWDhZWjVsN3I1S2NXVDdqS0h3ZHpTdmFfVG9rZW46TTdFWGJyRnY4b2hTR054ajNnemM4RkN6bldoXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image22.png)
 
 3.  私有方法无法访问（用友元函数）
     
@@ -2149,7 +2149,7 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=M2YyYjM2MzEwMmZiZTFkYjQ3MzUyOWI0YmM3YzFjMmVfSzlmemR5Qm5GYVpFMjk1dTNDTEhVUjNHa3VoNTJrWEZfVG9rZW46SXNwbWJGdHQxb1hiZjR4M3U4SmNzTFJSbjZiXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image23.png)
 
 会发现有几次结果不为2001，这说明发生了线程竞争。
 
@@ -2271,4 +2271,4 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YTFlNTYzOGJmMDk2NDk2MTBlN2UyYmEwOWQyOWZkY2JfaVpWbVlQdVhUamZiaFZSNjJ2N0Q2ZWtUOUZ1N1BIWmFfVG9rZW46WnF6UGJKS3ltb2dqZVR4UDgxcWN3QW5lbk5iXzE3NjA5NTg1MTM6MTc2MDk2MjExM19WNA)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image24.png)
