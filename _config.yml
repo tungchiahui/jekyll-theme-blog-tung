@@ -38,8 +38,7 @@ social:
 plugins:
   - jekyll-feed      # 自动生成 RSS feed（/feed.xml），可选，博客用得多
   - jekyll-seo-tag   # 自动生成 SEO 相关的 meta 标签，推荐开启
-  - jekyll-toc       # 生成目录,需要在文章中添加 * TOC {:toc} 来生成目录,可以和下面的插件二选一
-  # - jekyll-table-of-contents # 也是生成目录的插件，可以选择一个使用,需要在文章中添加 * TOC {:toc} 来生成目录
+  - jekyll-toc       # 生成目录,需要在文章中添加 * TOC {:toc} 来生成目录
 
 # 自定义集合配置（这里定义了 _pages 文件夹）
 collections:
