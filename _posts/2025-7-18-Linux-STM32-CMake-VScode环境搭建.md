@@ -45,7 +45,7 @@ https://blog.csdn.net/SankeXhy/article/details/138418371?shareId=138418371&share
 1.  ### 安装C/C++环境
     
 
-```Bash
+```bash
 # debian系
 sudo apt-get install gcc g++ gdb cmake-gui make
 
@@ -57,7 +57,7 @@ sudo dnf install gcc g++ gdb cmake-gui make
 
 查看是否环境安装成功
 
-```Bash
+```
 gcc -v
 g++ -v
 gdb -v
@@ -78,13 +78,13 @@ cmake --version
 
 然后创建一个.cpp文件并用vim编辑
 
-```Bash
+```bash
 vim hello.cpp
 ```
 
 复制以下代码到该文件里
 
-```C++
+```
 #include <iostream> 
 int main(int argc,char **argv) 
 { 
@@ -95,7 +95,7 @@ int main(int argc,char **argv)
 
 然后编译
 
-```Bash
+```bash
 g++ -o hello hello.cpp
 ls
 ```
@@ -104,7 +104,7 @@ ls
 
 运行
 
-```Bash
+```bash
 ./hello
 ```
 
@@ -135,7 +135,7 @@ https://www.st.com.cn/zh/development-tools/stm32cubemx.html
 
 用root权限打开这个软件`SetupSTM32CubeMX-6.15.0`
 
-```C++
+```cpp
 sudo ./SetupSTM32CubeMX-6.15.0
 ```
 
@@ -147,7 +147,7 @@ sudo ./SetupSTM32CubeMX-6.15.0
 
 `/usr/local/STMicroelectronics/STM32Cube/STM32CubeMX`进入这个文件夹，然后打开终端输入
 
-```C++
+```cpp
 ./STM32CubeMX
 ```
 
@@ -179,7 +179,7 @@ sudo ./SetupSTM32CubeMX-6.15.0
 
 桌面快捷方式如下：
 
-```C++
+```cpp
 [Desktop Entry]
 Name=STM32CubeMX
 Exec=/usr/local/STMicroelectronics/STM32Cube/STM32CubeMX/STM32CubeMX
@@ -219,7 +219,7 @@ RHEL系：输入`sudo dnf install ./code`然后按`tab`按键补齐文件名，�
 
 例如补齐后的：
 
-```Bash
+```bash
 sudo dnf install ./code-1.102.1-1752598767.el8.x86_64.rpm
 ```
 
@@ -227,7 +227,7 @@ sudo dnf install ./code-1.102.1-1752598767.el8.x86_64.rpm
 
 然后打开VScode，在终端输入下面的命令
 
-```Bash
+```bash
 code
 ```
 
@@ -289,7 +289,7 @@ https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
 比如下面的命令：
 
-```Bash
+```bash
 cp ./arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz ~/UserFolder/Applications/
 ```
 
@@ -297,7 +297,7 @@ cp ./arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz ~/UserFolder/Applic
 
 然后进入复制到的文件夹：
 
-```Bash
+```bash
 cd ~/UserFolder/Applications/
 ```
 
@@ -309,7 +309,7 @@ cd ~/UserFolder/Applications/
 
 例如我补齐后的：
 
-```Bash
+```bash
  tar -xvf ./arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz
 ```
 
@@ -319,14 +319,14 @@ cd ~/UserFolder/Applications/
 
 `cd ./arm-gnu`按`tab`补齐。
 
-```Bash
+```bash
 cd ./arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/
 cd ./bin
 ```
 
 查看文件夹路径
 
-```Bash
+```bash
 pwd
 ```
 
@@ -338,13 +338,13 @@ pwd
 
 然后需要配置环境
 
-```Bash
+```bash
 vim ~/.bashrc
 ```
 
 在末尾输入下面的命令，把下面`~/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin`替换成你刚才复制的路径，`/home/用户名`可以用`~`来代替。
 
-```Bash
+```bash
 export PATH=/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin:$PATH
 ```
 
@@ -352,7 +352,7 @@ export PATH=/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel
 
 加载环境
 
-```Bash
+```bash
 source ~/.bashrc
 ```
 
@@ -367,7 +367,7 @@ source ~/.bashrc
 
 **不建议本法**
 
-```Bash
+```bash
 # Debian系
 sudo apt install arm-none-eabi-gcc
 # Rhel系
@@ -383,7 +383,7 @@ sudo dnf install arm-none-eabi-gcc
 
 检查版本
 
-```Bash
+```bash
 arm-none-eabi-gcc -v
 ```
 
@@ -399,7 +399,7 @@ arm-none-eabi-gcc -v
 
 我们烧录会用到JLinkExe的命令，而JLinkExe会用到libreadline库，所以要安装libreadline库，执行如下命令安装：
 
-```Bash
+```bash
 # debian系
 sudo apt-get install libreadline-dev
 # rhel系
@@ -431,7 +431,7 @@ https://www.segger.com/downloads/jlink/
 
 然后`sudo dnf install ./JLink`然后tab补齐。
 
-```Bash
+```bash
 sudo dnf install ./JLink_Linux_V852_x86_64.rpm
 ```
 
@@ -439,7 +439,7 @@ sudo dnf install ./JLink_Linux_V852_x86_64.rpm
 
 检查是否安装成功
 
-```Bash
+```bash
 JLinkExe
 ```
 
@@ -476,7 +476,7 @@ https://www.segger.com/products/development-tools/ozone-j-link-debugger/
 
 然后`sudo dnf install ./Ozone`然后tab补齐。
 
-```Bash
+```bash
 sudo dnf install ./Ozone_Linux_V338g_x86_64.rpm
 ```
 
@@ -487,7 +487,7 @@ sudo dnf install ./Ozone_Linux_V338g_x86_64.rpm
 
 打开终端输入
 
-```Bash
+```bash
 ozone
 ```
 
@@ -528,7 +528,7 @@ https://www.st.com.cn/content/st\_com/zh.html
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=MWZkNmYyZWU4NTE1NzFlNWQ2ZTExOWVjMGUzODVhZThfMHVmcFlTVENkSVBoYTdmZkhJUzZ0M3hCREpWb3dYa0JfVG9rZW46UGFmaGIxSWJCb0p1TVF4RTlidmNvclE2bm5nXzE3NjA5NTU2OTk6MTc2MDk1OTI5OV9WNA)
 
-```Bash
+```bash
 sudo cp ./*.svd /opt/SEGGER/Ozone_V338g/Config/Peripherals/
 ```
 
@@ -591,7 +591,7 @@ FreeRTOS也要配置一下。
 
 然后打开vscode
 
-```Bash
+```bash
 code .
 ```
 
@@ -609,7 +609,7 @@ code .
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YmVlODdkNjc2NGM0NTk2NjBhOGEzZTNlNjgxZmU4MWZfNTVjMzdZUXNIWHhJSXlaVm9IUkxGNzcwbGZ4VU9Sb0xfVG9rZW46R2VWbWJ1WVNBb2t3c2F4dnlJRWNxSkZCbnZmXzE3NjA5NTU2OTk6MTc2MDk1OTI5OV9WNA)
 
-```Bash
+```bash
 # Include toolchain file
 include("cmake/gcc-arm-none-eabi.cmake")
 ```
@@ -622,7 +622,7 @@ include("cmake/gcc-arm-none-eabi.cmake")
 
 使用下方命令创建并进入build文件夹
 
-```Bash
+```bash
 mkdir build
 cd build
 ```
@@ -631,7 +631,7 @@ cd build
 
 接下来使用cmake命令生成makefile文件
 
-```Bash
+```bash
 cmake ..
 ```
 
@@ -641,7 +641,7 @@ cmake ..
 
 然后使用make命令进行编译，命令为`make`或者`make -jxx`,这里的xx是你想使用CPU的几个线程来进行编译，比如我电脑是8核16线程，我就可以让xx是比16低的数字。而`make`是默认用一个线程。如果你并不知道你CPU有几个线程，那你就老老实实用`make`命令，别用`make -jxx`命令了。
 
-```Bash
+```bash
 make -j16
 ```
 
@@ -701,7 +701,7 @@ make -j16
 1.  运行以下命令，获取 ARM GCC 使用的标准 include 路径：
     
 
-```Bash
+```bash
 arm-none-eabi-gcc -x c -E -v - </dev/null
 ```
 
@@ -710,7 +710,7 @@ arm-none-eabi-gcc -x c -E -v - </dev/null
 2.  在工程根目录下面创建 .clangd 文件 将自己的头文件路径包含进去（引号里面替换成你自己的arm gcc头文件路径）
     
 
-```JSON
+```
 CompileFlags:
   Add: [
     "-isystem", "/home/xiaofang/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include",
@@ -730,7 +730,7 @@ CompileFlags:
 
 用git clone命令克隆仓库:https://github.com/tungchiahui/CubeMX\_MDK5to6\_Template
 
-```Bash
+```bash
 git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 ```
 
@@ -746,7 +746,7 @@ git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 
 led\_task.cpp:
 
-```C++
+```cpp
 #include "led_task.h"
 #include "cmsis_os.h"
 #include "stm32f1xx_hal.h" 
@@ -767,7 +767,7 @@ void StartDefaultTask(void *argument)
 
 led\_task.h:
 
-```C++
+```cpp
 #ifndef __LED_TASK_H_
 #define __LED_TASK_H_
 
@@ -798,14 +798,14 @@ extern "C"
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDBmMmExNmVkMmZmOGVjZDUxNGJkNzY1NjM2ZTczZmRfVW9vNjhkTlpOVjhlRUZRV2UzZDdjR2FvZldqUHB6cWdfVG9rZW46UFUxbWI5SHVob2J0NDh4SW1oMWNRQUNzbjNmXzE3NjA5NTU2OTk6MTc2MDk1OTI5OV9WNA)
 
-```CMake
+```cmake
 # Add USER generated sources
 add_subdirectory(cmake/user)
 ```
 
 大功告成，编译一次试试。可以看到下图，那些新加的文件都编译上了。
 
-```C++
+```cpp
 cmake ..
 make
 ```
@@ -828,7 +828,7 @@ make
 
 此时在build文件夹下进行编译程序，发现成功!
 
-```C++
+```cpp
 cmake ..
 make
 ```
@@ -851,7 +851,7 @@ make
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ODFhYThiOGRhMmMzNjBhMmQzNTBkZWE2YTg1MWQ2MzNfY05mdGI2OERuOVBCcEppekhxS2JMTm8wczhoRzY5ZWxfVG9rZW46QmJadGJMUE53b1BUWXZ4QWRMcWNNNnRrbkxjXzE3NjA5NTU2OTk6MTc2MDk1OTI5OV9WNA)
 
-```CMake
+```cmake
 # 生成 .bin 和 .hex 文件
 find_program(OBJCOPY arm-none-eabi-objcopy REQUIRED)
 
@@ -870,7 +870,7 @@ add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
 
 然后再次编译
 
-```CMake
+```
 cmake ..
 make
 ```
@@ -922,7 +922,7 @@ JFlashLite
 
 咱们在上面编译，一直需要输入以下命令
 
-```CMake
+```cmake
 cd build
 cmake ..
 make
@@ -936,7 +936,7 @@ make
 
 以下是`tasks.json`的内容：
 
-```JSON
+```json
 {
     "version": "2.0.0",
     "options": {
@@ -1076,7 +1076,7 @@ elf,hex,bin都可以选，一般选elf就行。
 
 如果你开启了RTOS可能会遇到这个问题。
 
-```Bash
+```bash
 warning (138): The target application seems to be using FreeRTOS, but FreeRTOS-awareness is not enabled.
 ```
 
