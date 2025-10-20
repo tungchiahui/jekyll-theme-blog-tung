@@ -10,7 +10,9 @@ permalink: /blog/
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+      <small>
+        ({{ post.date | date: "%Y-%m-%d" }} | 作者: {{ site.author }})
+      </small>
     </li>
   {% endfor %}
 </ul>

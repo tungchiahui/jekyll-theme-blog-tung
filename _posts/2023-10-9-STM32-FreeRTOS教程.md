@@ -6,7 +6,12 @@ tags:
   - RTOS
 ---
 
-> 📄 本教程已发布于飞书文档：[点击查看](https://sdutvincirobot.feishu.cn/wiki/PqsGwcPCuidbN6k13jfcGWtWn0b?from=from_copylink)
+> ⚠️ **注意：本文中的图片因飞书图床时效性已失效**  
+> 若想查看完整图文内容和原版教程，请访问飞书文档：[点击查看完整博客](https://sdutvincirobot.feishu.cn/wiki/PqsGwcPCuidbN6k13jfcGWtWn0b?from=from_copylink)
+
+* TOC
+{:toc}
+
 
 1.  # 前言
     
@@ -54,7 +59,7 @@ Qualcomm Arduino 的语言系统在设计时参考了C、C++、Java，是一种�
 
 资料:[Arduino常用库函数和速学参考](https://sdutvincirobot.feishu.cn/docx/HxRYd0Ixpoq1s6xyeQYcNBwun1s)
 
-```C++
+```cpp
 
 int led0 = 13;
 
@@ -75,7 +80,7 @@ void loop()         //while(true)
   delay(1000);                       // 休眠1000毫秒ms
 }
 ```
-```C++
+```cpp
 int main()
 {
     
@@ -87,7 +92,7 @@ int main()
     }
 }
 ```
-```C++
+```cpp
 int main()
 {
     setup();
@@ -171,7 +176,7 @@ I/O输入函数
 
 点一个亮灯
 
-```C++
+```cpp
 #include "reg51.h"
  
 void main ()
@@ -189,7 +194,7 @@ void main ()
 
 延时函数定义
 
-```C++
+```cpp
 //固定延时函数
 void Delay500ms()                //@12.000MHz
 {
@@ -211,7 +216,7 @@ void Delay500ms()                //@12.000MHz
 
 让灯闪烁
 
-```C++
+```cpp
 
 #include "reg51.h"
 void Delay500ms()                //@12.000MHz
@@ -1026,7 +1031,7 @@ https://github.com/tungchiahui/CubeMX\_MDK5to6\_Template
 
 或者直接打开terminal输入
 
-```Bash
+```bash
 git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 ```
 
@@ -1153,7 +1158,7 @@ bsp/boards
 
 拿bsp\_delay.h举例
 
-```C++
+```cpp
 #ifndef __BSP_DELAY_H_
 #define __BSP_DELAY_H_
 
@@ -1219,7 +1224,7 @@ extern BSP_Delay bsp_delay;
 
 拿bsp\_delay.cpp举例
 
-```C++
+```cpp
 #include "bsp_delay.h"
 
 #if isRTOS == 1
@@ -1431,7 +1436,7 @@ note或attention 注意事项
 
 比如
 
-```C++
+```cpp
 /**
  * @brief       CAN1通信发送函数
  * @param       motor1: 第1个电机的相对电流值
@@ -1586,7 +1591,7 @@ note或attention 注意事项
     
     10.  CAN报文发送函数调用
         
-    ```C++
+    ```cpp
     int16_t Current_Motor_Target[1];
     
     void chassis_task(void const * argument)
@@ -2191,7 +2196,7 @@ https://www.bilibili.com/video/BV19g411p7UT
         
     3.  调用方法：与HAL\_Delay()方法一样
         
-    ```C++
+    ```cpp
     extern "C" //若在C++中运行需要加上该行
     void green_led_task(void const * argument)
     { 
@@ -2578,7 +2583,7 @@ ARM内核的CPU支持 CMSIS-DSP 库的三角函数，这比标准 `math.h`、`cm
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY3YWRjZjU1YmJmODViYjA1Zjk1MmZkMmNkNDM5OTFfbmxRTHVYTFYxaG1xdGNZR3FtZ0ZsR3h2djVMaVcyM0JfVG9rZW46T20wNGI5VERwb3dKb2l4bEZQb2NCblJUblVFXzE3NjA5NTg0MzE6MTc2MDk2MjAzMV9WNA)
 
-```C++
+```cpp
 #include <cmath>
 // 更新机器人的位置（假设机器人沿着x轴移动）
 this->x_position += this->vx * std::__math::cos(this->yaw) * this->dt;  
@@ -2598,7 +2603,7 @@ this->yaw += this->vw * this->dt;
 
 传入fp32的值。
 
-```C++
+```cpp
     // 更新机器人的位置（假设机器人沿着x轴移动）
     this->x_position += this->vx * arm_cos_f32(this->yaw) * this->dt;  
     this->y_position += this->vy * arm_sin_f32(this->yaw) * this->dt;

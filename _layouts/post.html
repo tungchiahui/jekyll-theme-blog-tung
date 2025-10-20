@@ -2,9 +2,13 @@
 layout: default
 ---
 
-<article>
+<article class="post-main">
   <h2>{{ page.title }}</h2>
-  <p><small>发布于 {{ page.date | date: "%Y-%m-%d" }}</small></p>
+  <p>
+    <small>
+      发布于 {{ page.date | date: "%Y-%m-%d" }} | 作者: {{ site.author }}
+    </small>
+  </p>
   <div class="post-content">
     {{ content }}
   </div>

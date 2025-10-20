@@ -6,7 +6,12 @@ tags:
   - STM32
 ---
 
-> 📄 本教程已发布于飞书文档：[点击查看](https://sdutvincirobot.feishu.cn/wiki/NfUlwxPTbiHTurktlEXc8TGYnmc?from=from_copylink)
+> ⚠️ **注意：本文中的图片因飞书图床时效性已失效**  
+> 若想查看完整图文内容和原版教程，请访问飞书文档：[点击查看完整博客](https://sdutvincirobot.feishu.cn/wiki/NfUlwxPTbiHTurktlEXc8TGYnmc?from=from_copylink)
+
+* TOC
+{:toc}
+
 
 **`截止2024年1月21日，MDK6已经完善到完全可以当主力IDE的状态，各项功能都比较完备。`**
 
@@ -52,7 +57,7 @@ https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-
 1.  下载依赖包
     
 
-```Bash
+```bash
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install build-essential tar curl zip unzip
@@ -64,14 +69,14 @@ sudo apt-get install default-jre
 
 https://github.com/microsoft/vcpkg/tree/master
 
-```Bash
+```bash
 git clone https://github.com/microsoft/vcpkg.git
 ```
 
 3.  生成vcpkg程序
     
 
-```Bash
+```bash
 cd vcpkg
 sudo chmod a+x ./bootstrap-vcpkg.sh
 sudo ./bootstrap-vcpkg.sh
@@ -80,7 +85,7 @@ sudo ./bootstrap-vcpkg.sh
 4.  配置环境
     
 
-```Bash
+```bash
 vim ~/.bashrc
 ```
 
@@ -88,7 +93,7 @@ vim ~/.bashrc
 
 这个 **VCPKG\_HOME是vcpkg的目录**
 
-```Bash
+```bash
 #配置vcpkg环境 
 export VCPKG_HOME=/home/tungchiahui/user/applications/vcpkg  #目录需要改为你的vcpkg的目录
 export PATH=$VCPKG_HOME:$PATH
@@ -96,7 +101,7 @@ export PATH=$VCPKG_HOME:$PATH
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=NTlmZDE1NzBlZmI1OTliZmFkMGVlZGQzZWY1ZWJjNTVfWDdpRkJ5dmlsZlEwSFlOOG92MW1VQ2tEQ3FqWWV5Y1pfVG9rZW46TEowcmJRRFNQb1dHc1V4aUx3ZWNUb0NIbjhkXzE3NjA5NTgyNjM6MTc2MDk2MTg2M19WNA)
 
-```Bash
+```bash
 source ~/.bashrc
 vcpkg --version
 ```
@@ -122,7 +127,7 @@ vcpkg --version
 
 https://github.com/TungChiahuiMCURepos/CubeMX\_CMake\_Template
 
-```Bash
+```bash
 git clone https://github.com/TungChiahuiMCURepos/CubeMX_CMake_Template.git
 ```
 
@@ -155,7 +160,7 @@ git clone https://github.com/TungChiahuiMCURepos/CubeMX_CMake_Template.git
 
 在文件夹MDK-ARM下打开终端
 
-```Bash
+```bash
 cd MDK-ARM
 code .
 ```
@@ -233,7 +238,7 @@ https://github.com/pyocd/pyOCD
 
 先打开终端输入（如果你是debian系的系统，如Ubuntu，请看下方的教程）
 
-```Bash
+```bash
 sudo apt install python3-pip
 python3 -mpip install -U pyocd
 # 如果上面的不行，则输入下方的
@@ -242,7 +247,7 @@ pip3 install -U pyocd
 
 如果还不行，且提示
 
-```Bash
+```bash
 error: externally-managed-environment
 
 × This environment is externally managed
@@ -253,7 +258,7 @@ error: externally-managed-environment
 
 则使用（debian系的系统）
 
-```Bash
+```bash
 sudo apt install python3-pyocd
 ```
 
@@ -342,7 +347,7 @@ sudo apt install ./st-stlink-udev-rules-1.0.3-2-linux-all.deb
 
 https://github.com/microsoft/vcpkg/tree/master
 
-```Bash
+```bash
 git clone https://github.com/microsoft/vcpkg.git
 ```
 
@@ -379,7 +384,7 @@ git clone https://github.com/microsoft/vcpkg.git
 4.  测试
     
 
-```Bash
+```bash
 vcpkg --version
 ```
 
@@ -560,7 +565,7 @@ Windows就更简单了，根本不用多下其他东西，只要你在MDK5上能
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=OTQzYWQ3NzE4YzRlY2ExODhiNmUyMWI0NzE0OWNiMjNfaXBMaEp4dWd6VWhkcjBRSFJyM2NXVnp3cU1qWkN3VEdfVG9rZW46TXpSOGJ4Yzlqb0xYQlJ4bHZtMGM5MkFPbnpoXzE3NjA5NTgyNjM6MTc2MDk2MTg2M19WNA)
 
-```C++
+```cpp
 extern "C"
 void led_task(void const * argument)
 {
@@ -676,7 +681,7 @@ https://github.com/llvm/llvm-project/releases
 
 可以打开terminal测试一下是否安装成功并配置好环境。
 
-```PowerShell
+```powershell
 clang -v
 ```
 
@@ -728,7 +733,7 @@ clang -v
 
 以下是Linux版本的settings.json示例
 
-```JSON
+```
 {
     "clangd.arguments": [
         "--compile-commands-dir=${workspaceFolder}/tmp/Template_Linux/TemplateLinux"
@@ -740,7 +745,7 @@ clang -v
 
 需要注意的是，Windows需要把盘符号变为小写，比如`C:/`要改为`c:/`然后`反斜杠\`要改为`斜杠/`。
 
-```JSON
+```json
 {
     "clangd.arguments": [
         "--compile-commands-dir=${workspaceFolder}/tmp/Template_Linux/TemplateLinux"
@@ -797,7 +802,7 @@ clang -v
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=YWE0YTIzZDVhZDhjMWI5YjMwNDhlOTU5NWNmMjk3MDdfYVBOT0RTcTBtOFBoR2UycXVsUWpFV3Z5RXVSTVpKc2NfVG9rZW46WmlYUmJXWmp0b0tWcjF4SUxZbGNSZFNKbjVlXzE3NjA5NTgyNjM6MTc2MDk2MTg2M19WNA)
 
-```YAML
+```
       add-path:
         - ../Core/Inc
         - ../Drivers/STM32F1xx_HAL_Driver/Inc
@@ -817,7 +822,7 @@ clang -v
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=NDM3ZmQ4NmRkZTg3MjE1YmIyNzlmMDQwNzcxMDhiMThfckp1eXNRbzFqM0JMYjBlWVFyQ0lDZXVlWndkR2Y2cmJfVG9rZW46RVhWTWIxUTdBb0JkTld4dk8wNmNjNTI0bnNiXzE3NjA5NTgyNjM6MTc2MDk2MTg2M19WNA)
 
-```YAML
+```ymal
     - group: bsp/boards
       files:
         - file: ../bsp/boards/Src/gpio_demo.cpp
@@ -914,7 +919,7 @@ ARM团队更新了什么图形化功能，下方教程就会推迟几天更新�
 
 ![](https://pcnveplwrxf8.feishu.cn/space/api/box/stream/download/asynccode/?code=OWIxZWZmNDUxNWJiYzA4ODE3YjZmYjZlYmFhMDFjYjNfUnl6Zm1NVnRUcmVNQjBOd0dTeU9kUUFQbXBCR1JrdWJfVG9rZW46Rmg2UWJGaWFTb0VmOGN4RWk0emNVOEs4bmdkXzE3NjA5NTgyNjM6MTc2MDk2MTg2M19WNA)
 
-```Bash
+```bash
 #删除tmp文件夹
 rm -rf ./tmp
 ```

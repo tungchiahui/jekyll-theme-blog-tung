@@ -8,7 +8,12 @@ tags:
   - RTOS
 ---
 
-> 📄 本教程已发布于飞书文档：[点击查看](https://sdutvincirobot.feishu.cn/wiki/F3Htw5Id9ih63okH9npcszeWn4g?from=from_copylink)
+> ⚠️ **注意：本文中的图片因飞书图床时效性已失效**  
+> 若想查看完整图文内容和原版教程，请访问飞书文档：[点击查看完整博客](https://sdutvincirobot.feishu.cn/wiki/F3Htw5Id9ih63okH9npcszeWn4g?from=from_copylink)
+
+* TOC
+{:toc}
+
 
 ***`（本教程为2025年7月创建的，可能与以后的版本有些出入）`***
 
@@ -84,7 +89,7 @@ vim hello.cpp
 
 复制以下代码到该文件里
 
-```
+```cpp
 #include <iostream> 
 int main(int argc,char **argv) 
 { 
