@@ -1,0 +1,17 @@
+/* post.css - 文章页专用样式 */
+
+.post-content img {
+  max-width: 90%;      /* 不超过文章宽度 */
+  height: auto;        /* 保持纵横比 */
+  display: block;      /* 保持块级元素 */
+  margin: 10px 0;      /* 上下间距，左右靠左 */
+  border-radius: 8px;  /* 圆角，可选 */
+}
+
+/* 代码块样式 */
+.post-content pre {
+  background-color: #f6f8fa;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
