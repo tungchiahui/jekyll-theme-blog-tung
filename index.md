@@ -60,6 +60,8 @@ title: 首页
 | 🤖 Robocon 官网 | [http://robocon.org.cn/](http://robocon.org.cn/) |
 | 🔧 RCBBS 开源RC论坛 | [https://rcbbs.top/](https://rcbbs.top/) |
 
+---
+
 ## 🌍 本站CDN服务
 
 | 名称 | 链接 |
@@ -67,6 +69,7 @@ title: 首页
 | 🌍 EO + CF R2 | [https://cdn.eo.r2.tungchiahui.cn/](https://cdn.eo.r2.tungchiahui.cn/) |
 | 🌍 ESA + CF R2 | [https://cdn.esa.r2.tungchiahui.cn/](https://cdn.esa.r2.tungchiahui.cn/) |
 
-📖 本文阅读量：<span id="vercount_value_page_pv">Loading</span> 次
+---
+
 📊 本站总访问量：<span id="vercount_value_site_pv">Loading</span> 次
 👥 本站访客数：<span id="vercount_value_site_uv">Loading</span>
