@@ -106,73 +106,73 @@ int main()
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image1.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image1.png)
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image2.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image2.png)
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image3.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image3.png)
 
   
 
 I/O口初始化函数pinMode()
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image4.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image4.png)
 
 I/O输出函数
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image5.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image5.png)
 
 I/O输入函数
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image6.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image6.png)
 
 2.  ## 最简单的电机驱动板使用讲解
     
 
 **L298N电机驱动板介绍**
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image7.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image7.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image8.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image9.png)
-
-  
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image8.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image9.png)
 
   
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image10.png)
+  
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image11.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image10.png)
+
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image11.png)
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image12.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image12.png)
 
 ***如何给******单片机******和电机驱动板L298N供电呢？***
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image13.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image13.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image14.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image14.png)
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image15.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image15.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image16.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image16.png)
 
 3.  # 51单片机(了解即可)
     
 
 以STC89C52为例子
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image17.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image17.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image18.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image18.png)
 
 点一个亮灯
 
@@ -264,7 +264,7 @@ void main ()
 
 单片机又称[单片微控制器](https://baike.baidu.com/item/%E5%8D%95%E7%89%87%E5%BE%AE%E6%8E%A7%E5%88%B6%E5%99%A8/2790468?fromModule=lemma_inlink)，它不是完成某一个逻辑功能的[芯片](https://baike.baidu.com/item/%E8%8A%AF%E7%89%87/32249?fromModule=lemma_inlink)，而是把一个计算机系统集成到一个芯片上。相当于一个微型的计算机，和计算机相比，单片机只缺少了I/O设备。概括的讲：一块芯片就成了一台计算机。它的体积小、质量轻、价格便宜、为学习、应用和开发提供了便利条件。同时，学习使用单片机也是了解[计算机原理](https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%9F%E7%90%86/1221312?fromModule=lemma_inlink)与结构的最佳选择。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image19.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image19.png)
 
 ### ②单片机的应用?
 
@@ -288,7 +288,7 @@ void main ()
     1.  芯片框图
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image20.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image20.png)
     
     3.  处理器内核（内核这个东西了解一下，以后要根据内核的架构和操作系统来判断下什么版本的软件)
         
@@ -313,20 +313,20 @@ void main ()
                 
                         **所以，我们在使用F407IG，F407VE的时候，因为他们的CPU内核都是Cortex-M4,所以CPU特征都一样，所以代码也几乎都一样的。**
                 
-                ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image21.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image22.png)
+                ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image21.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image22.png)
                 
                   
                 
                   
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image23.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image24.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image23.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image24.png)
             
               
             
               
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image25.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image26.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image25.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image26.png)
             
               
             
@@ -347,10 +347,10 @@ void main ()
             12.  RISC-V架构
                 
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image27.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image27.png)
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image28.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image28.png)
     
     5.  GPIO(通用输入/输出端口General-Purpose IO ports)
         
@@ -373,16 +373,16 @@ void main ()
             3.  复用IO口：可变为通信IO口与电脑、电机、蓝牙模块等通信（定时器PWM、串口UART、CAN通信、SWD调试通信、晶振IO口）
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image29.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image29.png)
             
             ###       ④原理图
             
             6.  介绍：[顾名思义](https://baike.baidu.com/item/%E9%A1%BE%E5%90%8D%E6%80%9D%E4%B9%89/1481950?fromModule=lemma_inlink)就是表示[电路板](https://baike.baidu.com/item/%E7%94%B5%E8%B7%AF%E6%9D%BF/10106124?fromModule=lemma_inlink)上各[器件](https://baike.baidu.com/item/%E5%99%A8%E4%BB%B6/8755458?fromModule=lemma_inlink)之间[连接](https://baike.baidu.com/item/%E8%BF%9E%E6%8E%A5/70199?fromModule=lemma_inlink)原理的[图表](https://baike.baidu.com/item/%E5%9B%BE%E8%A1%A8/1252386?fromModule=lemma_inlink)。（各元件在原理图中是用整体形式来表示，进行二次接线的图）
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image30.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image30.png)
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image31.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image31.png)
             
             9.  组成部分：
                 
@@ -397,34 +397,34 @@ void main ()
                 5.  等... ...
                     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image32.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image32.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image33.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image33.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image34.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image35.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image36.png)
-
-  
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image34.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image35.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image36.png)
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image37.png)
+  
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image38.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image37.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image39.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image38.png)
+
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image39.png)
 
 ### ⑤芯片手册
 
 1.  作用：查询各种芯片信息（比如CPU频率，IO定义，时钟树等等）
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image40.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image40.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image41.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image41.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image42.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image42.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image43.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image43.png)
 
 2.  ## 软件介绍
     
@@ -446,18 +446,18 @@ void main ()
             3.  HAL库、LL库（力推）：ARM公司与ST意法半导体力推的库，符合ARM CMSIS标准，该标准是当今嵌入式开发者都需要遵循的一个标准。该库由汇编语言+C语言进行开发，且兼容C++（头文件中有extern "C"条件编译），使用C++的OOP（面向对象）进行开发要方便一万倍。HAL库和LL库仍然被ST公司维护中，其解决掉了标准库的各种确定，比如硬件IIC无法正常使用，时钟配置及其容易。ARM CMSIS标准介绍:https://www.arm.com/technologies/cmsis
                 
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image44.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image44.png)
         
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image45.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image45.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image46.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image46.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image47.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image47.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image48.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image48.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image49.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image49.png)
 
 2.  开发软件介绍：
     
@@ -478,9 +478,9 @@ void main ()
             3.  折中方案(Keil MDK5 + VScode +Keil Assistant): 详见下方的VScode
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image50.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image50.png)
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image51.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image51.png)
             
     3.  STM32 CubeMX
         
@@ -507,12 +507,12 @@ void main ()
             1.  Keil Studio Pack(Keil MDK 6，截止2024年1月2日，推荐熟练使用keil5后再使用) MDK6已经基本完善了，可以使用，但是不建议使用。MDK6学习成本比较高，对新手不友好，且MDK5还在更新维护，所以建议使用MDK5.3及以上。但MDK 6基于MS VScode编辑器开发，实现了跨平台，可在Windows，Linux，MacOS上进行开发，且界面非常优美，所以未来可期。[ARM Keil MDK6使用教程](https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh)
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image52.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image52.png)
             
             3.  Keil Assistant（后期开发建议使用，可以代替Keil MDK 5.3 完成代码编译(edit)，但是编译，构建，下载，调试仍然建议在Keil MDK 5.3 上使用）在Windows上用MDK5软件配合Vscode的keil assistant插件进行开发。【VS Code开发stm32和51单片机的教程，vscode代替Keil-哔哩哔哩】 https://www.bilibili.com/video/BV18e4y1H7xX
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image53.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image53.png)
             
 
 3.  ## 时钟树
@@ -527,7 +527,7 @@ void main ()
 3.  STM32F1系列CPU时钟框图：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image54.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image54.png)
 
 4.  配置需要注意的事项：
     
@@ -541,161 +541,161 @@ void main ()
     
     1.  打开大疆C板开发文档
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image55.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image55.png)
         
     2.  找到目录，点击0.4.2
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image56.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image56.png)
     
     4.  按照0.4.2的步骤开始操作（每一步必须都得做，特别是Debug选Serial Wire，不选的话该工程代码会让板子假变砖）
         
         1.  需要注意板子型号，大疆板子是stm32f407igh6，咱们需要根据咱们实际的板子型号进行选择
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image57.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image57.png)
         
         3.  配置时钟树时，需要注意HSE的时钟频率，按照实际原理图上的HSE频率来配置
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image58.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image58.png)
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image59.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image59.png)
         
         6.  代码路径必须全是英文，并且不能有连续两个空格，建议直接不要空格，单词之间用下划线（不可以放在桌面上）
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image60.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image60.png)
         
         8.  解释
             
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image61.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image61.png)
             
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image62.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image62.png)
             
     5.  打开CubeMX生成的MDK 5工程
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image63.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image63.png)
     
     7.  再复制一个并打开正点原子的模板工程
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image64.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image64.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image65.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image65.png)
     
     10.  在CubeMX HAL库工程中的main.c中找到时钟函数void SystemClock\_Config(void)的定义
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image66.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image66.png)
     
     12.  复制整个void SystemClock\_Config(void)函数的定义
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image67.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image67.png)
     
     14.  然后打开正点原子的工程，在main函数中找到sys\_stm32\_clock\_init(RCC\_PLL\_MUL9)函数，右键该函数，并go to definition of "sys\_stm32\_clock\_init"找到这个函数的定义。
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image68.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image68.png)
         
     15. 如果弹出下方的问题，请按照这个框框中的提示来解决，说的很明白。（如果看不懂英语，就去百度搜，锻炼下搜索能力）
             
               
             
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image69.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image69.png)
             
     16.  go to definition of "sys\_stm32\_clock\_init"完后找到这个函数的定义，删掉整个函数，并把刚才复制的CubeMX HAL库里的时钟函数复制到这里。并将Error\_Handler();直接删掉，或者替换成while(1)；
         
     17. 找到sys\_stm32\_clock\_init函数定义
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image70.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image70.png)
         
     18. 框选后删掉
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image71.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image71.png)
         
     19. 把复制的CubeMX HAL库里的时钟函数复制到这里。
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image72.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image72.png)
         
     20. 用while(1)；替换掉Error\_Handler();或直接删掉。
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image73.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image73.png)
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image74.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image74.png)
         
     21.  找到void SystemClock\_Config(void)函数所在的源文件sys.c对应的头文件sys.h
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image75.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image75.png)
     
     22.  找到sys\_stm32\_clock\_init(uint32\_t plln)函数，删掉，替换成void SystemClock\_Config(void)的声明。
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image76.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image76.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image77.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image77.png)
     
     23.  回到主函数，找到sys\_stm32\_clock\_init(RCC\_PLL\_MUL9);函数，删掉，并调用咱们新的时钟函数
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image78.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image78.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image79.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image79.png)
     
     24.  修改HSE\_VALUE
     25. 随便找个地方输入HSE\_VALUE并go to definition（go to definition完毕后，就可以删掉这个自己写的HSE\_VALUE）
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image80.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image80.png)
         
     26. 修改HSE\_VALUE的值(如果是8MHz就写8000000U，如果是12MHz就写12000000U)
             
         
     通过看原理图可知，该板子为8MHz。（具体填多少，看你板子HSE的原理图，对应OSCIN和OSCOUT这俩IO口）
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image81.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image81.png)
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image82.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image82.png)
         
     27. 删掉原来用来go to definition才写的HSE\_VALUE
             
     28.  删掉多余的代码
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image83.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image83.png)
     
     29.  第9行的delay\_init的入口参数具体填什么值，先查看一下他的定义
         
     30. 查看delay\_init的定义，得知其入口参数为sysclk（系统时钟）
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image84.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image84.png)
         
     31. 查看CubeMX的时钟树框图，得知SYSCLK的值为72MHz
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image85.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image85.png)
         
     32. 把delay\_init的值改为时钟树中的SYSCLK的值
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image86.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image86.png)
         
     33. 然后编译所有文件
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image87.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image87.png)
         
     34. 零错误零警告即配置成功，有错误有警告请自行百度、谷歌
             
         
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image88.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image88.png)
         
 
 ### ②查询某个外设时钟频率的方法（拿定时器来举例子）
@@ -703,27 +703,27 @@ void main ()
 1.  打开tim.c
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image89.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image89.png)
 
 2.  找到Msp初始化弱函数（看TIM的基句柄得知是哪个TIMx）
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image90.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image90.png)
 
 3.  查找\_\_HAL\_RCC\_XXX\_CLK\_ENABLE()的定义
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image91.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image91.png)
 
 4.  根据函数定义，可以看出TIM1挂载在APB2上
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image92.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image92.png)
 
 5.  查询时钟树，找APB2 Timer Clock可得TIM1的TCLK是168MHz
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image93.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image93.png)
 
 6.  所以得知，TIM1的TCLK频率为168MHz
     
@@ -738,7 +738,7 @@ void main ()
     
 2.  程序运行顺序：除了预编译等，程序从主函数开始运行，而且非常符合C/C++运行顺序，从主函数开始会逐行运行代码，然后会进入死循环。
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image94.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image94.png)
     
 3.  主函数内必须的组成部分：死循环\[while(true)或者for(;;)\]，因为单片机要一直运行下去，所以有个死循环。
     
@@ -753,19 +753,19 @@ void main ()
         3.  .c/.cpp文件调用函数
             
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image95.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image95.png)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image96.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image96.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image97.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image97.png)
 
 1.  ### 中断服务函数的介绍
     
 
 5.  特殊函数(中断服务函数)：中断服务函数是由汇编定义的，与芯片硬件更紧密，是由芯片中断事件所触发，并不满足常规C/C++调用顺序。
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image98.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image98.png)
     
     2.  中断服务函数的调用方式：由中断事件所触发。一旦满足某个中断事件，就立马从正在运行的地方切换到中断服务函数里开始运行，然后运行完中断服务函数后，再返回刚才运行的地方接着运行。
         
@@ -784,12 +784,12 @@ void main ()
         5.  跳转到被中断的位置开始执行下一个指令。
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image99.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image99.png)
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image100.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image100.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image101.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image101.png)
     
     7.  中断优先级与分组
         
@@ -798,18 +798,18 @@ void main ()
         2.  分组0-5
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image102.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image102.png)
         
         4.  更改分组(在HAL\_Init中更改)
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image103.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image103.png)
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image104.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image104.png)
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image105.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image105.png)
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image106.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image106.png)
         
         9.  中断服务函数内容：
             
@@ -835,7 +835,7 @@ void main ()
                 
         11.  举例：
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image107.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image107.png)
             
             2.  USART1\_IRQHnadler函数
                 
@@ -878,12 +878,12 @@ void main ()
                 4.  作用：先确定是哪个句柄调用的，再进行相应的业务逻辑实现（可选，比如数据处理等）
                     
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image108.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image108.png)
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image109.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image109.png)
             
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image110.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image110.png)
 
 1.  ### RTOS与ROS/ROS2简单了解
     
@@ -895,7 +895,7 @@ void main ()
     2.  FreeRTOS官网：https://www.freertos.org/zh-cn-cmn-s/
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image111.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image111.png)
     
     4.  FreeRTOS简单理解：拥有多线程库特性并兼容POSIX标准的操作系统
         
@@ -903,7 +903,7 @@ void main ()
         
 7.  进阶(非裸机开发，基于RTOS和ROS2\_MicroROS)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image112.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image112.png)
     
     2.  使用方式：ESP32使用arduino库+FreeRTOS+MicroROS并通过串口与STM32进行通信。
         
@@ -920,19 +920,19 @@ void main ()
 1.  理解：是CPU内部用来存放数据的一些小型存储区域，用来暂时存放参与运算的数据和运算结果。
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image113.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image113.png)
 
 2.  实现的功能：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image114.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image114.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image115.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image115.png)
 
 3.  寄存器如何在基于C语言的HAL库中发挥作用的呢？（应该说是 C语言HAL库实现stm32单片机控制的原理是什么？）
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image116.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image117.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image116.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image117.png)
 
 6.  ## Vinci机器人队标准工程格式
     
@@ -945,69 +945,69 @@ void main ()
 2.  ### 正点原子HAL库工程标准：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image118.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image118.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image119.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image119.png)
 
 3.  ### Vinci机器人队STM32工程标准(Cube+C语言)：
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image120.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image120.png)
     
     1.  applications应用层
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image121.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image121.png)
         
     2.  bsp驱动层
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image122.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image122.png)
     
     3.  Middlewares中间层
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image123.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image123.png)
     
     4.  Core(主函数所在地，条件编译配置HAL库的头文件所在地)
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image124.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image124.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image125.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image125.png)
     
     4.  ###   Vinci机器人队STM32C/C++工程标准(类正点原子，试运行，***不建议***，`建议用下一节的类Cube_Cpp`):
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image126.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image126.png)
         
         1.  应用层、驱动层等采用模块集成式，不再采用Src和Inc分离式
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image127.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image127.png)
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image128.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image128.png)
         
         2.  公共兼容层：
             
         3.  C++子main兼容库
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image129.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image129.png)
             
             2.  作用：在.cpp文件中创建一个普通的函数，该函数调用C++的代码，然后被C语言main.c文件中的main函数所调用。
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image130.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image130.png)
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image131.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image131.png)
             
             5.  弱函数\_回调函数库（该文件的源文件全局要有extern "C",因为弱函数是C语言的东西，C++无法正常识别）
                 
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image132.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image132.png)
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image133.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image133.png)
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image134.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image134.png)
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image135.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image135.png)
             
     
 
@@ -1019,7 +1019,7 @@ void main ()
 
 然后选择OpenFolder打开文件夹
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image136.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image136.png)
 
 2.  #### 打开Github将一些必备文件进行克隆
     
@@ -1037,15 +1037,15 @@ git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 3.  #### 打开克隆的模板与刚才CubeMX生成的工程
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image137.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image138.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image137.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image138.png)
 
 打开模板中的***`工程文件移植(创建新模板请看这里)`*** 文件夹，然后将里面的文件全部复制到CubeMX工程文件中。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image139.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image139.png)
 
 移动后：
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image140.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image140.png)
 
 4.  #### 打开工程设置工程
     
@@ -1053,47 +1053,47 @@ git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 1.  打开MDK5工程
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image141.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image141.png)
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image142.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image142.png)
 
 2.  点击Options for Target
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image143.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image143.png)
 
 3.  修改编译器为`ARMClang[ARM Compiler6 (AC6)]` **替换掉** `ARMCC[ARM Compiler5 (AC5)]`
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image144.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image144.png)
 
 4.  添加头文件的路径(Include Path)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image145.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image145.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image146.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image146.png)
 
 添加applications中的Inc文件夹
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image147.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image147.png)
 
 添加bsp/boards中的Inc文件夹
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image148.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image148.png)
 
 点击OK即可
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image149.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image149.png)
 
 5.  添加源文件.c/.cpp等
     
 
 打开Manage Project Items
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image150.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image150.png)
 
 创建两个分组
 
@@ -1103,54 +1103,54 @@ applications
 
 bsp/boards
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image151.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image151.png)
 
 将Core/Src目录下的startup\_main.cpp加入到Application/User/Core组中。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image152.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image152.png)
 
 将bsp/boards/Src目录下的bsp\_delay.cpp加入到bsp/boards组中。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image153.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image153.png)
 
 可以看到工程里的文件都就绪了。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image154.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image154.png)
 
 5.  #### 编译并配置一些必要代码
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image155.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image156.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image155.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image156.png)
 
 可以右键头文件，然后点Open Document "xxx.h"来打开头文件，用来检查头文件是否导入成功。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image157.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image157.png)
 
 找到main.c文件，准备在主函数main()中调用C++的类主函数startup\_main();
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image158.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image158.png)
 
 在USER CODE BEGIN Includes和USER CODE END Includes这两行注释中间 `引用startup_main.h` ***(因为不放在BEGIN和END之间的代码在CubeMX重新配置后，代码都会消失)***
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image159.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image159.png)
 
 在USER CODE BEGIN和USER CODE END这两行注释中间 `调用startup_main();`***(因为不放在BEGIN和END之间的代码在CubeMX重新配置后，代码都会消失)***
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image160.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image160.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image161.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image161.png)
 
 打开startup\_main.h
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image162.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image162.png)
 
 更改isRTOS宏的值，如果是裸机开发则为0，如果使用了FreeRTOS则改为1。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image163.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image163.png)
 
 至此，你可以在startup\_main()函数中随意调用C/C++库中的代码啦。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image164.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image164.png)
 
 6.  #### C++库的头文件格式
     
@@ -1216,7 +1216,7 @@ extern BSP_Delay bsp_delay;
 
 理论上你是可以看懂上面所说的的，如果你实在看不懂，就照葫芦画瓢，画着画着也就理解了。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image165.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image165.png)
 
 7.  #### C++库的源文件格式
     
@@ -1403,25 +1403,25 @@ void HAL_Delay(uint32_t Delay)
 
 这个条件编译不用管，因为延时在裸机开发和RTOS开发时有区别，所以我加了一行条件编译。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image166.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image166.png)
 
 上来要先创建一下类对象bsp\_delay;
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image167.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image167.png)
 
 然后把类里的函数都进行定义。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image168.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image168.png)
 
 **函数注释格式：**
 
 这一块是该函数的注释，以后尽量都这样写注释。（在以后MDK6中进行调用函数时，会提示该注释，一目了然）
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image169.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image169.png)
 
 这样写注释的好处，在调用时，会显示入口参数需要填什么，会显示返回值是什么。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image170.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image170.png)
 
 brief 函数摘要
 
@@ -1469,23 +1469,23 @@ note或attention 注意事项
     1.  例子：LED灯，只需要GPIO初始化程序；蓝牙模块，需要写GPIO初始化程序和通信协议程序+数据处理程序
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image171.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image171.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image172.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image172.png)
     
     4.  GPIO程序：
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image173.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image173.png)
     
     6.  通信协议程序：如图是串口的通信协议程序以及GPIO程序
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image174.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image174.png)
     
     8.  数据解析程序：如图是PS2手柄的数据处理函数（见C++题库数据解析的题型，主要用二进制，十六进制，位操作符等）
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image175.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image175.png)
         
         2.  数据单位变换：
             
@@ -1502,18 +1502,18 @@ note或attention 注意事项
             
         3.  数据命名格式（详细请见C++文档）：
             
-            ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image176.png)
+            ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image176.png)
             
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image177.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image177.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image178.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image178.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image179.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image179.png)
     
     12.  针对HAL库外设API的填参方法：
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image180.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image180.png)
         
         2.  查看对应的数据类型
             
@@ -1530,7 +1530,7 @@ note或attention 注意事项
 
 [CAN总线](https://so.csdn.net/so/search?q=CAN%E6%80%BB%E7%BA%BF&spm=1001.2101.3001.7020)通信系统是**串行通信**的一种，要优于串口[RS485](https://so.csdn.net/so/search?q=RS485&spm=1001.2101.3001.7020)总线。与I2C、SPI等具有时钟信号的同步通讯方式不同，CAN通讯并不是以时钟信号来进行同步的，它是一种**异步****半双工**通讯。（差分信号，半双工）
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image181.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image181.png)
 
 2.  串口通信逻辑电平表示方法的分类
     
@@ -1557,34 +1557,34 @@ note或attention 注意事项
       
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image182.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image182.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image183.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image183.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image184.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image184.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image185.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image185.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image186.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image186.png)
 
 5.  大疆电机库开环代码解析：库由往届学长学姐对大疆官方库代码修改后的。
     
     1.  CAN报文发送函数解析
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image187.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image187.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image188.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image188.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image189.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image189.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image190.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image190.png)
     
        **此函数是将电流值发送给大疆CAN1通信电机，CAN1通信每次只能发送8比特的数据，电流值是16比特的数据，所以把电流值向右移8位，然后再发送给电机。电机接收到电流值就开始转动（入口参数是电调ID为1-4的电机电流值）**
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image191.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image191.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image192.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image192.png)
     
        **此函数是将电流值发送给大疆CAN1通信电机，CAN1通信每次只能发送8比特的数据，电流值是16比特的数据，所以把电流值向右移8位，然后再发送给电机。电机接收到电流值就开始转动（入口参数是电调ID为5-8的电机电流值）**
     
@@ -1615,11 +1615,11 @@ note或attention 注意事项
     1.  CAN通信接收中断回调函数(CAN\_RX0接收中断回调函数用来处理CAN通信电机发来的数据，也就是 **电机的速度，角度，温度** 等数据。)
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image193.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image193.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image194.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image195.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image194.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image195.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image196.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image196.png)
     
     6.  数据解析函数
         
@@ -1634,17 +1634,17 @@ note或attention 注意事项
         2.  记录上电角度
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image197.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image197.png)
         
         4.  计算总角度（经代码处理后，上电时总角度 = 圈数(0) \*8192 + 当前绝对值编码器的角度(假设为A) - 上电时捕获到的上电角度(因为此时为上电时，所以也为A) = 0）
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image198.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image198.png)
         
         6.  暂时用不着的函数(此函数没有被调用)
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image199.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image199.png)
         
 
 ### ③PID控制器
@@ -1662,7 +1662,7 @@ note或attention 注意事项
 
 注意我们使用PID需要在一个闭环系统里面。什么叫闭环系统，就是有输入有反馈，输入就是能输入一个量去影响和控制我们的系统，反馈就是我们要能知道我们最终控制的东西的状态。在这个漏水的水缸系统中，输入就是这个水桶，我们能通过水桶往水缸里面加水或者从水缸里面舀水出来来影响我们水缸的水平面，反馈的话也就是说我们要能测量水平面，知道水平面是多少。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image200.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image200.png)
 
 a, **比例控制理解**
 
@@ -1676,7 +1676,7 @@ b, **微分控制理解**
 
 *然后我们先看看微分控制。在我们的比例控制的作用下，Err是开始减小的（假设一开始预期水平面A大于实际水平面B，也就是说Err是一个正值），那么也就是说Err随时间是一条斜率小于0的曲线，那么在周期时间内，Err越大，微分的绝对值越大，那么也就对Err的减小速度是起到抑制的作用的，直到最后斜率为0微分才会停止作用。*
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image201.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image201.png)
 
 微分控制能反映输入信号的变化趋势，因此在输入信号的量值在变化太大之前可为系统引入一个有效的早期修正信号以增加系统的阻尼程度，从而提高系统的稳定性，但一阶微分的高通特性使得该控制器易于放大高频噪声
 
@@ -1690,7 +1690,7 @@ c, **积分控制理解**
 
 *这个时候我们就需要积分来起作用了。我们知道曲线的积分相当于曲线与x轴围出来的面积。如下图，积分作用的目的是使红色部分的面积和蓝色部分的面积的和为0，那么即使系统在比例控制和微分控制部分已经趋于稳定，只要Err不为0就会存在静差，只要存在静差那么积分就会对系统产生影响，直到系统的Err值为0。那么这样我们的PID控制在理论上就可以达到一个非常精确的控制效果。*
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image202.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image202.png)
 
 d, **PID算法离散化**
 
@@ -1704,7 +1704,7 @@ d, **PID算法离散化**
 
 从而公式离散化后如下：
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image203.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image203.png)
 
 比例系数：Kp，
 
@@ -1714,7 +1714,7 @@ d, **PID算法离散化**
 
 则公式可以写成如下形式：
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image204.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image204.png)
 
 PID算法的离散形式就是这样了，这就是我们平时说的位置式PID。
 
@@ -1726,13 +1726,13 @@ PID算法的离散形式就是这样了，这就是我们平时说的位置式PI
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image205.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image205.png)
 
   
 
 e,pid双环
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image206.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image206.png)
 
 f,pid前馈
 
@@ -1749,27 +1749,27 @@ f,pid前馈
     1.  核心计算函数（非常成熟的控制器，数学算法）
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image207.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image207.png)
     
     3.  初始化代码(将Kp，Ki，Kd三个参数与输出最大值，积分限赋值赋值给PID句柄pid\_v\_1或者其他的句柄)
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image208.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image208.png)
     
     5.  反馈环代码
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image209.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image209.png)
     
     7.  闭环代码调用
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image210.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image210.png)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image211.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image211.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image212.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image212.png)
 
 ### ④C++库（建议）
 
@@ -1778,7 +1778,7 @@ f,pid前馈
 
 代码仓库链接:https://github.com/TungChiahuiMCURepos/CAN\_PID\_CPP
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image213.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image213.png)
 
 类比着C语言的库，
 
@@ -1800,7 +1800,7 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
         
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image214.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image214.png)
 
 下方图片中是CAN\_BUS类，其中嵌套了3个类。
 
@@ -1829,7 +1829,7 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
     4.  CAN2\_Behind是是给CAN2 **后** 4个电机发送电流的函数。（对应电调ID：5-8）
         
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image215.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image215.png)
 
 2.  ##### CAN\_BUS::BSP类的方法(函数) (在bsp\_can.cpp中)
     
@@ -1837,16 +1837,16 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
         
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image216.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image216.png)
 
 2.  ###### Filter\_Init CAN通信滤波的函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image217.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image217.png)
 
   
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image218.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image218.png)
 
   
 
@@ -1856,21 +1856,21 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 1.  ###### get\_motor\_measure 处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机各个信息** 函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image219.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image219.png)
 
   
 
 2.  ###### get\_moto\_offset 处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机刚开始上电的角度初始值** 函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image220.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image220.png)
 
   
 
 3.  ###### get\_total\_angle 处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机角度值** 函数。（*暂时没被调用*）
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image221.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image221.png)
 
   
 
@@ -1880,33 +1880,33 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 1.  ###### CAN1\_Front CAN1 **前** 4个电机发送电流的函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image222.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image222.png)
 
   
 
 2.  ###### CAN1\_BehindCAN1 **后** 4个电机发送电流的函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image223.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image223.png)
 
   
 
 3.  ###### CAN2\_FrontCAN2 **前** 4个电机发送电流的函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image224.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image224.png)
 
   
 
 4.  ###### CAN2\_Behind CAN2 **后** 4个电机发送电流的函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image225.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image225.png)
 
 5.  ##### CAN\_RX0接收中断回调函数 (在can\_receive.cpp中)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image226.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image226.png)
 
   
 
@@ -1916,7 +1916,7 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 1.  ##### CLASS的结构与简单介绍
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image227.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image227.png)
 
 下方图片中是PID\_Controller类，其中嵌套了3个类和一个方法：
 
@@ -1955,14 +1955,14 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
     3.  Pos\_Y\_Realize 码盘定位Y坐标实现函数；
         
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image228.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image228.png)
 
 2.  ##### PID\_Controller类的方法(函数) (在pid\_user.cpp中)
     
     1.  ######   All\_Device\_Init 将所有设备的PID控制器进行初始化
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image229.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image229.png)
     
 
 3.  ##### PID\_Controller::CORE类的方法(函数) (在pid.cpp中)
@@ -1970,17 +1970,17 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
     1.  ######   PID\_Init PID核心初始化函数
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image230.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image230.png)
     
     2.  ######   PID\_Calc PID核心计算函数
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image231.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image231.png)
     
     3.  ######   PID\_Clear PID清0函数
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image232.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image232.png)
     
 
 4.  ##### PID\_Controller::CAN\_MOTOR类的方法 (在pid\_user.cpp中)（这里只讲CAN1的3个闭环函数）
@@ -2007,17 +2007,17 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 1.  ###### CAN1\_Velocity\_Realize CAN1速度环实现函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image233.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image233.png)
 
 2.  ###### CAN1\_Position\_Realize CAN1位置环实现函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image234.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image234.png)
 
 3.  ###### CAN1\_VP\_Dual\_Loop\_Realize CAN1速度位置双环实现函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image235.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image235.png)
 
   
 
@@ -2027,17 +2027,17 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 1.  ###### Yaw\_Realize 陀螺仪IMU的航向角PID实现函数（等你们完善好 陀螺仪IMU的C++库你们再补充）
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image236.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image236.png)
 
 2.  ###### Pos\_X\_Realize 码盘定位X坐标实现函数（等你们完善好 码盘OPS-9的C++库你们再补充）
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image237.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image237.png)
 
 3.  ###### Pos\_Y\_Realize 码盘定位Y坐标实现函数（等你们完善好 码盘OPS-9的C++库你们再补充）
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image238.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image238.png)
 
 4.  #### 如何调用？
     
@@ -2048,7 +2048,7 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 
 也可以使用周期为1ms的定时器中断进行实现，更建议使用定时器中断。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image239.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image239.png)
 
   
 
@@ -2056,9 +2056,9 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 
 ### ⑤实物连接，详细的请看说明书
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image240.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image241.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image240.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image241.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image242.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image243.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image242.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image243.png)
 
 9.  ## DMA(Direct Memory Access / 直接存储器访问)
     
@@ -2096,12 +2096,12 @@ https://www.bilibili.com/video/BV19g411p7UT
     2.  选择规则：优先选择功能少的定时器。(比如说F407ZGT6的tim6和tim7的功能比较少)
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image244.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image244.png)
     
     4.  如何选择？（如图）
         
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image245.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image245.png)
 
   
 
@@ -2114,7 +2114,7 @@ https://www.bilibili.com/video/BV19g411p7UT
     3.  如何选择？
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image246.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image246.png)
     
 3.  配置Include Parameters
     
@@ -2127,7 +2127,7 @@ https://www.bilibili.com/video/BV19g411p7UT
         2.  需要什么功能就Enabled对应的功能即可。（常用的就是vTaskDelayUntil）
             
         
-        ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image247.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image247.png)
         
         4.  手动编辑头文件配置(不推荐)
             
@@ -2150,7 +2150,7 @@ https://www.bilibili.com/video/BV19g411p7UT
     1.  各参数介绍(详看大疆手册)：
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image248.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image248.png)
     
     3.  一般选择什么参数？
         
@@ -2169,7 +2169,7 @@ https://www.bilibili.com/video/BV19g411p7UT
         7.  Allocation(份额)：无脑选Dynamic，让FreeRTOS动态分配管理即可
             
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image249.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image249.png)
 
   
 
@@ -2220,14 +2220,14 @@ https://www.bilibili.com/video/BV19g411p7UT
     2.  时间：从任务开始就开始算时间了，将整个任务运行周期看成一个整体，适用于按照一定频率运行的任务
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image250.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image250.png)
     
     4.  调用方法：
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image251.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image251.png)
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image252.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image252.png)
     
 
   
@@ -2238,17 +2238,17 @@ https://www.bilibili.com/video/BV19g411p7UT
 1.  FreeRTOS状态(详看大疆手册)：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image253.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image253.png)
 
 2.  函数介绍：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image254.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image254.png)
 
 3.  如何调用：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image255.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image255.png)
 
   
 
@@ -2266,19 +2266,19 @@ https://www.bilibili.com/video/BV19g411p7UT
     1.  CubeMX配置：(Queue Size选择你要传的数据的比特数(即二进制位数)，Item Size选择数据的类型)
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image256.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image256.png)
     
     3.  调用(详解请看正点原子)：
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image257.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image257.png)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image258.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image258.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image259.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image259.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image260.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image260.png)
 
   
 
@@ -2296,37 +2296,37 @@ https://www.bilibili.com/video/BV19g411p7UT
 4.  同步问题：A做完一个事情，通知B，B才可以做，这叫同步问题。
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image261.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image261.png)
 
 5.  信号量简介(详见正点原子)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image262.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image262.png)
 
 6.  队列与信号量的对比
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image263.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image263.png)
 
 7.  二值信号量介绍：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image264.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image264.png)
 
 8.  CubeMX配置
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image265.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image265.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image266.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image266.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image267.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image267.png)
 
 要把创建的二值信号量的句柄传入任务的parameter参数里。
 
 其实设置为NULL也可以。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image268.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image268.png)
 
 9.  调用(详细API函数作用请看正点原子)
     
@@ -2335,17 +2335,17 @@ https://www.bilibili.com/video/BV19g411p7UT
     2.  获取信号量函数：
         
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image269.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image269.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image270.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image270.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image271.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image271.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image272.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image272.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image273.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image273.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image274.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image274.png)
 
   
 
@@ -2369,7 +2369,7 @@ https://www.bilibili.com/video/BV19g411p7UT
         
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image275.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image275.png)
 
 如上图，
 
@@ -2383,14 +2383,14 @@ Stack Size就是栈大小，为1024byte = 1Kb。
 
 使用CubeMX生成工程后，可以在启动文件中看到咱们设置的堆区和栈区大小地址。（当然也可以在这里进行修改，不过建议直接在CubeMX上进行修改，一般没啥需求也不用改。)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image276.png)![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image277.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image276.png)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image277.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image278.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image278.png)
 
 2.  ###### FreeRTOS的堆区大小修改(此堆区非彼堆区，请看下方介绍)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image279.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image279.png)
 
 1.  TOTAL\_HEAP\_SIZE：如果使用了FreeRTOS，可以在这里修改FreeRTOS的堆区的大小。
     
@@ -2401,7 +2401,7 @@ Stack Size就是栈大小，为1024byte = 1Kb。
 4.  因为我们使用的是heap\_4算法，所以我们不用对stm32的heap和stack进行修改，只需要对FreeRTOS\_HEAP进行修改即可。(也就是对FreeRTOS可操控的stm32的ZI区内存进行分配)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image280.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image280.png)
 
 3.  ##### 内存管理API介绍
     
@@ -2409,22 +2409,22 @@ Stack Size就是栈大小，为1024byte = 1Kb。
 1.  ###### C语言库的内存管理API(不建议)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image281.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image281.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image282.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image282.png)
 
 2.  ###### 正点原子分块式内存管理API
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image283.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image283.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image284.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image284.png)
 
 memx就是指内存块，内部的SRAM和外部的SRAM(外部的不一定有外部的SRAM)。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image285.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image285.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image286.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image286.png)
 
   
 
@@ -2434,27 +2434,27 @@ memx就是指内存块，内部的SRAM和外部的SRAM(外部的不一定有外�
 1.  介绍
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image287.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image287.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image288.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image288.png)
 
 2.  FreeRTOS内存管理算法(我们一般选择heap\_4)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image289.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image289.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image290.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image290.png)
 
 heap\_4的first-fit算法是从堆区内存起始地址块开始找出第一个适合的内存大小。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image291.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image291.png)
 
 3.  FreeRTOS内存管理API函数
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image292.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image292.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image293.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image293.png)
 
 可以通过看上面代码，就可以得知，申请完内存再释放掉内存后，空闲内存数会还原。
 
@@ -2501,17 +2501,17 @@ STM32F4/F7一般有单精度FPU，而STM32H5/H7，一般有双精度FPU。
 
 使用STM32CubeMX生成工程，会默认开启FPU，如下图。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image294.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image294.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image295.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image295.png)
 
 如果你使用F1的话，会压根都没有这个选项，代表M3内核不支持FPU。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image296.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image296.png)
 
 下面这张图可以从源码看到开启了FPU。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image297.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image297.png)
 
 3.  ### DSP加速
     
@@ -2543,21 +2543,21 @@ DSP库只适用于ARM的Cortex-A和Cortex-M的内核，也就是适应手机，A
 1.  方法一（推荐）：使用CubeMX打开
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image298.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image298.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image299.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image299.png)
 
 然后使能DSP库
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image300.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image300.png)
 
 生成工程后，可以通过MDK5或者MDK6看到我们生成的lib。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image301.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image301.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image302.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image302.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image303.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image303.png)
 
   
 
@@ -2566,7 +2566,7 @@ DSP库只适用于ARM的Cortex-A和Cortex-M的内核，也就是适应手机，A
 
 这种方式会使编译时间增加至少200%.
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image304.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image304.png)
 
   
 
@@ -2580,7 +2580,7 @@ ARM内核的CPU支持 CMSIS-DSP 库的三角函数，这比标准 `math.h`、`cm
 
 下面是普通的重载三角函数，当我们开启了FPU后，只要传入的是fp32的类型，其实速度也是相当快的，可以不使用DSP库也可以。
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image305.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image305.png)
 
 ```cpp
 #include <cmath>
@@ -2594,11 +2594,11 @@ this->yaw += this->vw * this->dt;
 2.  DSP库函数：
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image306.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image306.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image307.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image307.png)
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image308.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image308.png)
 
 传入fp32的值。
 
@@ -2644,7 +2644,7 @@ this->yaw += this->vw * this->dt;
 12.  ## DMA+多通道adc(遥控器遥杆)
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image309.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image309.png)
 
 cubemx配置：
 
@@ -2654,11 +2654,11 @@ adc连续模式开启或者关闭，影响mian函数的相关代码，不开cont
 
 开连续模式（延时500可以去掉）
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image310.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image310.png)
 
 不开：
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image311.jpeg)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image311.jpeg)
 
 相比之下开连续更快，更建议连续
 
@@ -2689,13 +2689,13 @@ adc连续模式开启或者关闭，影响mian函数的相关代码，不开cont
 1.  原因：在使用CubeMX 配置文件时，忘记设置SYS选项里面的Debug选项
     
 
-![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image312.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image312.png)
 
 2.  现象：下载完一次程序之后程序无法运行，且无法重新下载。
     
 3.  stm32共有三种启动模式：
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image313.png)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image313.png)
     
     2.  用户闪存：正常的工作模式。stm32内置的Flash，一般我们使用JTAG或者SWD模式下载程序时就是下载到这个里面，重启之后也是从这里启动程序。
         
@@ -2710,7 +2710,7 @@ adc连续模式开启或者关闭，影响mian函数的相关代码，不开cont
     1.  将BOOT0设置为1；BOOT1设置为0
         
     
-    ![](https://cdn.esa.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image314.jpeg)
+    ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image314.jpeg)
     
     3.  连接电脑后按下复位键，使用keil5下载没有问题的正常程序，发现程序正常下载。
         
