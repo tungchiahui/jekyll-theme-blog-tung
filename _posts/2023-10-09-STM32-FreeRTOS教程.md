@@ -2659,7 +2659,7 @@ adc连续模式开启或者关闭，影响mian函数的相关代码，不开cont
 
 不开：
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image311.png)
+![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image311.jpeg)
 
 相比之下开连续更快，更建议连续
 

@@ -1,11 +1,11 @@
 import re
 
 # 你的 Markdown 文件
-md_file = "2023-10-05-Cplusplus教学.md"
+md_file = "2021-10-05-临时.md"
 output_file = "mydoc_new.md"
 
 # 新图床前缀
-new_prefix = "https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image"
+new_prefix = "https://cdn.030204.xyz/tungwebsite/assets/images/2021-10-05/image"
 
 # 读取文件
 with open(md_file, "r", encoding="utf-8") as f:
