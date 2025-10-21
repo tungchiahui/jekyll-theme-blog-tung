@@ -67,6 +67,6 @@ title: 首页
 | 🌍 EO + CF R2 | [https://cdn.eo.r2.tungchiahui.cn/](https://cdn.eo.r2.tungchiahui.cn/) |
 | 🌍 ESA + CF R2 | [https://cdn.esa.r2.tungchiahui.cn/](https://cdn.esa.r2.tungchiahui.cn/) |
 
-本文总阅读量 <span id="vercount_value_page_pv">Loading</span> 次
-本站总访问量 <span id="vercount_value_site_pv">Loading</span> 次
-本站总访客数 <span id="vercount_value_site_uv">Loading</span> 人
+📖 本文阅读量：<span id="vercount_value_page_pv">Loading</span> 次
+📊 本站总访问量：<span id="vercount_value_site_pv">Loading</span> 次
+👥 本站访客数：<span id="vercount_value_site_uv">Loading</span>
