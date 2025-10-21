@@ -569,9 +569,9 @@ void main ()
         
         8.  解释
             
-            ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image61.png)
+        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image61.png)
             
-            ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image62.png)
+        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image62.png)
             
     5.  打开CubeMX生成的MDK 5工程
         
@@ -597,51 +597,51 @@ void main ()
     
     14.  然后打开正点原子的工程，在main函数中找到sys\_stm32\_clock\_init(RCC\_PLL\_MUL9)函数，右键该函数，并go to definition of "sys\_stm32\_clock\_init"找到这个函数的定义。
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image68.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image68.png)
         
-        3.  如果弹出下方的问题，请按照这个框框中的提示来解决，说的很明白。（如果看不懂英语，就去百度搜，锻炼下搜索能力）
+    15. 如果弹出下方的问题，请按照这个框框中的提示来解决，说的很明白。（如果看不懂英语，就去百度搜，锻炼下搜索能力）
             
               
             
-            ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image69.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image69.png)
             
-    15.  go to definition of "sys\_stm32\_clock\_init"完后找到这个函数的定义，删掉整个函数，并把刚才复制的CubeMX HAL库里的时钟函数复制到这里。并将Error\_Handler();直接删掉，或者替换成while(1)；
+    16.  go to definition of "sys\_stm32\_clock\_init"完后找到这个函数的定义，删掉整个函数，并把刚才复制的CubeMX HAL库里的时钟函数复制到这里。并将Error\_Handler();直接删掉，或者替换成while(1)；
         
-        1.  找到sys\_stm32\_clock\_init函数定义
-            
-        
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image70.png)
-        
-        3.  框选后删掉
+    17. 找到sys\_stm32\_clock\_init函数定义
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image71.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image70.png)
         
-        5.  把复制的CubeMX HAL库里的时钟函数复制到这里。
+    18. 框选后删掉
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image72.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image71.png)
         
-        7.  用while(1)；替换掉Error\_Handler();或直接删掉。
+    19. 把复制的CubeMX HAL库里的时钟函数复制到这里。
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image73.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image72.png)
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image74.png)
+    20. 用while(1)；替换掉Error\_Handler();或直接删掉。
+            
         
-    16.  找到void SystemClock\_Config(void)函数所在的源文件sys.c对应的头文件sys.h
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image73.png)
+        
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image74.png)
+        
+    21.  找到void SystemClock\_Config(void)函数所在的源文件sys.c对应的头文件sys.h
         
     
     ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image75.png)
     
-    18.  找到sys\_stm32\_clock\_init(uint32\_t plln)函数，删掉，替换成void SystemClock\_Config(void)的声明。
+    22.  找到sys\_stm32\_clock\_init(uint32\_t plln)函数，删掉，替换成void SystemClock\_Config(void)的声明。
         
     
     ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image76.png)
     
     ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image77.png)
     
-    21.  回到主函数，找到sys\_stm32\_clock\_init(RCC\_PLL\_MUL9);函数，删掉，并调用咱们新的时钟函数
+    23.  回到主函数，找到sys\_stm32\_clock\_init(RCC\_PLL\_MUL9);函数，删掉，并调用咱们新的时钟函数
         
     
     ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image78.png)
@@ -649,54 +649,53 @@ void main ()
     ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image79.png)
     
     24.  修改HSE\_VALUE
-        
-        1.  随便找个地方输入HSE\_VALUE并go to definition（go to definition完毕后，就可以删掉这个自己写的HSE\_VALUE）
+    25. 随便找个地方输入HSE\_VALUE并go to definition（go to definition完毕后，就可以删掉这个自己写的HSE\_VALUE）
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image80.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image80.png)
         
-        3.  修改HSE\_VALUE的值(如果是8MHz就写8000000U，如果是12MHz就写12000000U)
+    26. 修改HSE\_VALUE的值(如果是8MHz就写8000000U，如果是12MHz就写12000000U)
             
         
-            通过看原理图可知，该板子为8MHz。（具体填多少，看你板子HSE的原理图，对应OSCIN和OSCOUT这俩IO口）
+    通过看原理图可知，该板子为8MHz。（具体填多少，看你板子HSE的原理图，对应OSCIN和OSCOUT这俩IO口）
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image81.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image81.png)
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image82.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image82.png)
         
-        7.  删掉原来用来go to definition才写的HSE\_VALUE
+    27. 删掉原来用来go to definition才写的HSE\_VALUE
             
-    25.  删掉多余的代码
+    28.  删掉多余的代码
         
     
     ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image83.png)
     
-    27.  第9行的delay\_init的入口参数具体填什么值，先查看一下他的定义
+    29.  第9行的delay\_init的入口参数具体填什么值，先查看一下他的定义
         
-        1.  查看delay\_init的定义，得知其入口参数为sysclk（系统时钟）
+    30. 查看delay\_init的定义，得知其入口参数为sysclk（系统时钟）
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image84.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image84.png)
         
-        3.  查看CubeMX的时钟树框图，得知SYSCLK的值为72MHz
+    31. 查看CubeMX的时钟树框图，得知SYSCLK的值为72MHz
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image85.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image85.png)
         
-        5.  把delay\_init的值改为时钟树中的SYSCLK的值
+    32. 把delay\_init的值改为时钟树中的SYSCLK的值
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image86.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image86.png)
         
-        7.  然后编译所有文件
+    33. 然后编译所有文件
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image87.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image87.png)
         
-        9.  零错误零警告即配置成功，有错误有警告请自行百度、谷歌
+    34. 零错误零警告即配置成功，有错误有警告请自行百度、谷歌
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image88.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image88.png)
         
 
 ### ②查询某个外设时钟频率的方法（拿定时器来举例子）
@@ -2711,7 +2710,7 @@ adc连续模式开启或者关闭，影响mian函数的相关代码，不开cont
     1.  将BOOT0设置为1；BOOT1设置为0
         
     
-    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image314.png)
+    ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-09/image314.jpeg)
     
     3.  连接电脑后按下复位键，使用keil5下载没有问题的正常程序，发现程序正常下载。
         
