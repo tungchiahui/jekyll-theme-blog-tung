@@ -67,7 +67,7 @@ https://www.runoob.com/cplusplus/cpp-tutorial.html
 
 从main函数开始，代码是一行一行运行的。（一个工程里有且只有一个main函数）
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image1.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image1.png)
 
 2.  ## 生命周期
     
@@ -269,7 +269,7 @@ std::cout << "结果是：" << a << std::endl  //输出 结果是: a  并换行
 std::cin >> a     //输入一个变量a
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image2.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image2.png)
 
 5.  # C++命名空间
     
@@ -619,7 +619,7 @@ Books book1("title","author","subject",1);
             4.  typedef float fp32;
                 
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image3.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image3.png)
         
 2.  数据解析:
     
@@ -682,7 +682,7 @@ Books book1("title","author","subject",1);
         1.  计算机实际只存储补码，所以原码转换为补码的过程，也可以理解为数据存储到计算机内存中的过程：
             
         
-        ![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image4.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image4.png)
         
         3.  正数：在原、反、补码中，正数的表示是一模一样的
             
@@ -818,9 +818,9 @@ int main ()
 
   
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image5.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image5.png)
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image6.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image6.png)
 
 当没有指向该内存的，程序会自动释放内存。
 
@@ -1003,7 +1003,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image7.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image7.png)
 
 使用捕获列表传入变量：
 
@@ -1032,7 +1032,7 @@ int main(int argc,char **argv)
 
 答案是9
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image8.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image8.png)
 
   
 
@@ -1123,7 +1123,7 @@ int main(int argc,char **argv)
 
 答案是10
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image9.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image9.png)
 
 2.  泛型 lambda 参数
     
@@ -1151,7 +1151,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image10.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image10.png)
 
 3.  捕获\*this
     
@@ -1277,7 +1277,7 @@ int main()
 
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image11.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image11.png)
 
 上面`constexpr auto square = [](int x) constexpr` 有俩`constexpr`，第一个是用来声明`square`的，第二个是用来声明Lambda的，作用不一样，而且这俩都必须要。
 
@@ -1346,7 +1346,7 @@ int main()
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image12.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image12.png)
 
 2.  绑定成员函数
     
@@ -1382,7 +1382,7 @@ int main()
 
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image13.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image13.png)
 
 3.  用于高阶函数
     
@@ -1423,7 +1423,7 @@ scr
 
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image14.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image14.png)
 
   
 
@@ -1480,7 +1480,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image15.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image15.png)
 
   
 
@@ -1519,7 +1519,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image16.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image16.png)
 
   
 
@@ -1557,7 +1557,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image17.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image17.png)
 
   
 
@@ -1767,7 +1767,7 @@ int main()
 
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image18.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image18.png)
 
   
 
@@ -1888,7 +1888,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image19.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image19.png)
 
   
 
@@ -1944,7 +1944,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image20.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image20.png)
 
   
 
@@ -1986,7 +1986,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image21.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image21.png)
 
 2.  传递引用
     
@@ -2024,7 +2024,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image22.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image22.png)
 
 3.  私有方法无法访问（用友元函数）
     
@@ -2149,7 +2149,7 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image23.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image23.png)
 
 会发现有几次结果不为2001，这说明发生了线程竞争。
 
@@ -2271,4 +2271,4 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://cdn.030204.xyz/tungwebsite/assets/images/2023-10-05/image24.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image24.png)
