@@ -73,4 +73,4 @@ title: 首页
 
 📊 本站总访问量：<span id="vercount_value_site_pv">Loading</span> 次
 <br>
-👥 本站访客数：<span id="vercount_value_site_uv">Loading</span> 人
+👥 本站总访客数：<span id="vercount_value_site_uv">Loading</span> 人
