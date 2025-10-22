@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linux-STM32-CMake-VScode环境搭建
+permalink: /linux-stm32-cmake-vscode/
 tags:
   - 环境搭建
   - Linux

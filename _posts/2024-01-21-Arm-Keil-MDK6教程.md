@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Arm-Keil-MDK6教程
+permalink: /arm-keil-mdk6-tutorial/
 tags:
   - 环境搭建
   - STM32

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: STM32-FreeRTOS教程
+permalink: /stm32-freertos-tutorial/
 tags:
   - STM32
   - RTOS

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: C/C++教程
+permalink: /cplusplus-tutorial/
 tags:
   - C/C++
 ---
