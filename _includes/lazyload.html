@@ -1,10 +1,41 @@
 <script>
+// 页面内容加载完成后执行
 document.addEventListener("DOMContentLoaded", function() {
-  // 给文章内所有图片添加懒加载属性
-  document.querySelectorAll('.post-content img').forEach(function(img) {
-    if (!img.hasAttribute('loading')) {
-      img.setAttribute('loading', 'lazy');
+
+  // 选择文章内容中的所有图片
+  const imgs = document.querySelectorAll('.post-content img');
+
+  imgs.forEach(img => {
+    // 如果图片还没有 data-src，就把 src 移过去
+    if (!img.dataset.src) {
+      img.dataset.src = img.src; // 原来的图片 URL 放到 data-src
+      img.removeAttribute('src'); // 清空 src，等待懒加载
     }
   });
+
+  // 创建 IntersectionObserver
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+
+        // 懒加载图片
+        if (img.dataset.src) {
+          img.src = img.dataset.src;
+          img.removeAttribute('data-src');
+        }
+
+        // 加载后取消观察
+        obs.unobserve(img);
+      }
+    });
+  }, {
+    root: null,           
+    rootMargin: '200px 0px', // 提前加载
+    threshold: 0          
+  });
+
+  // 遍历所有图片，开始观察
+  imgs.forEach(img => observer.observe(img));
 });
 </script>
