@@ -1,0 +1,10 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // 给文章内所有图片添加懒加载属性
+  document.querySelectorAll('.post-content img').forEach(function(img) {
+    if (!img.hasAttribute('loading')) {
+      img.setAttribute('loading', 'lazy');
+    }
+  });
+});
+</script>
