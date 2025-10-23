@@ -10,6 +10,9 @@ description: >-  # 网站描述，用于 meta 标签和搜索引擎
 # 网站的根路径配置
 baseurl: "" # 子路径，如果你的网站不是放在根目录，比如 /blog，就填 "/blog"；放在根域名上就留空
 url: "https://me.tungchiahui.cn" # 网站主域名，建议写完整带 https:// 的，比如 "https://tungchiahui.cn"
+favicon: https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/favicon.png # 网站图标路径
+header_bg: https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/header-bg.jpg # 头部背景图路径
+
 
 # ICP 与公安备案号（自定义字段）
 icp: "鲁ICP备2025185601号-2"       # 工信部备案号

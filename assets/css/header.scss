@@ -1,13 +1,14 @@
-/* ====== Header 样式（优化版） ====== */
+---
+---
 
-/* header 背景图 + 全屏宽 */
+/* ====== Header 样式（支持图床和本地） ====== */
 header {
-  background: url("/assets/images/header-bg.jpg") no-repeat center center;
+  background: url("{% if site.header_bg contains '://' %}{{ site.header_bg }}{% else %}{{ site.header_bg | relative_url }}{% endif %}") no-repeat center center;
   background-size: cover;   /* 背景铺满 */
   width: 100%;
-  padding: 60px 20px;       /* 内边距，增加高度 */
+  padding: 60px 20px;
   text-align: center;
-  color: #fff;              /* 文字白色 */
+  color: #fff;
   position: relative;
   box-sizing: border-box;
 }

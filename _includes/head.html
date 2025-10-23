@@ -16,7 +16,9 @@
   <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 
   <!-- 网站图标 -->
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
+  {% assign icon = site.favicon %}
+  <link rel="icon" 
+        href="{% if icon contains '://' %}{{ icon }}{% else %}{{ icon | relative_url }}{% endif %}">
 
   <!-- Vercount 网站访问统计 -->
   <script defer src="https://events.vercount.one/js"></script>
