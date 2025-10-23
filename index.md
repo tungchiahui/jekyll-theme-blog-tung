@@ -50,6 +50,13 @@ title: 首页
   </video>
 </div>
 
+<div align="center" style="margin: 30px 0;">
+  <video controls preload="metadata" style="max-width: 90%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    <source src="https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/header-bg.mp4" type="video/mp4">
+    您的浏览器不支持视频播放。
+  </video>
+</div>
+
 ---
 
 ## 🤝 友情链接
