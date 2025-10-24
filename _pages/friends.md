@@ -17,14 +17,14 @@ permalink: /friends/
 
   <div class="friends-grid">
 
-    <!-- 卡片 1 -->
+    <!-- 卡片 -->
     <a class="friend" href="https://sdutvincirobot.top/" target="_blank" rel="noopener noreferrer">
       <div>
         <div class="friend-top">
           <div class="friend-icon">👥</div>
           <div>
-            <div class="friend-title">山东理工大学 Vinci 机器人队</div>
-            <div class="friend-sub">高校机器人创新与竞赛团队</div>
+            <div class="friend-title">Vinci机器人队</div>
+            <div class="friend-sub">山东理工大学CURC-Robocon团队</div>
           </div>
         </div>
         <div class="friend-meta">
@@ -39,7 +39,7 @@ permalink: /friends/
       </div>
     </a>
 
-    <!-- 卡片 2 -->
+    <!-- 卡片 -->
     <a class="friend" href="http://robocon.org.cn/" target="_blank" rel="noopener noreferrer">
       <div>
         <div class="friend-top">
@@ -61,7 +61,7 @@ permalink: /friends/
       </div>
     </a>
 
-    <!-- 卡片 3 -->
+    <!-- 卡片 -->
     <a class="friend" href="https://rcbbs.top/" target="_blank" rel="noopener noreferrer">
       <div>
         <div class="friend-top">
@@ -75,6 +75,28 @@ permalink: /friends/
           <div class="friend-tags">
             <span class="tag">社区</span>
             <span class="tag">讨论</span>
+          </div>
+        </div>
+      </div>
+      <div class="friend-bottom">
+        <span class="friend-visit">访问网站</span>
+      </div>
+    </a>
+
+    <!-- 卡片 -->
+    <a class="friend" href="https://sdutqiqi.cn/" target="_blank" rel="noopener noreferrer">
+      <div>
+        <div class="friend-top">
+          <div class="friend-icon">👥</div>
+          <div>
+            <div class="friend-title">齐奇战队</div>
+            <div class="friend-sub">山东理工大学CURC-RoboMaster团队</div>
+          </div>
+        </div>
+        <div class="friend-meta">
+          <div class="friend-tags">
+            <span class="tag">高校团队</span>
+            <span class="tag">竞赛</span>
           </div>
         </div>
       </div>
