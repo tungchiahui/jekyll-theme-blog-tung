@@ -8,25 +8,27 @@ footer {
   color: #666;           /* 灰色文字 */
 }
 
-
-
 /* 社交图标容器 */
 footer .footer-social {
   display: flex;
   justify-content: center;
-  gap: 25px;             /* 图标间距 */
-  margin: 10px 0;        /* 上下间距 */
-  font-size: 1.5em;      /* 图标大小 */
+  flex-wrap: wrap;        /* ✅ 自动换行（图标多时换行） */
+  gap: 25px;              /* 图标间距 */
+  margin: 10px 0;         /* 上下间距 */
+  font-size: 1.5em;       /* 图标大小 */
+  max-width: 340px;       /* ✅ 限制宽度，图标多时自动分行，少时保持一行 */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 社交图标悬停效果 */
 footer .footer-social a {
-  color: #666;           /* 默认颜色 */
+  color: #666;            /* 默认颜色 */
   transition: color 0.3s;
 }
 
 footer .footer-social a:hover {
-  color: #1da1f2;        /* 鼠标悬停变蓝，可按需调整 */
+  color: #1da1f2;         /* 鼠标悬停变蓝，可按需调整 */
 }
 
 /* 公安备案图标 */

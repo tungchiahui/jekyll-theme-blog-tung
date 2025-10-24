@@ -52,16 +52,6 @@ title: 首页
 
 ---
 
-## 🤝 友情链接
-
-| 名称 | 链接 |
-|------|------|
-| 👥 山东理工大学 Vinci 机器人队 | [https://sdutvincirobot.top/](https://sdutvincirobot.top/) |
-| 🤖 Robocon 官网 | [http://robocon.org.cn/](http://robocon.org.cn/) |
-| 🔧 RCBBS 开源RC论坛 | [https://rcbbs.top/](https://rcbbs.top/) |
-
----
-
 ## 🌍 本站CDN服务
 
 | 名称 | 链接 |
