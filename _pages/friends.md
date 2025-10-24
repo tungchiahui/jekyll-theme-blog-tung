@@ -10,7 +10,7 @@ permalink: /friends/
 
   <div class="friends-header">
     <h1>🤝 友情链接</h1>
-    <p>我把有用的站点与团队收集在这里 — 技术资源、社区与校园团队。</p>
+    <p>汇聚技术资源、开源社区、竞赛团队及优质网站，方便学习、交流与探索更多创新内容。</p>
   </div>
 
   <div class="friends-divider"></div>
