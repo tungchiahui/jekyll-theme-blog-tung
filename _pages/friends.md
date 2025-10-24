@@ -45,7 +45,7 @@ permalink: /friends/
         <div class="friend-top">
           <div class="friend-icon">🤖</div>
           <div>
-            <div class="friend-title">Robocon 官网</div>
+            <div class="friend-title">CURC-Robocon赛事官网</div>
             <div class="friend-sub">全国大学生机器人大赛 官方站点</div>
           </div>
         </div>
@@ -67,7 +67,7 @@ permalink: /friends/
         <div class="friend-top">
           <div class="friend-icon">🔧</div>
           <div>
-            <div class="friend-title">RCBBS 开源RC论坛</div>
+            <div class="friend-title">RCBBS-Robocon开源论坛</div>
             <div class="friend-sub">开源机器人与 RC 社区</div>
           </div>
         </div>
