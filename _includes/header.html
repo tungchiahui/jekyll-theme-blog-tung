@@ -14,3 +14,30 @@
     </nav>
   </div>
 </header>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const video = document.getElementById("header-video");
+
+  // 支持图床和本地路径
+  const videoSrc = "{% if site.header_video contains '://' %}{{ site.header_video }}{% else %}{{ site.header_video | relative_url }}{% endif %}";
+
+  if (!videoSrc) return; // 没设置视频就跳过
+
+  // 尝试加载视频
+  video.src = videoSrc;
+  video.load();
+
+  // 视频能播放时显示视频
+  video.addEventListener("canplaythrough", () => {
+    video.style.display = "block"; // 显示视频
+    video.play().catch(() => {}); // 自动播放（防止浏览器限制）
+  });
+
+  // 如果视频加载失败就隐藏（保留背景图）
+  video.addEventListener("error", () => {
+    video.style.display = "none";
+  });
+});
+</script>

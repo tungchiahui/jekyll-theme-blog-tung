@@ -1,7 +1,7 @@
 ---
 ---
 
-/* ====== Header 样式（支持图床和本地） ====== */
+/* ====== Header 样式（支持图床 + 视频） ====== */
 header {
   background: url("{% if site.header_bg contains '://' %}{{ site.header_bg }}{% else %}{{ site.header_bg | relative_url }}{% endif %}") no-repeat center center;
   background-size: cover;   /* 背景铺满 */
@@ -13,67 +13,74 @@ header {
   box-sizing: border-box;
 }
 
-/* 半透明遮罩层，提高文字可读性 */
+/* ===== 视频背景（自动加载成功后显示） ===== */
+header video#header-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* 铺满 */
+  z-index: 0;
+  display: none;       /* 默认隐藏，加载成功后 JS 显示 */
+}
+
+/* ===== 半透明遮罩层（提高文字可读性） ===== */
 header::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0,0,0,0.35); /* 半透明黑色 */
-  z-index: 0;
+  z-index: 1;                   /* 遮罩在视频上方 */
 }
 
-/* header 内部内容层 */
+/* ===== 内容层（标题、导航等） ===== */
 header * {
   position: relative;
-  z-index: 1;
+  z-index: 2;                   /* 内容最上层 */
 }
 
-/* 标题样式 */
+/* ===== 标题样式 ===== */
 header h1 {
   margin: 0;
-  font-size: 2.8em;          /* 更大更醒目 */
-  font-weight: 700;           /* 加粗 */
-  letter-spacing: -1px;       /* 微调字间距 */
+  font-size: 2.8em;
+  font-weight: 700;
+  letter-spacing: -1px;
   line-height: 1.2;
 }
 
-/* 去掉默认 a 下划线 */
 header h1 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* 导航栏容器 */
+/* ===== 导航栏样式 ===== */
 header nav {
   margin-top: 20px;
 }
 
-/* 导航列表样式 */
 nav ul {
-  list-style: none;          /* 去掉列表点 */
+  list-style: none;
   display: flex;
-  justify-content: flex-end; /* 靠右 */
-  gap: 30px;                 /* 菜单间距更宽松 */
+  justify-content: flex-end;
+  gap: 30px;
   padding: 0;
   margin: 0;
 }
 
-/* 导航链接 */
 nav a {
-  text-decoration: none;      /* 去掉下划线 */
-  color: #fff;                /* 白色文字 */
+  text-decoration: none;
+  color: #fff;
   font-weight: 500;
-  padding: 6px 10px;          /* 增加点击区域 */
-  border-radius: 4px;         /* 圆角 */
+  padding: 6px 10px;
+  border-radius: 4px;
 }
 
-/* 导航悬停效果 */
 nav a:hover {
   background: rgba(255, 255, 255, 0.2);
-  color: #ffd700; /* 悬停变金色 */
+  color: #ffd700;
 }
 
-/* 响应式调整（小屏幕导航垂直排列） */
+/* ===== 响应式 ===== */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
