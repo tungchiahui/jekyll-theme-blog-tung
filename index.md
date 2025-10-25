@@ -69,6 +69,8 @@ title: 首页
   </video>
 </div>
 
-## 最新博客
+---
+
+## 📰 最新博客
 
 {% include_relative _pages/blog.md %}
