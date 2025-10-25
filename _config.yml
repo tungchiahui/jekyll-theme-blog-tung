@@ -12,7 +12,6 @@ baseurl: "" # 子路径，如果你的网站不是放在根目录，比如 /blog
 url: "https://me.tungchiahui.cn" # 网站主域名，建议写完整带 https:// 的，比如 "https://tungchiahui.cn"
 favicon: https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/favicon.png # 网站图标路径
 header_bg: https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/header-bg.jpg # 头部背景图路径
-header_video: https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/videos/header-bg.mp4  # 视频背景（支持本地或图床）
 
 
 # ICP 与公安备案号（自定义字段）
