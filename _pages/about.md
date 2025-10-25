@@ -17,7 +17,7 @@ permalink: /about/
 ## ✨ 网站服务说明
 
 - **🇨🇳 中国大陆**：由 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **腾讯云 EO Pages** 提供服务，使用 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **EdgeOne CDN** 加速，并通过 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **DNSPod** 解析，确保访问顺畅。  
-- **🇭🇰🇲🇴🇨🇳 中国港澳台及 🌎 国际**：由 <img src="https://www.cloudflare.com/favicon.ico" style="height:1em; vertical-align:middle;"> **Cloudflare Pages** 提供服务，结合 <img src="https://www.cloudflare.com/favicon.ico" style="height:1em; vertical-align:middle;"> **Cloudflare CDN** 加速，线路解析同样通过 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **DNSPod**，实现全球访问优化。  
+- **🇭🇰🇲🇴🇨🇳 中国港澳台及 🌎 国际**：由 <img src="https://www.cloudflare-cn.com/favicon.ico" style="height:1em; vertical-align:middle;"> **Cloudflare Pages** 提供服务，结合 <img src="https://www.cloudflare-cn.com/favicon.ico" style="height:1em; vertical-align:middle;"> **Cloudflare CDN** 加速，线路解析同样通过 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **DNSPod**，实现全球访问优化。  
 
 ---
 
