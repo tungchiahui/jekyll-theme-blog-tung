@@ -14,8 +14,14 @@ permalink: /about/
 
 ---
 
-本站访客统计由[Vercount](https://vercount.one/)提供:
+## ✨ 网站服务说明
 
-📊 本站总访问量：<span id="vercount_value_site_pv">Loading</span> 次
-<br>
+- **🇨🇳 中国大陆**：由 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **腾讯云 EO Pages** 提供服务，使用 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **EdgeOne CDN** 加速，并通过 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **DNSPod** 解析，确保访问顺畅。  
+- **🇭🇰🇲🇴🇨🇳 中国港澳台及 🌎 国际**：由 <img src="https://www.cloudflare.com/favicon.ico" style="height:1em; vertical-align:middle;"> **Cloudflare Pages** 提供服务，结合 <img src="https://www.cloudflare.com/favicon.ico" style="height:1em; vertical-align:middle;"> **Cloudflare CDN** 加速，线路解析同样通过 <img src="https://www.tencentcloud.com/favicon.ico" style="height:1em; vertical-align:middle;"> **DNSPod**，实现全球访问优化。  
+
+---
+
+本站访客统计由 [Vercount](https://vercount.one/) 提供:
+
+📊 本站总访问量：<span id="vercount_value_site_pv">Loading</span> 次  
 👥 本站总访客数：<span id="vercount_value_site_uv">Loading</span> 人
