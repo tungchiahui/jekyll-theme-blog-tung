@@ -16,7 +16,7 @@ header_bg: https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/header-bg.
 
 # ICP 与公安备案号（自定义字段）
 icp: "鲁ICP备2025185601号-2"       # 工信部备案号
-beian: "xxxxxxxxxxxxxx"            # 公安备案号
+beian: "xxxxxxxxxxxx"            # 公安备案号
 # 自定义变量，可以在 footer.html 中用 {{ site.icp }} 和 {{ site.beian }} 调用
 
 # 社交/联系方式配置(没有就注释掉或者删掉这一项就行)
