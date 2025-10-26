@@ -60,25 +60,23 @@
     {% endif %}
   </div>
 
-  <!-- ICP 备案号 -->
-  {% if site.icp %}
-  <p>
-    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">
+  <div class="footer-records">
+    <!-- ICP 备案号 -->
+    {% if site.icp %}
+    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" class="footer-record icp">
+      <img src="https://beian.miit.gov.cn/favicon.ico" alt="工信部图标">
       {{ site.icp }}
     </a>
-  </p>
-  {% endif %}
+    {% endif %}
 
-  <!-- 公安备案号 -->
-  {% if site.beian %}
-  <p>
-    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{ site.beian }}"
-       target="_blank" rel="noopener">
-      <img src="https://www.beian.gov.cn/img/new/gongan.png"
-           alt="公安备案图标">
-      鲁公网安备{{ site.beian }}号
+     <!-- 公安备案号 -->
+    {% if site.beian %}
+    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{ site.beian }}" target="_blank" rel="noopener" class="footer-record beian">
+      <img src="https://beian.mps.gov.cn/favicon.ico" alt="公安备案图标">
+      鲁公网安备 {{ site.beian }} 号
     </a>
-  </p>
-  {% endif %}
+    {% endif %}
+  </div>
+
 
 </footer>
