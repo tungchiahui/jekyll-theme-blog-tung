@@ -18,16 +18,16 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    // 把按钮放到 pre 右上角
-    const pre = codePre.parentNode;
-    pre.style.position = 'relative';
+    // 挂到 highlightDiv 上，保证按钮固定在代码框右上角
+    highlightDiv.style.position = 'relative';   // 父容器相对定位
     button.style.position = 'absolute';
     button.style.top = '8px';
     button.style.right = '8px';
     button.style.padding = '4px 8px';
     button.style.fontSize = '0.8em';
     button.style.cursor = 'pointer';
-    pre.appendChild(button);
+
+    highlightDiv.appendChild(button);
   });
 });
 </script>
