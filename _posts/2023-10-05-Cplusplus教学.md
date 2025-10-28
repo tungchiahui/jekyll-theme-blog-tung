@@ -68,7 +68,7 @@ https://www.runoob.com/cplusplus/cpp-tutorial.html
 
 从main函数开始，代码是一行一行运行的。（一个工程里有且只有一个main函数）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image1.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image1.webp)
 
 2.  ## 生命周期
     
@@ -270,7 +270,7 @@ std::cout << "结果是：" << a << std::endl  //输出 结果是: a  并换行
 std::cin >> a     //输入一个变量a
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image2.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image2.webp)
 
 5.  # C++命名空间
     
@@ -620,7 +620,7 @@ Books book1("title","author","subject",1);
             4.  typedef float fp32;
                 
         
-        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image3.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image3.webp)
         
 2.  数据解析:
     
@@ -683,7 +683,7 @@ Books book1("title","author","subject",1);
         1.  计算机实际只存储补码，所以原码转换为补码的过程，也可以理解为数据存储到计算机内存中的过程：
             
         
-        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image4.png)
+        ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image4.webp)
         
         3.  正数：在原、反、补码中，正数的表示是一模一样的
             
@@ -819,9 +819,9 @@ int main ()
 
   
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image5.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image5.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image6.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image6.webp)
 
 当没有指向该内存的，程序会自动释放内存。
 
@@ -1004,7 +1004,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image7.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image7.webp)
 
 使用捕获列表传入变量：
 
@@ -1033,7 +1033,7 @@ int main(int argc,char **argv)
 
 答案是9
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image8.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image8.webp)
 
   
 
@@ -1124,7 +1124,7 @@ int main(int argc,char **argv)
 
 答案是10
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image9.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image9.webp)
 
 2.  泛型 lambda 参数
     
@@ -1152,7 +1152,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image10.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image10.webp)
 
 3.  捕获\*this
     
@@ -1278,7 +1278,7 @@ int main()
 
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image11.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image11.webp)
 
 上面`constexpr auto square = [](int x) constexpr` 有俩`constexpr`，第一个是用来声明`square`的，第二个是用来声明Lambda的，作用不一样，而且这俩都必须要。
 
@@ -1347,7 +1347,7 @@ int main()
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image12.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image12.webp)
 
 2.  绑定成员函数
     
@@ -1383,7 +1383,7 @@ int main()
 
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image13.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image13.webp)
 
 3.  用于高阶函数
     
@@ -1424,7 +1424,7 @@ scr
 
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image14.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image14.webp)
 
   
 
@@ -1481,7 +1481,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image15.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image15.webp)
 
   
 
@@ -1520,7 +1520,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image16.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image16.webp)
 
   
 
@@ -1558,7 +1558,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image17.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image17.webp)
 
   
 
@@ -1768,7 +1768,7 @@ int main()
 
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image18.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image18.webp)
 
   
 
@@ -1889,7 +1889,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image19.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image19.webp)
 
   
 
@@ -1945,7 +1945,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image20.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image20.webp)
 
   
 
@@ -1987,7 +1987,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image21.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image21.webp)
 
 2.  传递引用
     
@@ -2025,7 +2025,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image22.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image22.webp)
 
 3.  私有方法无法访问（用友元函数）
     
@@ -2150,7 +2150,7 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image23.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image23.webp)
 
 会发现有几次结果不为2001，这说明发生了线程竞争。
 
@@ -2272,4 +2272,4 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image24.png)
+![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image24.webp)
