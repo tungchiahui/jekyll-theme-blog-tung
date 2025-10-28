@@ -9,47 +9,36 @@ tags:
   - RTOS
 ---
 
-<!-- > ⚠️ **注意：本文中的图片因飞书图床时效性已失效**  
-> 若想查看完整图文内容和原版教程，请访问飞书文档：[点击查看完整博客](https://sdutvincirobot.feishu.cn/wiki/F3Htw5Id9ih63okH9npcszeWn4g?from=from_copylink) -->
-
 * TOC
 {:toc}
-
 
 ***`（本教程为2025年7月创建的，可能与以后的版本有些出入）`***
 
 https://blog.csdn.net/SankeXhy/article/details/138418371?shareId=138418371&sharefrom=link&sharerefer=APP&sharesource=2301\_80523028&sharetype=blog
 
 1.  # 简介
-    
 
 *   CubeMX + CMake +GCC + HAL + VSCode + Clangd + Ozone 构成了全链路嵌入式开发方案： CubeMX解决硬件配置问题，CMake统一构建流程，GCC提供编译支持，HAL库屏蔽硬件差异，VSCode+Clangd打造智能编辑器,Ozone实现更方便高效的debug调试功能。
-    
+
 *   该组合降低开发门槛（尤其对跨平台项目），提升代码质量与可维护性，并适配从原型到量产的全生命周期需求，是STM32等ARM嵌入式开发的推荐实践。
-    
 
 2.  # Linux
-    
 
 1.  ## 环境介绍
-    
 
 本教程环境介绍：
 
 1.  系统：Fedora 42 KDE Edition Linux
-    
+
 2.  系统内核：Linux 6.15.6-200.fc42.x86\_64
-    
+
 3.  架构：X86\_64
-    
 
 其他Linux环境也可以。
 
 2.  ## 安装各种环境
-    
 
 1.  ### 安装C/C++环境
-    
 
 ```bash
 # debian系
@@ -118,10 +107,7 @@ ls
 
 说明环境已经配置好了
 
-  
-
 2.  ### 安装CubeMX
-    
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image9.webp)
 
@@ -202,12 +188,7 @@ Terminal=false
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image22.webp)
 
-  
-
-  
-
 3.  ### 安装VScode
-    
 
 https://code.visualstudio.com/Download
 
@@ -249,14 +230,11 @@ code
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image30.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image31.webp)
 
-  
-
 4.  ### 安装ARM GNU工具链
-    
 
 编译工具比较：
 
-<!--br {mso-data-placement:same-cell;}--> td {white-space:nowrap;border:0.5pt solid #dee0e3;font-size:10pt;font-style:normal;font-weight:normal;vertical-align:middle;word-break:normal;word-wrap:normal;}
+ td {white-space:nowrap;border:0.5pt solid #dee0e3;font-size:10pt;font-style:normal;font-weight:normal;vertical-align:middle;word-break:normal;word-wrap:normal;}
 | 特性 | ARM GCC (GNU 工具链) | Keil AC5 (ARM Compiler 5) | Keil AC6 (ARM Compiler 6) |
 |:---|:---|:---|:---|
 | 核心身份 | 基于GNU GPL的开源编译器 | ARM自家的传统编译器 | 基于LLVM/Clang的现代编译器 |
@@ -272,12 +250,10 @@ code
 * * *
 
 1.  #### 安装
-    
 
 **建议都用****官方法****进行安装。**
 
 1.  ##### 方法一（官网法）
-    
 
 https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
@@ -289,8 +265,6 @@ https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
 在终端里输入下列命令，将编译器文件tar压缩包复制到你存放程序的文件夹（这个文件夹你自己定，建议在home分区，别以后删了就行）。
 
-  
-
 具体命令为`cp ./arm-gnu`然后按`tab`补齐，然后空格，再跟上你要复制到的文件夹的路径。
 
 比如下面的命令：
@@ -299,8 +273,6 @@ https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 cp ./arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz ~/UserFolder/Applications/
 ```
 
-  
-
 然后进入复制到的文件夹：
 
 ```bash
@@ -308,8 +280,6 @@ cd ~/UserFolder/Applications/
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image34.webp)
-
-  
 
 在终端里输入`tar -xvf ./arm-gnu`并按`tab`补齐。
 
@@ -340,8 +310,6 @@ pwd
 
 复制一下`/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin`
 
-  
-
 然后需要配置环境
 
 ```bash
@@ -362,14 +330,7 @@ export PATH=/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel
 source ~/.bashrc
 ```
 
-  
-
-  
-
-  
-
 2.  ##### 方法二（系统仓库法）
-    
 
 **不建议本法**
 
@@ -382,10 +343,7 @@ sudo dnf install arm-none-eabi-gcc
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image38.webp)
 
-  
-
 2.  #### 测试
-    
 
 检查版本
 
@@ -395,13 +353,9 @@ arm-none-eabi-gcc -v
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image39.webp)
 
-  
-
 5.  ### 安装JLink驱动
-    
 
 1.  #### 安装libreadline库
-    
 
 我们烧录会用到JLinkExe的命令，而JLinkExe会用到libreadline库，所以要安装libreadline库，执行如下命令安装：
 
@@ -415,7 +369,6 @@ sudo dnf install readline-devel
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image40.webp)
 
 2.  #### 安装JLink驱动
-    
 
 https://www.segger.com/downloads/jlink/
 
@@ -457,12 +410,7 @@ JLinkExe
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image46.webp)
 
-  
-
-  
-
 3.  #### 下载并安装Ozone
-    
 
 https://www.segger.com/products/development-tools/ozone-j-link-debugger/
 
@@ -489,7 +437,6 @@ sudo dnf install ./Ozone_Linux_V338g_x86_64.rpm
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image50.webp)
 
 4.  #### 测试
-    
 
 打开终端输入
 
@@ -499,12 +446,7 @@ ozone
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image51.webp)
 
-  
-
-  
-
 6.  ### 下载SVD
-    
 
 https://www.st.com.cn/content/st\_com/zh.html
 
@@ -542,17 +484,9 @@ sudo cp ./*.svd /opt/SEGGER/Ozone_V338g/Config/Peripherals/
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image59.webp)
 
-  
-
-  
-
-  
-
 3.  ## 工程创建与测试
-    
 
 1.  ### 使用CubeMX创建工程
-    
 
 点击进入单片机挑选的按钮
 
@@ -589,7 +523,6 @@ FreeRTOS也要配置一下。
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image69.webp)
 
 2.  ### 对工程进行配置与编译
-    
 
 在工程文件夹打开终端
 
@@ -619,8 +552,6 @@ code .
 # Include toolchain file
 include("cmake/gcc-arm-none-eabi.cmake")
 ```
-
-  
 
 按ctrl+～打开内置终端。
 
@@ -655,10 +586,7 @@ make -j16
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image77.webp)
 
-  
-
 3.  ### 对代码提示进行配置
-    
 
 在VScode中按Ctrl+Shift+P,搜索clangd,并选择下载语言服务
 
@@ -694,8 +622,6 @@ make -j16
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image86.webp)
 
-  
-
 ⚠️注意：Clangd 默认找的是 **本机系统的 libc/include 路径（比如 x86\_64 的 `/usr/include`）** ，而我们工程里面实际使用的是 **ARM 工具链的头文件路径** ，这就有概率导致包含C/C++库函数的头文件报错
 
 例如：
@@ -705,7 +631,6 @@ make -j16
 这里的 #include <math.h>显示找不到头文件，但是我们进行编译的时候却没有报错，说明是clangd的配置有问题 。以下介绍一种解决方法：
 
 1.  运行以下命令，获取 ARM GCC 使用的标准 include 路径：
-    
 
 ```bash
 arm-none-eabi-gcc -x c -E -v - </dev/null
@@ -714,7 +639,6 @@ arm-none-eabi-gcc -x c -E -v - </dev/null
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image88.webp)
 
 2.  在工程根目录下面创建 .clangd 文件 将自己的头文件路径包含进去（引号里面替换成你自己的arm gcc头文件路径）
-    
 
 ```
 CompileFlags:
@@ -729,10 +653,7 @@ CompileFlags:
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image89.webp)
 
-  
-
 4.  ### 移植Vinci机器人队标准C/C++工程模板
-    
 
 用git clone命令克隆仓库:https://github.com/tungchiahui/CubeMX\_MDK5to6\_Template
 
@@ -743,8 +664,6 @@ git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 把仓库里的“工程文件移植”文件夹里的 **所有内容** 复制到我们CMake工程的目录里。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image90.webp)
-
-  
 
 然后打开applications文件夹，在Src和Inc文件夹分别创建led\_task.cpp和led\_task.h，内容分别如下:
 
@@ -784,12 +703,10 @@ extern "C"
 
 #include "cpp_interface.h"
 
-    
-
 #ifdef __cplusplus
 }
 #endif
-    
+
 #endif
 
 ```
@@ -842,10 +759,8 @@ make
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image99.webp)
 
 5.  ### 下载程序到板子
-    
 
 1.  #### 配置CMake生成.bin和.hex文件
-    
 
 在下载程序到板子之前，我们需要去看看咱们之前编译的到底生成了啥文件。
 
@@ -888,10 +803,8 @@ make
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image105.webp)
 
 2.  #### 将设备连接到JLink并烧录程序
-    
 
 1.  ##### 图形界面烧录
-    
 
 ```Plain Text
 #打开终端输入
@@ -917,14 +830,10 @@ JFlashLite
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image110.webp)
 
 2.  ##### 终端烧录
-    
 
 算鸟算鸟，太麻烦了。
 
-  
-
 6.  ### 配置VScode任务
-    
 
 咱们在上面编译，一直需要输入以下命令
 
@@ -1030,19 +939,13 @@ make
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image117.webp)
 
-  
-
 **你不用担心每次新建工程都需要配置那么多东西。**
 
 以上大多数配置文件全部都已经包含在https://github.com/tungchiahui/CubeMX\_MDK5to6\_Template仓库下的***`工程文件移植(创建新模板请看这里)`***文件夹了，到时候新建一个工程后，直接把这个文件夹下的所有文件全部复制过来即可。
 
-  
-
 7.  ### 使用ozone进行Flash烧录和Debug调试
-    
 
 1.  #### 基础配置
-    
 
 打开终端输入ozone打开软件或者直接找到应用图标打开ozone
 
@@ -1101,7 +1004,6 @@ warning (138): The target application seems to be using FreeRTOS, but FreeRTOS-a
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image131.webp)
 
 2.  #### 烧录与调试
-    
 
 可以看下面这个视频，讲的挺好的。**(从30:10开始看）**
 
@@ -1117,23 +1019,16 @@ https://www.bilibili.com/video/BV1yrLHzZEoE
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image134.webp)
 
-  
-
-  
-
 3.  # Windows
-    
 
 1.  ## 环境准备
-    
 
 本教程环境介绍：
 
 1.  系统：Windows 11 LSTC
-    
+
 2.  系统内核：Windows NT
-    
+
 3.  架构：X86\_64
-    
 
 算鸟算鸟，肝部东啦
