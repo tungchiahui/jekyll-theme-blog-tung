@@ -174,24 +174,3 @@
   white-space: nowrap;            /* 保持命令或代码不换行 */
 }
 
-/* ====== 代码复制按钮 ====== */
-/* 复制按钮样式 */
-.copy-button {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  opacity: 0.8;
-  transition: opacity 0.3s;
-}
-.copy-button:hover {
-  opacity: 1;
-}
-
-/* 限制代码行长度 */
-.highlight pre {
-  white-space: pre-wrap;      /* 保留缩进，但允许换行 */
-  word-wrap: break-word;      /* 长单词/URL 也会换行 */
-}
-
-
