@@ -12,7 +12,6 @@ tags:
 
 * TOC
 {:toc}
-
 # 前言
     
 
@@ -47,9 +46,7 @@ http://www.openedv.com/docs/boards/stm32/zdyz\_stm32f407\_explorerV3.html
 6.  【【中科大RM电控合集】手把手Keil+STM32CubeMX+VsCode环境配置-哔哩哔哩】 https://b23.tv/5mwveRt
     
 7.  【ARM与STM32啥关系？不来了解一下嘛？-哔哩哔哩】 https://b23.tv/VvcYgUD
-
 # arduino库(了解即可)
-
 ## arduino库（Qualcomm Arduino、esp32）
     
 
@@ -127,7 +124,6 @@ I/O输出函数
 I/O输入函数
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image6.webp)
-
 ## 最简单的电机驱动板使用讲解
     
 
@@ -162,7 +158,6 @@ I/O输入函数
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image15.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image16.webp)
-
 # 51单片机(了解即可)
     
 
@@ -251,9 +246,7 @@ void main ()
  
 
 ```
-
 # stm32单片机(重点)
-
 ## 单片机介绍
     
 
@@ -422,7 +415,6 @@ void main ()
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image42.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image43.webp)
-
 ## 软件介绍
     
 
@@ -510,7 +502,6 @@ void main ()
                 
             
             ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image53.webp)
-
 ## 时钟树
     
 
@@ -722,9 +713,7 @@ void main ()
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image93.webp)
 
 6.  所以得知，TIM1的TCLK频率为168MHz
-
 ## stm32程序组成
-
 ### 基本介绍(主函数等)
     
 
@@ -753,7 +742,6 @@ void main ()
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image96.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image97.webp)
-
 ### 中断服务函数的介绍
     
 
@@ -878,7 +866,6 @@ void main ()
             
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image110.webp)
-
 ### RTOS与ROS/ROS2简单了解
     
 
@@ -904,7 +891,6 @@ void main ()
     3.  主要作用之一：可通过WIFI远程与上位机（电脑、工控机）的ROS2进行更加安全、稳定的通信，对比直接用串口通信（rosserial），要好很多(DDS分布式)。
         
     4.  MicroROS Vs ROSserial的详解链接: https://mp.weixin.qq.com/s/1lQXAA3sV-4GpXAzHiGChQ
-
 ## 寄存器
     
 
@@ -926,21 +912,17 @@ void main ()
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image116.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image117.webp)
-
 ## Vinci机器人队标准工程格式
-
 ### 英语
     
 
 必须用 **英语** ，工程文件名、函数名、变量名必须用英语！(走出中文舒适圈，最起码一些专业英语你要认识)
-
 ### 正点原子HAL库工程标准：
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image118.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image119.webp)
-
 ### Vinci机器人队STM32工程标准(Cube+C语言)：
     
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image120.webp)
@@ -965,7 +947,6 @@ void main ()
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image124.webp)
     
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image125.webp)
-
 ###   Vinci机器人队STM32C/C++工程标准(类正点原子，试运行，***不建议***，`建议用下一节的类Cube_Cpp`):
         
         ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image126.webp)
@@ -1000,16 +981,13 @@ void main ()
             ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image134.webp)
             
             ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image135.webp)
-
 ### **(建议)Vinci机器人队STM32Cube C/C++工程标准(类Cube，试运行，建议):**
-
 #### 首先打开CubeMX进行工程配置，比如我们这里用裸机开发使一个LED灯闪烁
     
 
 然后选择OpenFolder打开文件夹
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image136.webp)
-
 #### 打开Github将一些必备文件进行克隆
     
 
@@ -1022,7 +1000,6 @@ https://github.com/tungchiahui/CubeMX\_MDK5to6\_Template
 ```bash
 git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 ```
-
 #### 打开克隆的模板与刚才CubeMX生成的工程
     
 
@@ -1035,7 +1012,6 @@ git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 移动后：
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image140.webp)
-
 #### 打开工程设置工程
     
 
@@ -1105,7 +1081,6 @@ bsp/boards
 可以看到工程里的文件都就绪了。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image154.webp)
-
 #### 编译并配置一些必要代码
     
 
@@ -1140,7 +1115,6 @@ bsp/boards
 至此，你可以在startup\_main()函数中随意调用C/C++库中的代码啦。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image164.webp)
-
 #### C++库的头文件格式
     
 
@@ -1206,7 +1180,6 @@ extern BSP_Delay bsp_delay;
 理论上你是可以看懂上面所说的的，如果你实在看不懂，就照葫芦画瓢，画着画着也就理解了。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image165.webp)
-
 #### C++库的源文件格式
     
 
@@ -1439,14 +1412,12 @@ note或attention 注意事项
  // ... ...
  }
 ```
-
 #### 注意事项
     
 
 1.  在.cpp源文件中，弱函数的定义前面要加个extern "C" 因为\_\_weak是C语言(汇编向量)特有的，所以必须把代码以C语言的形式链接。
     
 2.  代码要写在Begin和End之间，否则再次用CubeMX配置代码后，代码会消失。
-
 ## 驱动
     
 
@@ -1506,7 +1477,6 @@ note或attention 注意事项
         2.  查看对应的数据类型
             
         3.  查数据手册查函数的内容的注释
-
 ##   大疆电机控制(CAN)
         
     
@@ -1759,7 +1729,6 @@ f,pid前馈
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image212.webp)
 
 ### ④C++库（建议）
-
 #### 简介
     
 
@@ -1778,9 +1747,7 @@ can\_receive.cpp里是CANRX0接收中断回调函数的实现，该回调函数�
 pid.cpp是pid控制系统核心的数学算法代码
 
 pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始化代码和一些闭环实现代码。
-
 #### C++大疆电机库
-
 #####   CLASS的结构与简单介绍
         
     
@@ -1815,15 +1782,12 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
         
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image215.webp)
-
 ##### CAN\_BUS::BSP类的方法(函数) (在bsp\_can.cpp中)
-
 ######   CAN\_Start 开启CAN通信的函数
         
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image216.webp)
-
 ###### Filter\_Init CAN通信滤波的函数
     
 
@@ -1832,53 +1796,41 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
   
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image218.webp)
-
 ##### CAN\_BUS::DJI\_ENCODER类的方法(函数) (在can\_receive.cpp中)
-
 ###### get\_motor\_measure 处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机各个信息** 函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image219.webp)
-
 ###### get\_moto\_offset 处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机刚开始上电的角度初始值** 函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image220.webp)
-
 ###### get\_total\_angle 处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机角度值** 函数。（*暂时没被调用*）
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image221.webp)
-
 ##### CAN\_BUS::CMD类的方法(函数) (在can\_receive.cpp中)
-
 ###### CAN1\_Front CAN1 **前** 4个电机发送电流的函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image222.webp)
-
 ###### CAN1\_BehindCAN1 **后** 4个电机发送电流的函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image223.webp)
-
 ###### CAN2\_FrontCAN2 **前** 4个电机发送电流的函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image224.webp)
-
 ###### CAN2\_Behind CAN2 **后** 4个电机发送电流的函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image225.webp)
-
 ##### CAN\_RX0接收中断回调函数 (在can\_receive.cpp中)
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image226.webp)
-
 #### C++PID库
-
 ##### CLASS的结构与简单介绍
     
 
@@ -1922,31 +1874,24 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
         
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image228.webp)
-
 ##### PID\_Controller类的方法(函数) (在pid\_user.cpp中)
-
 ######   All\_Device\_Init 将所有设备的PID控制器进行初始化
         
     
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image229.webp)
-
 ##### PID\_Controller::CORE类的方法(函数) (在pid.cpp中)
-
 ######   PID\_Init PID核心初始化函数
         
     
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image230.webp)
-
 ######   PID\_Calc PID核心计算函数
         
     
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image231.webp)
-
 ######   PID\_Clear PID清0函数
         
     
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image232.webp)
-
 ##### PID\_Controller::CAN\_MOTOR类的方法 (在pid\_user.cpp中)（这里只讲CAN1的3个闭环函数）
     
 
@@ -1966,39 +1911,31 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
         3.  *C语言库中，i的值为电调ID的值。*
             
         4.  *C++库中，****i值为电调ID值-1。***
-
 ###### CAN1\_Velocity\_Realize CAN1速度环实现函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image233.webp)
-
 ###### CAN1\_Position\_Realize CAN1位置环实现函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image234.webp)
-
 ###### CAN1\_VP\_Dual\_Loop\_Realize CAN1速度位置双环实现函数
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image235.webp)
-
 ##### PID\_Controller::SENSORS传感器类的方法(函数) (在pid\_user.cpp中)
-
 ###### Yaw\_Realize 陀螺仪IMU的航向角PID实现函数（等你们完善好 陀螺仪IMU的C++库你们再补充）
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image236.webp)
-
 ###### Pos\_X\_Realize 码盘定位X坐标实现函数（等你们完善好 码盘OPS-9的C++库你们再补充）
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image237.webp)
-
 ###### Pos\_Y\_Realize 码盘定位Y坐标实现函数（等你们完善好 码盘OPS-9的C++库你们再补充）
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image238.webp)
-
 #### 如何调用？
     
 
@@ -2019,11 +1956,8 @@ pid\_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始�
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image240.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image241.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image242.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image243.webp)
-
 ## DMA(Direct Memory Access / 直接存储器访问)
-
 ## FreeRTOS
-
 ### 理论知识
     
 
@@ -2036,9 +1970,7 @@ https://www.bilibili.com/video/BV19g411p7UT
 [STM32F1 FreeRTOS开发手册\_V1.1.pdf](https://sdutvincirobot.feishu.cn/wiki/L40WwB369itdj4kGIsTcOc9cnQf)
 
 [STM32F4 FreeRTOS开发手册\_V1.1.pdf](https://sdutvincirobot.feishu.cn/wiki/VLg4w0oIQi8HHNkVE4CcGs65nue)
-
 ### 常用的内容(下方教程着重讲CubeMX如何配置，理论知识请看正点原子)
-
 #### 系统配置
     
 
@@ -2083,7 +2015,6 @@ https://www.bilibili.com/video/BV19g411p7UT
         ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image247.webp)
         
         4.  手动编辑头文件配置(不推荐)
-
 #### 创建任务
     
 
@@ -2120,7 +2051,6 @@ https://www.bilibili.com/video/BV19g411p7UT
 2.  注意事项：
     
     1.  任务创建太多会内存爆掉
-
 #### 延时
     
 
@@ -2165,7 +2095,6 @@ https://www.bilibili.com/video/BV19g411p7UT
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image251.webp)
     
     ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image252.webp)
-
 #### 任务状态转换
     
 
@@ -2183,7 +2112,6 @@ https://www.bilibili.com/video/BV19g411p7UT
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image255.webp)
-
 #### 队列
     
 
@@ -2211,7 +2139,6 @@ https://www.bilibili.com/video/BV19g411p7UT
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image259.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image260.webp)
-
 #### 信号量(队列的特殊形式)
     
 
@@ -2274,9 +2201,7 @@ https://www.bilibili.com/video/BV19g411p7UT
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image273.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image274.webp)
-
 #### 内存管理
-
 ##### 简介
     
 
@@ -2285,9 +2210,7 @@ https://www.bilibili.com/video/BV19g411p7UT
 **堆区（heap）**：一般由程序员分配和释放，若程序员不释放，程序结束时可能由操作系统回收。分配方式类似于数据结构中的链表。
 
 (详细请看[Vinci机器人队C/C++资料](https://sdutvincirobot.feishu.cn/docx/N0GAdx6IDoqnRnx1q0TcX1Wfnvc))
-
 ##### 修改stm32的栈区和堆区大小
-
 ######   stm32本身的堆区和栈区大小修改
         
     
@@ -2309,7 +2232,6 @@ Stack Size就是栈大小，为1024byte = 1Kb。
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image276.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image277.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image278.webp)
-
 ###### FreeRTOS的堆区大小修改(此堆区非彼堆区，请看下方介绍)
     
 
@@ -2325,16 +2247,13 @@ Stack Size就是栈大小，为1024byte = 1Kb。
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image280.webp)
-
 ##### 内存管理API介绍
-
 ###### C语言库的内存管理API(不建议)
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image281.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image282.webp)
-
 ###### 正点原子分块式内存管理API
     
 
@@ -2347,7 +2266,6 @@ memx就是指内存块，内部的SRAM和外部的SRAM(外部的不一定有外�
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image285.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image286.webp)
-
 ###### FreeRTOS内存管理API(建议)
     
 
@@ -2379,12 +2297,10 @@ heap\_4的first-fit算法是从堆区内存起始地址块开始找出第一个�
 可以通过看上面代码，就可以得知，申请完内存再释放掉内存后，空闲内存数会还原。
 
 但是，可以看到，此时我们分配的是一个4字节的内存，但是他扣掉了16字节的内存，这是因为字节对齐的原因，FreeRTOS选择使用用空间换速度的方式进行字节对齐。
-
 ## FPU浮点数计算加速
     
 
 STM32由于主频比较低，所以运算浮点数运算会非常慢，目前有下列几种办法可以优化sin，cos这种大型浮点数运算。
-
 ### 检查是否支持
     
 
@@ -2403,7 +2319,6 @@ STM32由于主频比较低，所以运算浮点数运算会非常慢，目前有
 | STM32F1 | Cortex-M3 | ❌ 不支持 | ❌ 无 FPU | 🚫 最慢（纯软件计算） | 不推荐做浮点计算 | arm_cos_q31() |
 | STM32F0 | Cortex-M0 | ❌ 不支持 | ❌ 无 FPU | 🚫 最慢（纯软件计算） | 不推荐做浮点计算 | arm_cos_q31() |
 | STM32L0 | Cortex-M0+ | ❌ 不支持 | ❌ 无 FPU | 🚫 最慢（纯软件计算） | 超低功耗应用 | arm_cos_q31() |
-
 ### 开启FPU
     
 
@@ -2426,7 +2341,6 @@ STM32F4/F7一般有单精度FPU，而STM32H5/H7，一般有双精度FPU。
 下面这张图可以从源码看到开启了FPU。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image297.webp)
-
 ### DSP加速
     
 
@@ -2448,7 +2362,6 @@ DSP库只适用于ARM的Cortex-A和Cortex-M的内核，也就是适应手机，A
 | x86/x86-64（PC 端） | ❌不可用 | ✅最快（硬件加速） | ✅最快（使用 FPU 或 SIMD） |
 
 所以说在STM32上跑还是建议用dsp库的函数。
-
 #### 安装并使能DSP库：
     
 
@@ -2479,7 +2392,6 @@ DSP库只适用于ARM的Cortex-A和Cortex-M的内核，也就是适应手机，A
 这种方式会使编译时间增加至少200%.
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image304.webp)
-
 #### 函数介绍
     
 
@@ -2519,7 +2431,6 @@ this->yaw += this->vw * this->dt;
     this->y_position = - y_position;
     this->yaw += this->vw * this->dt;
 ```
-
 #### 性能对比
     
 
@@ -2546,7 +2457,6 @@ this->yaw += this->vw * this->dt;
 | float | 标准库软件计算 | ❌ 无 FPU 需软件仿真 | 🚫 5000+ cycles | ❌ 非常慢 |
 | cosf(x) | float | 标准 C 库软件计算 | ❌ 无 FPU 需软件仿真 | 🚫 5000+ cycles | ❌ 非常慢 |
 | 查表法（LUT） | float / Q31 | 预计算余弦表 | ✅ 无需 FPU | 🚀 约 5 cycles | 🔥 1000 倍加速 |
-
 ## DMA+多通道adc(遥控器遥杆)
     
 
@@ -2567,9 +2477,7 @@ adc连续模式开启或者关闭，影响mian函数的相关代码，不开cont
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-09/image311.webp)
 
 相比之下开连续更快，更建议连续
-
 ## STM32常见问题
-
 ### STM32 使用ST-link下载问题
     
 

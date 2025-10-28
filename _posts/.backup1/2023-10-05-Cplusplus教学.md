@@ -15,7 +15,7 @@ tags:
 
 > 📚 学习必须与实干相结合。—— 泰戈尔
 
-# 前言
+1.  # 前言
     
 
 **C/C++介绍：**
@@ -58,16 +58,19 @@ https://www.runoob.com/cprogramming/c-tutorial.html
 
 https://www.runoob.com/cplusplus/cpp-tutorial.html
 
-# 程序运行与变量生命周期
+  
 
-## 代码运行思路
+2.  # 程序运行与变量生命周期
+    
+
+1.  ## 代码运行思路
     
 
 从main函数开始，代码是一行一行运行的。（一个工程里有且只有一个main函数）
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image1.webp)
 
-## 生命周期
+2.  ## 生命周期
     
 
 1.  **局部变量：**
@@ -164,7 +167,7 @@ void test()
 }
 ```
 
-## 内存四区
+3.  ## 内存四区
     
 
 暂时无法在飞书文档外展示此内容
@@ -176,8 +179,9 @@ void test()
 3.  **堆区（heap）** ：由程序员开辟内存空间给变量，由程序员分配和释放，如果程序员不进行释放内存，则会内存泄漏，当程序结束后，系统会帮忙释放没有被释放的内存。
     
 4.  **代码区** ：存放 CPU 执行的机器指令，通常是只读的。
+    
 
-# 头文件
+3.  # 头文件
     
 
 头文件的作用：头文件含有某个库的外部声明函数和变量，方便我们调用库中的API。
@@ -217,7 +221,7 @@ extern "C"           //混合编译的条件编译
 
 ```
 
-# C语言 和 C++ 的I/O
+4.  # C语言 和 C++ 的I/O
     
 
 1.C语言的stdio.h中的scanf和printf
@@ -268,14 +272,14 @@ std::cin >> a     //输入一个变量a
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image2.webp)
 
-# C++命名空间
+5.  # C++命名空间
     
 
 在 C++ 应用程序中。例如，您可能会写一个名为 xyz() 的函数，在另一个可用的库中也存在一个相同的函数 xyz()。这样，编译器就无法判断您所使用的是哪一个 xyz() 函数。
 
 因此，引入了 **命名空间** 这个概念，专门用于解决上面的问题，它可作为附加信息来区分不同库中相同名称的函数、类、变量等。使用了命名空间即定义了上下文。本质上，命名空间就是定义了一个范围。
 
-## 定义命名空间
+1.  ## 定义命名空间
     
 
 命名空间的定义使用关键字 **namespace** ，后跟命名空间的名称，如下所示：
@@ -292,7 +296,7 @@ namespace namespace_name {
 name::code;  // code 可以是变量或函数
 ```
 
-## using 指令
+2.  ## using 指令
     
 
 您可以使用 **using namespace** 指令，这样在使用命名空间时就可以不用在前面加上命名空间的名称。这个指令会告诉编译器，后续的代码将使用指定的命名空间中的名称。
@@ -341,7 +345,7 @@ int main ()
 }
 ```
 
-## 嵌套的命名空间
+3.  ## 嵌套的命名空间
     
 
 命名空间可以嵌套，您可以在一个命名空间中定义另一个命名空间，如下所示：
@@ -365,12 +369,12 @@ using namespace namespace_name1::namespace_name2;
 using namespace namespace_name1;
 ```
 
-# 联合体（共用体）
+6.  # 联合体（共用体）
     
 
 **共用体** 是一种特殊的数据类型，允许您在相同的内存位置存储不同的数据类型。您可以定义一个带有多成员的共用体，但是任何时候只能有一个成员带有值。共用体提供了一种使用相同的内存位置的有效方式。
 
-## 定义共用体
+1.  ## 定义共用体
     
 
 为了定义共用体，您必须使用 **union** 语句，方式与定义结构类似。union 语句定义了一个新的数据类型，带有多个成员。union 语句的格式如下：
@@ -403,7 +407,7 @@ object_name.str2 = "你好！";
 
 注意：共用体所占内存大小，按成员变量需占内存最大的来。
 
-# typedef
+7.  # typedef
     
 
 C/C++ 提供了 **typedef** 关键字，您可以使用它来为类型取一个新的名字。下面的实例为单字节数字定义了一个术语 **BYTE** ：
@@ -415,9 +419,10 @@ typedef float fp32;
 typedef double fp64;
 ```
 
-# 结构体
+8.  # 结构体
+    
 
-## 定义结构体
+1.  ## 定义结构体
     
 
 结构体定义由关键字 **struct** 和结构体名组成，结构体名可以根据需要自行定义。
@@ -434,7 +439,7 @@ member_type3 member_name3;
 } object_names;
 ```
 
-## 访问结构体成员
+2.  ## 访问结构体成员
     
 
 下面是声明一个结构体类型 **Books** ，变量为 **book，** 为了访问结构的成员，我们使用 **成员访问运算符（.）** 。成员访问运算符是结构变量名称和我们要访问的结构成员之间的一个句号。
@@ -470,7 +475,7 @@ book.book_id = 1;0
 strcpy(book.title,"春天");
 ```
 
-## 指向结构的指针
+3.  ## 指向结构的指针
     
 
 您可以定义指向结构的指针，方式与定义指向其他类型变量的指针相似，如下所示：
@@ -492,7 +497,7 @@ struct_pointer->title;
 (*struct_pointer).title;
 ```
 
-## 结构体与函数
+4.  ## 结构体与函数
     
 
 1.  作为函数参数
@@ -513,8 +518,9 @@ void fun2(Books *book){
 ```
 
 2.  作为函数返回类型
+    
 
-## C++中的结构体
+5.  ## C++中的结构体
     
 
 1.  定义 与上述定义一致，不同的是，在 C++ 中即使不使用 typedef struct 来定义结构体，定义结构体变量时也无需在变量前加 struct
@@ -566,7 +572,9 @@ struct Books
 Books book1("title","author","subject",1);
 ```
 
-# 数据的存放
+  
+
+9.  # 数据的存放
     
 
 1.  数据单位及其转换
@@ -702,15 +710,18 @@ Books book1("title","author","subject",1);
         5.  **在计算机运算的时候都是以 “补码” 的方式来运算的。**
             
         6.  运算结果是以 **原码** 形式展现的。
+            
 
-# 现代C++
+  
+
+10.  # 现代C++
     
 
 "现代C++"（Modern C++）指的是自 C++11 标准以来，C++ 语言的一系列重要更新和改进。现代 C++ 的目标是使代码更加简洁、安全、高效，并增强语言的功能。C++11、C++14、C++17、C++20 、C++23以及未来的C++26 标准，都包含了这些特性。
 
 由于现代C++体系太过于庞大，本章只讲非常常用的现代C++的功能，其他你认为有用的功能请自学，你也可以把你认为很有用的功能补充在本文。
 
-## 自动类型推导
+1.  ## 自动类型推导
     
 
 通过使用 `auto` 关键字，编译器可以推断变量的类型，从而减少显式类型声明的冗余。(类似于Python)
@@ -724,7 +735,7 @@ auto x = 42; // 自动推导为 int 类型
 auto str = "Hello"; // 推导为 const char*
 ```
 
-## 安全空指针
+2.  ## 安全空指针
     
 
 `nullptr` 是一个类型安全的空指针常量，代替传统的 `NULL`，避免了空指针类型不匹配的问题。
@@ -735,9 +746,10 @@ auto str = "Hello"; // 推导为 const char*
 int* ptr = nullptr;  // 更安全的空指针
 ```
 
-## 智能指针
+3.  ## 智能指针
+    
 
-### 内存管理
+1.  ### 内存管理
     
 
 **new 和 delete 运算符**
@@ -781,7 +793,9 @@ int main ()
 }
 ```
 
-### 智能指针的类型
+  
+
+2.  ### 智能指针的类型
     
 
 参考资料：https://learn.microsoft.com/zh-cn/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170&source=recommendations
@@ -811,7 +825,9 @@ int main ()
 
 当没有指向该内存的，程序会自动释放内存。
 
-### 如何创建和使用 shared\_ptr 实例
+  
+
+3.  ### 如何创建和使用 shared\_ptr 实例
     
 
 第一次创建内存资源时，请使用 [make\_shared](https://learn.microsoft.com/zh-cn/cpp/standard-library/memory-functions?view=msvc-170#make_shared) 函数创建 `shared_ptr`。 `make_shared` 异常安全。 它使用同一调用为控制块和资源分配内存，这会减少构造开销。 如果不使用 `make_shared`，则必须先使用显式 `new` 表达式来创建对象，然后才能将其传递到 `shared_ptr` 构造函数。
@@ -827,7 +843,9 @@ struct_pointer->title;
 (*struct_pointer).title;
 ```
 
-## **右值引用和移动语义**
+  
+
+4.  ## **右值引用和移动语义**
     
 
 **右值引用（`&&`）** 和 **`std::move`** 使得对象的资源可以被移动而不是复制，提高了性能，尤其是在容器类和资源管理类中。
@@ -837,7 +855,11 @@ std::vector<int> v1 = {1, 2, 3};
 std::vector<int> v2 = std::move(v1); // 移动 v1 的数据到 v2
 ```
 
-## **范围 for 循环**
+  
+
+  
+
+5.  ## **范围 for 循环**
     
 
 范围 for 循环（Range-based for loop）用于简化迭代容器的代码。
@@ -850,7 +872,9 @@ for (int n : v)
 }
 ```
 
-## Constexpr
+  
+
+6.  ## Constexpr
     
 
 `constexpr`是从C++11开始引入的新特性，在后续的好几个C++版本做出了增强：
@@ -908,9 +932,12 @@ int main()
 
 ```
 
-## Lambda 表达式
+  
 
-### 定义
+7.  ## Lambda 表达式
+    
+
+1.  ### 定义
     
 
 Lambda表达式，很多人把他叫做 **匿名内联函数** ，但是实际上他并不是一个函数，而是一个无名的非联合非聚合的类的类型。
@@ -951,7 +978,7 @@ std::cout << add(2, 3) << std::endl; // 输出 5
 | [this] | 捕获当前对象指针 | 类成员函数里想访问成员变量 | 其实等价于 [&] 捕获 this |
 | [=, &foo] | 混合捕获：其他按值，foo 按引用 | 细粒度控制 | 仅C++17,次序：先默认再特指 |
 
-### 基础用法
+2.  ### 基础用法
     
 
 直接把num1与num2当参数传入，此时捕获列表不用任何东西：
@@ -1049,7 +1076,9 @@ int main() {
 
 ```
 
-### 高级用法
+  
+
+3.  ### 高级用法
     
 
 <!--br {mso-data-placement:same-cell;}--> td {white-space:nowrap;border:0.5pt solid #dee0e3;font-size:10pt;font-style:normal;font-weight:normal;vertical-align:middle;word-break:normal;word-wrap:normal;}
@@ -1265,10 +1294,14 @@ int main()
 *   如果你只写 lambda 是 `constexpr`，但没有 `constexpr auto square =`，`square` 变量还是运行期的；
     
 *   如果你只写 `constexpr auto square =`，但 lambda 不能编译期执行，那编译会报错。
+    
 
-## std::bind
+  
 
-### 定义
+8.  ## std::bind
+    
+
+1.  ### 定义
     
 
 `std::bind` 是 C++11 引入的一个函数适配器，可以用来 **绑定函数的参数、重排参数顺序、生成可调用对象（函数对象）** ，常用在需要把函数“提前部分绑定参数”或“适配成某种形式”的场景。
@@ -1285,7 +1318,9 @@ auto new_func = std::bind(函数名, 参数1, 参数2, ...);
 
 `std::placeholders::_1`, `_2` 表示调用时提供的第一个、第二个参数…
 
-### 基础用法
+  
+
+2.  ### 基础用法
     
 
 1.  绑定普通函数的部分参数
@@ -1391,7 +1426,11 @@ scr
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image14.webp)
 
-## 高阶函数
+  
+
+  
+
+9.  ## 高阶函数
     
 
 高阶函数并非现代C++的东西，他其实是C语言就拥有的东西，但是现代C++提供了`std::function` 更灵活，能接收函数指针、Lambda、函数对象等。
@@ -1403,10 +1442,12 @@ scr
 1.  **接受函数作为参数**
     
 2.  **返回一个函数**
+    
 
-### 函数指针
+1.  ### 函数指针
+    
 
-#### 什么是函数指针
+1.  #### 什么是函数指针
     
 
 函数指针是指向函数的指针，它可以指向 **具有特定参数和返回值类型** 的函数。
@@ -1519,7 +1560,9 @@ int main(int argc,char **argv)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image17.webp)
 
-#### 类里的函数
+  
+
+2.  #### 类里的函数
     
 
 如果函数是**静态****成员函数** ，地址在编译期确定，可直接用普通函数指针传递。
@@ -1555,7 +1598,9 @@ int main(int argc,char **argv)
 }
 ```
 
-#### 回调函数Callback
+  
+
+3.  #### 回调函数Callback
     
 
 回调函数其实就是一个要被某个函数当参数传入的函数，但是他往往是因为某个事件发生而被调用的，并非直接被你从main函数里用函数调用。
@@ -1635,9 +1680,14 @@ class MyNode
 }
 ```
 
-### std::function
+  
 
-#### 定义
+  
+
+2.  ### std::function
+    
+
+1.  #### 定义
     
 
 他的定义式：
@@ -1672,7 +1722,7 @@ class std::function;
 | 类型安全性 | 一般 | 更强 |
 | 灵活性 | 低 | 高 |
 
-#### 基础用法
+2.  #### 基础用法
     
 
 ```cpp
@@ -1720,7 +1770,13 @@ int main()
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image18.webp)
 
-## 并发编程
+  
+
+  
+
+  
+
+10.  ## 并发编程
     
 
 多线程在STM32和ROS2中是非常常用的东西，虽然STM32和ROS2中不会直接用到thread这个类，但是理解起来是差不多的，甚至ROS2里有些东西就是二次封装了C++多线程，所以我们这里直接介绍C++11的多线程。
@@ -1731,7 +1787,7 @@ int main()
 
 https://www.bilibili.com/video/BV1d841117SH
 
-### 线程
+1.  ### 线程
     
 
 1.  **`std::thread(Callable &&f, Args &&args...)`**
@@ -1891,7 +1947,9 @@ int main(int argc,char **argv)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image20.webp)
 
-### 常见线程问题
+  
+
+2.  ### 常见线程问题
     
 
 1.  传递指针
@@ -2016,7 +2074,9 @@ int main(int argc,char **argv)
 }
 ```
 
-### 互斥量(解决数据共享问题)
+  
+
+3.  ### 互斥量(解决数据共享问题)
     
 
 对于没学过STM32和FreeRTOS的同学，可能不理解数据共享问题，下面举几个例子你就懂了：

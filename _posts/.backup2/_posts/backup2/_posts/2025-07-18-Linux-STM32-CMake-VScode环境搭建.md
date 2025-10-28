@@ -19,7 +19,6 @@ tags:
 ***`（本教程为2025年7月创建的，可能与以后的版本有些出入）`***
 
 https://blog.csdn.net/SankeXhy/article/details/138418371?shareId=138418371&sharefrom=link&sharerefer=APP&sharesource=2301\_80523028&sharetype=blog
-
 # 简介
     
 
@@ -28,7 +27,6 @@ https://blog.csdn.net/SankeXhy/article/details/138418371?shareId=138418371&share
 *   该组合降低开发门槛（尤其对跨平台项目），提升代码质量与可维护性，并适配从原型到量产的全生命周期需求，是STM32等ARM嵌入式开发的推荐实践。
 
 # Linux
-
 ## 环境介绍
 
 本教程环境介绍：
@@ -41,14 +39,11 @@ https://blog.csdn.net/SankeXhy/article/details/138418371?shareId=138418371&share
     
 
 其他Linux环境也可以。
-
 ## 安装各种环境
-
 ### 安装C/C++环境
     
 
 ```bash
-
 # debian系
 sudo apt-get install gcc g++ gdb cmake-gui make
 
@@ -114,7 +109,6 @@ ls
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image8.webp)
 
 说明环境已经配置好了
-
 ### 安装CubeMX
     
 
@@ -196,7 +190,6 @@ Terminal=false
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image21.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image22.webp)
-
 ### 安装VScode
     
 
@@ -239,7 +232,6 @@ code
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image28.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image29.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image30.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image31.webp)
-
 ### 安装ARM GNU工具链
     
 
@@ -259,12 +251,10 @@ code
 | 生态与未来 | 生态强大，是很多开源项目（如Zephyr，ESP-IDF）和IDE（CubeIDE，VS Code）的首选 | 处于维护模式，ARM不再增加新功能，不推荐新项目使用 | 是ARM的未来和主力，持续更新和优化 |
 
 * * *
-
 #### 安装
     
 
 **建议都用****官方法****进行安装。**
-
 ##### 方法一（官网法）
     
 
@@ -350,23 +340,19 @@ export PATH=/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel
 ```bash
 source ~/.bashrc
 ```
-
 ##### 方法二（系统仓库法）
     
 
 **不建议本法**
 
 ```bash
-
 # Debian系
 sudo apt install arm-none-eabi-gcc
-
 # Rhel系
 sudo dnf install arm-none-eabi-gcc
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image38.webp)
-
 #### 测试
     
 
@@ -377,25 +363,20 @@ arm-none-eabi-gcc -v
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image39.webp)
-
 ### 安装JLink驱动
-
 #### 安装libreadline库
     
 
 我们烧录会用到JLinkExe的命令，而JLinkExe会用到libreadline库，所以要安装libreadline库，执行如下命令安装：
 
 ```bash
-
 # debian系
 sudo apt-get install libreadline-dev
-
 # rhel系
 sudo dnf install readline-devel
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image40.webp)
-
 #### 安装JLink驱动
     
 
@@ -438,7 +419,6 @@ JLinkExe
 执行“q”指令退出该模式。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image46.webp)
-
 #### 下载并安装Ozone
     
 
@@ -465,7 +445,6 @@ sudo dnf install ./Ozone_Linux_V338g_x86_64.rpm
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image50.webp)
-
 #### 测试
     
 
@@ -476,7 +455,6 @@ ozone
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image51.webp)
-
 ### 下载SVD
     
 
@@ -515,9 +493,7 @@ sudo cp ./*.svd /opt/SEGGER/Ozone_V338g/Config/Peripherals/
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image58.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image59.webp)
-
 ## 工程创建与测试
-
 ### 使用CubeMX创建工程
     
 
@@ -554,7 +530,6 @@ FreeRTOS也要配置一下。
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image68.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image69.webp)
-
 ### 对工程进行配置与编译
     
 
@@ -583,7 +558,6 @@ code .
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image73.webp)
 
 ```bash
-
 # Include toolchain file
 include("cmake/gcc-arm-none-eabi.cmake")
 ```
@@ -622,7 +596,6 @@ make -j16
 这样就是编译成功了。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image77.webp)
-
 ### 对代码提示进行配置
     
 
@@ -694,7 +667,6 @@ CompileFlags:
 保存，此时刷新一下clangd,头文件提示正常
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image89.webp)
-
 ### 移植Vinci机器人队标准C/C++工程模板
     
 
@@ -769,7 +741,6 @@ extern "C"
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image93.webp)
 
 ```cmake
-
 # Add USER generated sources
 add_subdirectory(cmake/user)
 ```
@@ -805,9 +776,7 @@ make
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image99.webp)
-
 ### 下载程序到板子
-
 #### 配置CMake生成.bin和.hex文件
     
 
@@ -822,7 +791,6 @@ make
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image101.webp)
 
 ```cmake
-
 # 生成 .bin 和 .hex 文件
 find_program(OBJCOPY arm-none-eabi-objcopy REQUIRED)
 
@@ -851,9 +819,7 @@ make
 此时再看build目录：咱们需要的.hex或者.bin就出来了
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image105.webp)
-
 #### 将设备连接到JLink并烧录程序
-
 ##### 图形界面烧录
     
 
@@ -879,12 +845,10 @@ JFlashLite
 成功点亮led：
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image110.webp)
-
 ##### 终端烧录
     
 
 算鸟算鸟，太麻烦了。
-
 ### 配置VScode任务
     
 
@@ -997,9 +961,7 @@ make
 **你不用担心每次新建工程都需要配置那么多东西。**
 
 以上大多数配置文件全部都已经包含在https://github.com/tungchiahui/CubeMX\_MDK5to6\_Template仓库下的***`工程文件移植(创建新模板请看这里)`***文件夹了，到时候新建一个工程后，直接把这个文件夹下的所有文件全部复制过来即可。
-
 ### 使用ozone进行Flash烧录和Debug调试
-
 #### 基础配置
     
 
@@ -1058,7 +1020,6 @@ warning (138): The target application seems to be using FreeRTOS, but FreeRTOS-a
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image130.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image131.webp)
-
 #### 烧录与调试
     
 
@@ -1075,9 +1036,7 @@ https://www.bilibili.com/video/BV1yrLHzZEoE
 找到led\_task.cpp点击就可以打开这个源文件啦。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image134.webp)
-
 # Windows
-
 ## 环境准备
     
 

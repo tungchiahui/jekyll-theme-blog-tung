@@ -24,4 +24,38 @@
   font-weight: bold;
 }
 
+/* ===== 自动标题编号，仅限文章正文 ===== */
+.post-content {
+  counter-reset: h1counter;
+}
+
+/* 一级标题 */
+.post-content h1 {
+  counter-reset: h2counter;
+}
+.post-content h1::before {
+  counter-increment: h1counter;
+  content: counter(h1counter) ". ";
+  font-weight: bold;
+}
+
+/* 二级标题 */
+.post-content h2 {
+  counter-reset: h3counter;
+}
+.post-content h2::before {
+  counter-increment: h2counter;
+  content: counter(h1counter) "." counter(h2counter) " ";
+  font-weight: bold;
+}
+
+/* 三级标题 */
+.post-content h3::before {
+  counter-increment: h3counter;
+  content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) " ";
+  font-weight: bold;
+}
+
+
+
 

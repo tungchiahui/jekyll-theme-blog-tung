@@ -35,7 +35,6 @@ https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-
 # 三、Linux配置MDK6环境教程
 
 ***`（本教程为2024年1月创建的，可能与以后的版本有些出入）`***
-
 ## 需要准备的软件
     
 
@@ -48,7 +47,6 @@ https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-
 4.  pyOcd（如何安装下方有教程）
     
 5.  ST-Link驱动（如何安装下方有教程）
-
 ## vcpkg安装与环境配置
     
 
@@ -107,9 +105,7 @@ vcpkg --version
 出现如图提示则安装成功！
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image3.webp)
-
 ## MDK5工程生成与ARMCLANG(AC6)编译器配置
-
 ### 工程生成与编译器配置
     
 
@@ -129,7 +125,6 @@ git clone https://github.com/TungChiahuiMCURepos/CubeMX_CMake_Template.git
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image4.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image5.webp)
-
 ### 工程配置(比如初始化一个GPIO口并创建任务使其电平翻转)
     
 
@@ -159,7 +154,6 @@ git clone https://github.com/TungChiahuiMCURepos/CubeMX_CMake_Template.git
 cd MDK-ARM
 code .
 ```
-
 ## 安装并激活MDK6插件
     
 
@@ -172,7 +166,6 @@ code .
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image13.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image14.webp)
-
 ## 初次转化MDK5工程并下载依赖包
     
 
@@ -211,7 +204,6 @@ code .
 如图已经初始化成功了
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image22.webp)
-
 ## 编译
     
 
@@ -222,9 +214,7 @@ code .
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image23.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image24.webp)
-
 ## Linux如何配置ST-Link等调试器？
-
 ### 安装pyOCD(Linux)
     
 
@@ -235,7 +225,6 @@ https://github.com/pyocd/pyOCD
 ```bash
 sudo apt install python3-pip
 python3 -mpip install -U pyocd
-
 # 如果上面的不行，则输入下方的
 pip3 install -U pyocd
 ```
@@ -296,7 +285,6 @@ sudo udevadm trigger
 如果没被检测出来，请插拔一下ST-Link，然后点击Add Device添加一下设备。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image26.webp)
-
 ### 更新ST-Link最新驱动(Linux)
     
 
@@ -321,7 +309,6 @@ sudo apt install ./st-stlink-udev-rules-1.0.3-2-linux-all.deb
   
 
 # **四、Windows配置MDK6环境教程**
-
 ## 需要准备的软件
     
 
@@ -330,7 +317,6 @@ sudo apt install ./st-stlink-udev-rules-1.0.3-2-linux-all.deb
 2.  VScode最新版
     
 3.  CubeMX最新版
-
 ## vcpkg安装与环境配置
     
 
@@ -383,7 +369,6 @@ vcpkg --version
 显示如下图所示，则安装成功
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image39.webp)
-
 ## 生成工程文件
     
 
@@ -407,7 +392,6 @@ vcpkg --version
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image44.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image45.webp)
-
 ## 打开工程并配置默认编译器
     
 
@@ -422,7 +406,6 @@ vcpkg --version
     
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image48.webp)
-
 ## 下载并激活Keil MDK6插件
     
 
@@ -446,7 +429,6 @@ vcpkg --version
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image52.webp)
 
 显示这个通知即激活成功。
-
 ## MDK5工程转化为MDK6工程
     
 
@@ -487,7 +469,6 @@ vcpkg --version
 这样则显示为转化MDK6工程成功。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image60.webp)
-
 ## 编译
     
 
@@ -496,12 +477,10 @@ vcpkg --version
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image62.webp)
 
 可以看到，通过KEIL MDK6编译后的大小和KEIL MDK5编译后的大小完全相同。
-
 ## Windows如何配置ST-Link等调试器？
     
 
 Windows就更简单了，根本不用多下其他东西，只要你在MDK5上能用，基本在MDK6上也能用。
-
 ### 添加设备选择ST-Link
     
 
@@ -518,9 +497,7 @@ Windows就更简单了，根本不用多下其他东西，只要你在MDK5上能
   
 
 # **五、进阶使用教程(全平台通用)**
-
 ## Run（运行程序）和Debug（调试程序）？
-
 ### 选择packs
     
 
@@ -535,7 +512,6 @@ Windows就更简单了，根本不用多下其他东西，只要你在MDK5上能
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image67.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image68.webp)
-
 ### (RUN)将程序下载到ST-Link中
     
 
@@ -546,7 +522,6 @@ Windows就更简单了，根本不用多下其他东西，只要你在MDK5上能
 可以看到下方的命令已经把程序烧写进STM32了，然后STM32也正常工作了。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image70.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image71.webp)
-
 ### (DEBUG)调试程序
     
 
@@ -600,12 +575,10 @@ void led_task(void const * argument)
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image79.webp)
 
 这样就可以正常debug了。
-
 ## VScode头文件配置
     
 
 **(这只是可以更好的编辑代码，这些头文件并没有被加入到编译环境中)**
-
 ### C/C++插件（不推荐）
     
 
@@ -640,7 +613,6 @@ void led_task(void const * argument)
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image85.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image86.webp)
-
 ### Clangd插件 (非常推荐)
     
 
@@ -747,11 +719,8 @@ clang -v
 代码提示就正常啦
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image100.webp)
-
 ## **添加源文件(对应Project Items)和头文件(对应Include Path)到编译环境中**
-
 ### 常规方法(修改yaml文件)
-
 #### 相关资料
     
 
@@ -762,14 +731,12 @@ clang -v
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image101.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image102.webp)
-
 #### 创建文件(.c和.h)
     
 
 我们这里先在bsp中创建4个文件分别放入到Src和Inc中。
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image103.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image104.webp)
-
 #### 添加头文件路径
     
 
@@ -789,7 +756,6 @@ clang -v
         - ../bsp/boards/Inc
         - ../applications/Inc
 ```
-
 #### 添加源文件与分组
     
 
@@ -804,14 +770,11 @@ clang -v
       files:
         - file: ../bsp/boards/Src/gpio_demo.cpp
         - file: ../bsp/boards/Src/gpio_test.c
-
     # - group: applications
-
     #   files:
 ```
 
 源文件和头文件都已经成功导入了，我们可以对文件内容进行编写，看其是否能通过编译。
-
 #### 编写文件并编译
     
 
@@ -830,16 +793,13 @@ clang -v
 [15/22] Building C object CMakeFiles/Template_Linux.dir/home/tungchiahui/user/Source/STM32_Projects/N1_F407ZGT6_GPIO_Test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
 [16/22] Building CXX object CMakeFiles/Template_Linux.dir/home/tungchiahui/user/Source/STM32_Projects/N1_F407ZGT6_GPIO_Test/bsp/boards/Src/gpio_demo.o
 ```
-
 ### 图形化
-
 #### 简介
     
 
 由于ARM团队比较给力，短短2个月就搞出来了图形化操作，截止3月初已经更新。
 
 ARM团队更新了什么图形化功能，下方教程就会推迟几天更新一下对应的内容。
-
 #### 添加源文件
     
 
@@ -852,7 +812,6 @@ ARM团队更新了什么图形化功能，下方教程就会推迟几天更新�
   
 
 # 六 **、** 常见问题
-
 ## FreeRTOS使用ARMCLANG(AC6)编译报错的问题
     
 
@@ -887,7 +846,6 @@ ARM团队更新了什么图形化功能，下方教程就会推迟几天更新�
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image121.webp)
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image122.webp)
-
 ## 错误执行cmake配置
     
 
@@ -903,7 +861,6 @@ rm -rf ./tmp
 ```
 
 ![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2024-01-21/image125.webp)
-
 ## 修改汇编语言的编译器为ARMClang集成的汇编编译器
     
 
@@ -918,7 +875,6 @@ Consider using the armclang integrated assembler instead.
 ```
 
 暂时没找到解决方案
-
 ## 出现某些工具没被下载的情况
     
 
