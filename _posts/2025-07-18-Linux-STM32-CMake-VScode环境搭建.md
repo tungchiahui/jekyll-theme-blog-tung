@@ -49,7 +49,7 @@ sudo apt-get install gcc g++ gdb cmake-gui make
 sudo dnf install gcc g++ gdb cmake-gui make
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image1.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image1.webp)
 
 查看是否环境安装成功
 
@@ -60,17 +60,17 @@ gdb -v
 cmake --version
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image2.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image2.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image3.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image3.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image4.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image4.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image5.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image5.webp)
 
 接下来测试是否能够对C/C++正常编译，请找一个存放C++代码的文件夹，然后在终端中cd进去。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image6.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image6.webp)
 
 然后创建一个.cpp文件并用vim编辑
 
@@ -96,7 +96,7 @@ g++ -o hello hello.cpp
 ls
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image7.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image7.webp)
 
 运行
 
@@ -104,13 +104,13 @@ ls
 ./hello
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image8.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image8.webp)
 
 说明环境已经配置好了
 
 ### 安装CubeMX
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image9.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image9.webp)
 
 下载地址：
 
@@ -118,13 +118,13 @@ https://www.st.com.cn/zh/development-tools/stm32cubemx.html
 
 **推荐下载6.14.1版本（不要下载6.15.0,这个版本有bug，不知道后续何时会修复）**
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image10.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image10.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image11.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image11.webp)
 
 解压出来
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image12.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image12.webp)
 
 用root权限打开这个软件`SetupSTM32CubeMX-6.15.0`
 
@@ -132,11 +132,11 @@ https://www.st.com.cn/zh/development-tools/stm32cubemx.html
 sudo ./SetupSTM32CubeMX-6.15.0
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image13.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image13.webp)
 
 在新弹出的界面一直点下一步就行，安装结束后出现如下图就成功了。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image14.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image14.webp)
 
 `/usr/local/STMicroelectronics/STM32Cube/STM32CubeMX`进入这个文件夹，然后打开终端输入
 
@@ -144,27 +144,27 @@ sudo ./SetupSTM32CubeMX-6.15.0
 ./STM32CubeMX
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image15.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image15.webp)
 
 点击Help
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image16.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image16.webp)
 
 选`Manage embedded software packages`，把STM32F1，F4，H7的第一个最新的固件勾上。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image17.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image17.webp)
 
 点install
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image18.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image18.webp)
 
 登陆上账号
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image19.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image19.webp)
 
 然后等下载和安装完
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image20.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image20.webp)
 
 下载好就行了。
 
@@ -185,21 +185,21 @@ Terminal=false
 
 根据教程做，就可以实现这种效果啦。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image21.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image21.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image22.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image22.webp)
 
 ### 安装VScode
 
 https://code.visualstudio.com/Download
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image23.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image23.webp)
 
 如果是debian系下载deb,如果是rhel系下载rpm.
 
 下载完之后，点击浏览器，找到这个安装包的文件夹，并在该路径打开终端。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image24.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image24.webp)
 
 Debian系：输入`sudo apt install ./code`然后按`tab`按键补齐文件名，回车。
 
@@ -211,7 +211,7 @@ RHEL系：输入`sudo dnf install ./code`然后按`tab`按键补齐文件名，�
 sudo dnf install ./code-1.102.1-1752598767.el8.x86_64.rpm
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image25.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image25.webp)
 
 然后打开VScode，在终端输入下面的命令
 
@@ -219,17 +219,17 @@ sudo dnf install ./code-1.102.1-1752598767.el8.x86_64.rpm
 code
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image26.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image26.webp)
 
 然后安装一些插件
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image27.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image27.webp)
 
 下面这些都要装
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image28.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image29.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image28.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image29.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image30.webp)![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image31.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image30.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image31.webp)
 
 ### 安装ARM GNU工具链
 
@@ -257,11 +257,11 @@ code
 
 https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image32.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image32.webp)
 
 进入下载目录并打开终端
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image33.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image33.webp)
 
 在终端里输入下列命令，将编译器文件tar压缩包复制到你存放程序的文件夹（这个文件夹你自己定，建议在home分区，别以后删了就行）。
 
@@ -279,7 +279,7 @@ cp ./arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz ~/UserFolder/Applic
 cd ~/UserFolder/Applications/
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image34.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image34.webp)
 
 在终端里输入`tar -xvf ./arm-gnu`并按`tab`补齐。
 
@@ -289,7 +289,7 @@ cd ~/UserFolder/Applications/
  tar -xvf ./arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image35.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image35.webp)
 
 再进入这个解压后的文件夹
 
@@ -306,7 +306,7 @@ cd ./bin
 pwd
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image36.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image36.webp)
 
 复制一下`/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin`
 
@@ -322,7 +322,7 @@ vim ~/.bashrc
 export PATH=/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin:$PATH
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image37.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image37.webp)
 
 加载环境
 
@@ -343,7 +343,7 @@ sudo apt install arm-none-eabi-gcc
 sudo dnf install arm-none-eabi-gcc
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image38.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image38.webp)
 
 #### 测试
 
@@ -353,7 +353,7 @@ sudo dnf install arm-none-eabi-gcc
 arm-none-eabi-gcc -v
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image39.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image39.webp)
 
 ### 安装JLink驱动
 
@@ -370,13 +370,13 @@ sudo apt-get install libreadline-dev
 sudo dnf install readline-devel
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image40.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image40.webp)
 
 #### 安装JLink驱动
 
 https://www.segger.com/downloads/jlink/
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image41.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image41.webp)
 
 是Debian系下载64位DEB
 
@@ -384,11 +384,11 @@ https://www.segger.com/downloads/jlink/
 
 （这里的64位指的是amd64和X86\_64,如果你是ARM64请下载下方那个Linux ARM里的64位）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image42.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image42.webp)
 
 打开下载到的文件夹，并打开终端
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image43.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image43.webp)
 
 然后`sudo apt install ./JLink`然后tab补齐。
 
@@ -398,7 +398,7 @@ https://www.segger.com/downloads/jlink/
 sudo dnf install ./JLink_Linux_V852_x86_64.rpm
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image44.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image44.webp)
 
 检查是否安装成功
 
@@ -406,21 +406,21 @@ sudo dnf install ./JLink_Linux_V852_x86_64.rpm
 JLinkExe
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image45.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image45.webp)
 
 我们点击No，然后会进入Commander交互模式，在这种模式下，我们可以执行各种 J-Link Commander 提供的命令来连接、配置调试器，下载程序或文件到目标设备等操作，感兴趣的同学可自行学习。
 
 执行“q”指令退出该模式。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image46.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image46.webp)
 
 #### 下载并安装Ozone
 
 https://www.segger.com/products/development-tools/ozone-j-link-debugger/
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image47.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image47.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image48.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image48.webp)
 
 是Debian系下载64位DEB
 
@@ -428,7 +428,7 @@ https://www.segger.com/products/development-tools/ozone-j-link-debugger/
 
 （这里的64位指的是amd64和X86\_64,如果你是ARM64请下载下方那个Linux ARM里的64位）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image49.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image49.webp)
 
 然后`sudo apt install ./Ozone`然后tab补齐。
 
@@ -438,7 +438,7 @@ https://www.segger.com/products/development-tools/ozone-j-link-debugger/
 sudo dnf install ./Ozone_Linux_V338g_x86_64.rpm
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image50.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image50.webp)
 
 #### 测试
 
@@ -448,7 +448,7 @@ sudo dnf install ./Ozone_Linux_V338g_x86_64.rpm
 ozone
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image51.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image51.webp)
 
 ### 下载SVD
 
@@ -456,37 +456,37 @@ https://www.st.com.cn/content/st\_com/zh.html
 
 在搜索里搜索芯片型号，如stm32f103c8t6
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image52.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image52.webp)
 
 点CAD资源
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image53.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image53.webp)
 
 下载SVD，鼠标点红色框的区域就可以下载了
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image54.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image54.webp)
 
 解压后就可以获得F1系列的SVD文件了
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image55.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image55.webp)
 
 依次把F4和H7的也下载解压了就可以了。（可以解压到一个文件夹里）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image56.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image56.webp)
 
 然后在上面的文件夹打开终端
 
 将这些文件夹全部复制到Ozone的`Config/Peripherals/`目录下。（你需要提前确定一下ozone的配置是否是这个路径再复制）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image57.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image57.webp)
 
 ```bash
 sudo cp ./*.svd /opt/SEGGER/Ozone_V338g/Config/Peripherals/
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image58.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image58.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image59.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image59.webp)
 
 ## 工程创建与测试
 
@@ -494,43 +494,43 @@ sudo cp ./*.svd /opt/SEGGER/Ozone_V338g/Config/Peripherals/
 
 点击进入单片机挑选的按钮
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image60.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image60.webp)
 
 搜索对应芯片，并双击对应芯片选项。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image61.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image61.webp)
 
 进行一些配置，以下都是很基础的东西，你在看这个视频前肯定都会了
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image62.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image62.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image63.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image63.webp)
 
 随便开一个IO用来测试，比如LED的GPIO
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image64.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image64.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image65.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image65.webp)
 
 FreeRTOS也要配置一下。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image66.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image66.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image67.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image67.webp)
 
 这些文件夹也要配置好，最后Toolchain选择CMake,编译器选择GCC(6.14.1及之前没有选择编译器这个选项很正常)
 
 （但是CubeMX6.15.0有bug,这个选择GCC编译器并没有用，还需要后续自己手动选择编译器，以后可能会修复这个bug.）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image68.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image68.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image69.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image69.webp)
 
 ### 对工程进行配置与编译
 
 在工程文件夹打开终端
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image70.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image70.webp)
 
 然后打开vscode
 
@@ -538,11 +538,11 @@ FreeRTOS也要配置一下。
 code .
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image71.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image71.webp)
 
 进入vscode后，点击目录下的CMakeLists.txt
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image72.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image72.webp)
 
 检查第25行左右是否有下面这行，如果没有，你需要手动给他加上这两行。(6.14.1版本没有这个bug)
 
@@ -550,7 +550,7 @@ code .
 
 *tips2:这CubeMX6.15.0有第二个bug,这个工作区根CMakeLists.txt他说了只会生成一次，后续不会再重新覆盖生成，但是发现每次在CubeMX修改配置后，然后重新生成代码，其他命令都被保留了，就这个命令不会被保留。不知道后续会不会被修复，或者直接修复上面tips1的bug.所以每次重新配置CubeMX后，需要再把这句加上。*
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image73.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image73.webp)
 
 ```bash
 
@@ -560,7 +560,7 @@ include("cmake/gcc-arm-none-eabi.cmake")
 
 按ctrl+～打开内置终端。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image74.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image74.webp)
 
 使用下方命令创建并进入build文件夹
 
@@ -569,7 +569,7 @@ mkdir build
 cd build
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image75.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image75.webp)
 
 接下来使用cmake命令生成makefile文件
 
@@ -579,7 +579,7 @@ cmake ..
 
 检查一下是否ARM的C/C++以及汇编编译器都被找到了（如果没有，请检查上面的教程是否有做错的地方）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image76.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image76.webp)
 
 然后使用make命令进行编译，命令为`make`或者`make -jxx`,这里的xx是你想使用CPU的几个线程来进行编译，比如我电脑是8核16线程，我就可以让xx是比16低的数字。而`make`是默认用一个线程。如果你并不知道你CPU有几个线程，那你就老老实实用`make`命令，别用`make -jxx`命令了。
 
@@ -589,49 +589,49 @@ make -j16
 
 这样就是编译成功了。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image77.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image77.webp)
 
 ### 对代码提示进行配置
 
 在VScode中按Ctrl+Shift+P,搜索clangd,并选择下载语言服务
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image78.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image78.webp)
 
 在右下角选择安装即可，安装完就会出现下图提示。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image79.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image79.webp)
 
 接着禁用C/C++插件的代码提示功能(如果没这个界面，请往下看)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image80.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image80.webp)
 
 如果没有上图的弹窗，可以进行手动关闭，依然是ctrl shift P,输入settings然后找到如下图的选项
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image81.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image81.webp)
 
 找到下图这个选项，改成disabled即可。
 
 `"C_Cpp.intelliSenseEngine": "disabled"`
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image82.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image82.webp)
 
 在VScode中再按Ctrl+Shift+P,搜索clangd,并选择重启clangd语言服务(重启clangd语言服务之前必须编译过一遍代码了)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image83.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image83.webp)
 
 此时，可以看代码里头文件都正常识别了,代码提示也正常了。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image84.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image84.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image85.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image85.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image86.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image86.webp)
 
 ⚠️注意：Clangd 默认找的是 **本机系统的 libc/include 路径（比如 x86\_64 的 `/usr/include`）** ，而我们工程里面实际使用的是 **ARM 工具链的头文件路径** ，这就有概率导致包含C/C++库函数的头文件报错
 
 例如：
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image87.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image87.webp)
 
 这里的 #include <math.h>显示找不到头文件，但是我们进行编译的时候却没有报错，说明是clangd的配置有问题 。以下介绍一种解决方法：
 
@@ -641,7 +641,7 @@ make -j16
 arm-none-eabi-gcc -x c -E -v - </dev/null
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image88.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image88.webp)
 
 2.  在工程根目录下面创建 .clangd 文件 将自己的头文件路径包含进去（引号里面替换成你自己的arm gcc头文件路径）
 
@@ -656,7 +656,7 @@ CompileFlags:
 
 保存，此时刷新一下clangd,头文件提示正常
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image89.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image89.webp)
 
 ### 移植Vinci机器人队标准C/C++工程模板
 
@@ -668,11 +668,11 @@ git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 
 把仓库里的“工程文件移植”文件夹里的 **所有内容** 复制到我们CMake工程的目录里。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image90.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image90.webp)
 
 然后打开applications文件夹，在Src和Inc文件夹分别创建led\_task.cpp和led\_task.h，内容分别如下:
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image91.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image91.webp)
 
 led\_task.cpp:
 
@@ -720,11 +720,11 @@ extern "C"
 
 详细介绍（可以不看）：这里的`cmake/stm32cubemx`下的`CMakeLists.txt`是被CubeMX管理的，你重新用CubeMX生成新代码后，这个文件里的东西会被覆盖。而工作区根目录下的`CMakeLists.txt`是不会被重新覆盖的，而且给我们留了一些区域加源文件和头文件，但是这样会让这个文件太过于嘈杂。所以我们选择新建一个user文件夹，然后在这里面弄一个`CMakeLists.txt`，再用顶层`CMakeLists.txt`去加载这个子`CMakeLists.txt`，这个子`CMakeLists.txt`方便咱们修改，文件结构也更加明显。（这些都不需要咱们自己创建，我已经给创建到 **工程文件移植** 里了，你在上面复制的时候已经复制过来了）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image92.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image92.webp)
 
 然后要去最顶层的CMakeLists.txt里加上这句话来引用我们自己的CMakeLists.txt。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image93.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image93.webp)
 
 ```cmake
 
@@ -739,19 +739,19 @@ cmake ..
 make
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image94.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image94.webp)
 
 然后去main.c中引用cpp\_interface.h头文件，并将cpp\_main()函数在main函数的这个地方调用。(我这里是开RTOS了，所以需要在启动RTOS之前调用cpp\_main函数，如果你是没有用RTOS的裸机程序，则在while (1)的上方调用cpp\_main即可)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image95.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image95.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image96.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image96.webp)
 
 然后在cpp\_interface.h里修改isRTOS这个宏来让程序知道你是否开启了RTOS，如果开启了，宏就为1，裸机就填0。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image97.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image97.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image98.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image98.webp)
 
 其他更加详细的关于STM32的C/C++工程介绍请看[Vinci机器人队单片机教程](https://sdutvincirobot.feishu.cn/wiki/PqsGwcPCuidbN6k13jfcGWtWn0b)。
 
@@ -762,7 +762,7 @@ cmake ..
 make
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image99.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image99.webp)
 
 ### 下载程序到板子
 
@@ -772,11 +772,11 @@ make
 
 通过下图可知，他只生成了.elf文件，并没有咱们常见的.bin和.hex文件。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image100.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image100.webp)
 
 咱们需要再更改一下工作区下的CMakeLists.txt从而来让编译的时候生成.hex和.bin（没办法，就得这么麻烦，我也不知道为啥CubeMX不给全干好）
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image101.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image101.webp)
 
 ```cmake
 
@@ -792,9 +792,9 @@ add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
 
 这些需要在工作区主CMakeLists.txt里添加的命令我全都写在这个记事本里了，每次生成新工程直接复制即可。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image102.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image102.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image103.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image103.webp)
 
 然后再次编译
 
@@ -803,11 +803,11 @@ cmake ..
 make
 ```
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image104.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image104.webp)
 
 此时再看build目录：咱们需要的.hex或者.bin就出来了
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image105.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image105.webp)
 
 #### 将设备连接到JLink并烧录程序
 
@@ -820,21 +820,21 @@ JFlashLite
 
 选择对应的芯片型号和速度
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image106.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image106.webp)
 
 添加hex文件
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image107.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image107.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image108.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image108.webp)
 
 点击烧录并完成：
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image109.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image109.webp)
 
 成功点亮led：
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image110.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image110.webp)
 
 ##### 终端烧录
 
@@ -854,7 +854,7 @@ make
 
 首先创建`.vscode`文件夹和`tasks.json`文件
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image111.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image111.webp)
 
 以下是`tasks.json`的内容：
 
@@ -918,17 +918,17 @@ make
 
 在VScode标题栏上，找到`终端`，然后再选择`运行构建任务`，快捷键是`Ctrl+Shift+B`。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image112.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image112.webp)
 
 可见任务已经被运行了。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image113.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image113.webp)
 
 **方法二：**
 
 在VScode标题栏上，找到`终端`，然后再选择`运行任务`。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image114.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image114.webp)
 
 下面有4个stm32的任务，第一个是`stm32-Build`任务，运行后的效果和刚才方法一是一样的，方法一的那个`运行构建任务`的按钮，就是运行的这个`stm32-Build`任务。
 
@@ -936,15 +936,15 @@ make
 
 然后`stm32-clean`任务就是清除build文件夹下的所有文件。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image115.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image115.webp)
 
 可以试一下`stm32-clean`任务。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image116.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image116.webp)
 
 可以发现都删完了。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image117.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image117.webp)
 
 **你不用担心每次新建工程都需要配置那么多东西。**
 
@@ -956,39 +956,39 @@ make
 
 打开终端输入ozone打开软件或者直接找到应用图标打开ozone
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image118.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image118.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image119.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image119.webp)
 
 先选择device，比如我是STM32F407VET6
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image120.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image120.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image121.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image121.webp)
 
 选择Peripherals:
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image122.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image122.webp)
 
 点击下一步
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image123.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image123.webp)
 
 你用的SWD就填SWD，是JTAG就填JTAG
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image124.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image124.webp)
 
 选择ELF
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image125.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image125.webp)
 
 elf,hex,bin都可以选，一般选elf就行。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image126.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image126.webp)
 
 这一步保持默认即可。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image127.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image127.webp)
 
 如果你开启了RTOS可能会遇到这个问题。
 
@@ -998,17 +998,17 @@ warning (138): The target application seems to be using FreeRTOS, but FreeRTOS-a
 
 意思是你的目标应用似乎使用了 FreeRTOS，但当前没有启用对 FreeRTOS 的调试支持（RTOS-awareness）。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image128.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image128.webp)
 
 直接按照他底下的提示应用修复即可。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image129.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image129.webp)
 
 点继续就行。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image130.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image130.webp)
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image131.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image131.webp)
 
 #### 烧录与调试
 
@@ -1016,15 +1016,15 @@ warning (138): The target application seems to be using FreeRTOS, but FreeRTOS-a
 
 https://www.bilibili.com/video/BV1yrLHzZEoE
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image132.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image132.webp)
 
 点击File让他按文件名排序。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image133.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image133.webp)
 
 找到led\_task.cpp点击就可以打开这个源文件啦。
 
-![](https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image134.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025-07-18/image134.webp)
 
 # Windows
 
