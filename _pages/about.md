@@ -11,6 +11,7 @@ permalink: /about/
 | 🌍 EO + CF R2 | [https://cdn.eo.r2.tungchiahui.cn/](https://cdn.eo.r2.tungchiahui.cn/) |
 | 🌍 ESA + CF R2 | [https://cdn.esa.r2.tungchiahui.cn/](https://cdn.esa.r2.tungchiahui.cn/) |
 | 🌍 CF + CF R2 | [https://cdn.030204.xyz/](https://cdn.030204.xyz/) |
+| 🌍 EO + COS | [https://cdn.tungchiahui.cn/](https://cdn.tungchiahui.cn/) |
 
 ---
 
