@@ -64,7 +64,7 @@ title: 首页
 
 <div class="video-container">
   <video controls preload="metadata">
-    <source src="https://cdn.eo.r2.tungchiahui.cn/tungwebsite/assets/videos/header-bg.mp4" type="video/mp4">
+    <source src="https://cdn.tungchiahui.cn/tungwebsite/assets/videos/header-bg.mp4" type="video/mp4">
     您的浏览器不支持视频播放。
   </video>
 </div>
