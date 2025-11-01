@@ -1,0 +1,25 @@
+<!-- === 图片点击放大效果 === -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // 选择文章正文内所有图片
+  const images = document.querySelectorAll('.post-content img');
+
+  // 过滤掉代码块或表格中不需要放大的图片
+  const validImages = Array.from(images).filter(img => {
+    return !img.closest('pre, code, table');
+  });
+
+  // 初始化 Medium Zoom
+  const zoom = mediumZoom(validImages, {
+    margin: 24, // 放大时边距
+    background: 'rgba(0,0,0,0.8)', // 背景遮罩色
+    scrollOffset: 40 // 滚动多少距离后关闭放大
+  });
+
+  // 如果页面启用了懒加载，当懒加载触发时重新绑定放大事件
+  document.addEventListener('lazyloaded', () => {
+    zoom.detach(); // 先解除旧绑定
+    zoom.attach('.post-content img'); // 重新绑定新加载的图片
+  });
+});
+</script>
