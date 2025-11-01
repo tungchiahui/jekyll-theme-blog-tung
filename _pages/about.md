@@ -8,8 +8,8 @@ permalink: /about/
 
 | 对象存储 | CDN | 链接 |
 |-----------|------|------|
-| CF R2 | EO | [https://cdn.eo.r2.tungchiahui.cn/](https://cdn.eo.r2.tungchiahui.cn/) |
-| CF R2 | ESA | [https://cdn.esa.r2.tungchiahui.cn/](https://cdn.esa.r2.tungchiahui.cn/) |
+| CF R2 | EO | [https://cdn.eo.r2.tungchiahui.cn/(Under Maintenance...)](https://cdn.eo.r2.tungchiahui.cn/) |
+| CF R2 | ESA | [https://cdn.esa.r2.tungchiahui.cn/(Under Maintenance...)](https://cdn.esa.r2.tungchiahui.cn/) |
 | CF R2 | CF | [https://cdn.030204.xyz/](https://cdn.030204.xyz/) |
 | COS | EO | [https://cdn.tungchiahui.cn/](https://cdn.tungchiahui.cn/) |
 
