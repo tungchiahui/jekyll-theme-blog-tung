@@ -1,6 +1,6 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll('div.language-bash.highlighter-rouge, div.language-shell.highlighter-rouge, div.language-python.highlighter-rouge').forEach((highlightDiv) => {
+  document.querySelectorAll('div[class*="language-"].highlighter-rouge').forEach((highlightDiv) => {
     const codePre = highlightDiv.querySelector('td.rouge-code pre');
     if (!codePre) return;
 
