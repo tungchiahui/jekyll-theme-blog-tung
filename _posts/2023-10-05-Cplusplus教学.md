@@ -55,7 +55,7 @@ https://www.runoob.com/cplusplus/cpp-tutorial.html
 
 从main函数开始，代码是一行一行运行的。（一个工程里有且只有一个main函数）
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image1.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image1.webp)
 
 ## 生命周期
 
@@ -240,7 +240,7 @@ std::cout << "结果是：" << a << std::endl  //输出 结果是: a  并换行
 std::cin >> a     //输入一个变量a
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image2.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image2.webp)
 
 # C++命名空间
 
@@ -564,7 +564,7 @@ Books book1("title","author","subject",1);
 
             4.  typedef float fp32;
 
-        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image3.webp)
+        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image3.webp)
 
 2.  数据解析:
 
@@ -623,7 +623,7 @@ Books book1("title","author","subject",1);
 
         1.  计算机实际只存储补码，所以原码转换为补码的过程，也可以理解为数据存储到计算机内存中的过程：
 
-        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image4.webp)
+        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image4.webp)
 
         3.  正数：在原、反、补码中，正数的表示是一模一样的
 
@@ -736,9 +736,9 @@ int main ()
 
 *   `weak_ptr` 结合 `shared_ptr` 使用的特例智能指针。 `weak_ptr` 提供对一个或多个 `shared_ptr` 实例拥有的对象的访问，但不参与引用计数。 如果你想要观察某个对象但不需要其保持活动状态，请使用该实例。 在某些情况下，需要断开 `shared_ptr` 实例间的循环引用。 头文件：`<memory>`。 有关详细信息，请参阅[如何：创建和使用 weak\_ptr 实例](https://learn.microsoft.com/zh-cn/cpp/cpp/how-to-create-and-use-weak-ptr-instances?view=msvc-170)和 [weak\_ptr 类](https://learn.microsoft.com/zh-cn/cpp/standard-library/weak-ptr-class?view=msvc-170)。
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image5.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image5.webp)
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image6.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image6.webp)
 
 当没有指向该内存的，程序会自动释放内存。
 
@@ -898,7 +898,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image7.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image7.webp)
 
 使用捕获列表传入变量：
 
@@ -927,7 +927,7 @@ int main(int argc,char **argv)
 
 答案是9
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image8.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image8.webp)
 
 接下来是讲捕获this：
 
@@ -1011,7 +1011,7 @@ int main(int argc,char **argv)
 
 答案是10
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image9.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image9.webp)
 
 2.  泛型 lambda 参数
 
@@ -1038,7 +1038,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image10.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image10.webp)
 
 3.  捕获\*this
 
@@ -1161,7 +1161,7 @@ int main()
 
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image11.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image11.webp)
 
 上面`constexpr auto square = [](int x) constexpr` 有俩`constexpr`，第一个是用来声明`square`的，第二个是用来声明Lambda的，作用不一样，而且这俩都必须要。
 
@@ -1220,7 +1220,7 @@ int main()
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image12.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image12.webp)
 
 2.  绑定成员函数
 
@@ -1255,7 +1255,7 @@ int main()
 
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image13.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image13.webp)
 
 3.  用于高阶函数
 
@@ -1295,7 +1295,7 @@ scr
 
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image14.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image14.webp)
 
 ## 高阶函数
 
@@ -1344,7 +1344,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image15.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image15.webp)
 
 **把****函数指针****作为参数传给函数**
 
@@ -1381,7 +1381,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image16.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image16.webp)
 
 **函数指针****作为返回值**
 
@@ -1417,7 +1417,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image17.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image17.webp)
 
 #### 类里的函数
 
@@ -1610,7 +1610,7 @@ int main()
 
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image18.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image18.webp)
 
 ## 并发编程
 
@@ -1711,7 +1711,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image19.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image19.webp)
 
 4.  **`detach()`**
 
@@ -1762,7 +1762,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image20.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image20.webp)
 
 ### 常见线程问题
 
@@ -1800,7 +1800,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image21.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image21.webp)
 
 2.  传递引用
 
@@ -1837,7 +1837,7 @@ int main(int argc,char **argv)
 }
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image22.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image22.webp)
 
 3.  私有方法无法访问（用友元函数）
 
@@ -1957,7 +1957,7 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image23.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image23.webp)
 
 会发现有几次结果不为2001，这说明发生了线程竞争。
 
@@ -2073,4 +2073,4 @@ int main(int argc, char **argv)
 
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023-10-05/image24.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image24.webp)
