@@ -15,10 +15,15 @@
 
 <script>
 (() => {
+  // 防止重复初始化
+  if (window._musicPlayerInitialized) return;
+  window._musicPlayerInitialized = true;
+
   const container = document.getElementById('music-player');
   const btnFixed = document.getElementById('toggle-player-fixed');
   let hidden = false;
 
+  // === 载入时恢复显示状态 ===
   try {
     const saved = localStorage.getItem('music_player_hidden');
     if (saved === 'true') {
@@ -30,11 +35,37 @@
       btnFixed.textContent = '🎧 收起';
       btnFixed.classList.add('open');
     }
-  } catch(e){}
+  } catch (e) {}
 
+  // === 切换按钮 ===
   btnFixed.addEventListener('click', () => {
     hidden = !hidden;
     if (hidden) {
+      container.classList.add('hidden');
+      btnFixed.textContent = '🎧 展开';
+      btnFixed.classList.remove('open');
+    } else {
+      container.classList.remove('hidden');
+      btnFixed.textContent = '🎧 收起';
+      btnFixed.classList.add('open');
+    }
+    try {
+      localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false');
+    } catch (e) {}
+  });
+
+  // === 防止 PJAX 页面切换时重新加载音乐 ===
+  document.addEventListener('pjax:send', () => {
+    // 在切换页面时暂停 Meting 重新加载
+    if (window.meting_api && window.meting_api.destroy) {
+      // Meting 1.1.0 没暴露 destroy，这里只是安全处理
+      console.log('[Music] PJAX 切换中，不重建播放器');
+    }
+  });
+
+  console.log('[Music] 播放器初始化完成（仅初始化一次）');
+})();
+</script>    if (hidden) {
       container.classList.add('hidden');
       btnFixed.textContent = '🎧 展开';
       btnFixed.classList.remove('open');
