@@ -8,6 +8,7 @@
   box-sizing: content-box;
   transition: transform .32s ease, opacity .32s ease;
 }
+
 #music-player.hidden {
   transform: translateY(460px);
   opacity: 0;
