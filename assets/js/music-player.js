@@ -1,27 +1,68 @@
-(() => {
-  if (window._musicPlayerInitialized) return;
-  window._musicPlayerInitialized = true;
+// /assets/js/music-player.js
+(function () {
+  // 防止重复初始化
+  if (window.__music_player_inited) return;
+  window.__music_player_inited = true;
 
-  window.addEventListener("DOMContentLoaded", () => {
+  console.log('[music] player bootstrap loaded');
+
+  function domReady(fn) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', fn);
+    } else {
+      fn();
+    }
+  }
+
+  domReady(function () {
+    // 播放器容器（全局保留）
+    let root = document.getElementById('music-root');
+    if (!root) {
+      root = document.createElement('div');
+      root.id = 'music-root';
+      document.body.appendChild(root);
+    }
+
+    // 若已经创建过播放器，不重复注入
+    if (document.getElementById('music-player')) {
+      console.log('[music] player DOM already exists, skip injection');
+      return;
+    }
+
+    // 插入播放器 HTML
+    root.innerHTML = `
+      <!-- 🎵 音乐播放器 -->
+      <div id="music-player" class="aplayer player"
+          data-id="17401109156"
+          data-server="netease"
+          data-type="playlist"
+          data-autoplay="false">
+      </div>
+
+      <!-- 🎧 控制按钮 -->
+      <button id="toggle-player-fixed" aria-pressed="false">🎧 收起</button>
+    `;
+
     const container = document.getElementById('music-player');
     const btnFixed = document.getElementById('toggle-player-fixed');
-    if (!container || !btnFixed) return;
 
+    // 读取保存的隐藏状态
     let hidden = false;
-
     try {
       const saved = localStorage.getItem('music_player_hidden');
-      if (saved === 'true') {
-        hidden = true;
-        container.classList.add('hidden');
-        btnFixed.textContent = '🎧 展开';
-        btnFixed.classList.remove('open');
-      } else {
-        btnFixed.textContent = '🎧 收起';
-        btnFixed.classList.add('open');
-      }
+      if (saved === 'true') hidden = true;
     } catch (e) {}
 
+    if (hidden) {
+      container.classList.add('hidden');
+      btnFixed.textContent = '🎧 展开';
+      btnFixed.classList.remove('open');
+    } else {
+      btnFixed.textContent = '🎧 收起';
+      btnFixed.classList.add('open');
+    }
+
+    // 切换按钮点击事件
     btnFixed.addEventListener('click', () => {
       hidden = !hidden;
       if (hidden) {
@@ -38,6 +79,27 @@
       } catch (e) {}
     });
 
-    console.log('[Music] 播放器初始化完成');
+    // 初始化播放器（用 Meting 自动）
+    function initAPlayer() {
+      try {
+        if (window.APlayer && window.Meting) {
+          console.log('[music] initializing APlayer...');
+          // Meting 自动扫描 data-* 属性并生成播放器
+          new window.Meting();
+        } else {
+          console.log('[music] waiting for APlayer/Meting...');
+          setTimeout(initAPlayer, 200);
+        }
+      } catch (e) {
+        console.warn('[music] failed to init:', e);
+      }
+    }
+
+    initAPlayer();
+
+    // 监听 PJAX 页面切换，保持播放器不被破坏
+    document.addEventListener('pjax:send', () => {
+      console.log('[music] pjax:send — 保留播放器');
+    });
   });
 })();
