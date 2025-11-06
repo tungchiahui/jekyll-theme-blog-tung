@@ -4,7 +4,10 @@
   <body>
     {% include header.html %}
 
-    <main>
+
+    {% include music.html %}
+
+    <main id="pjax-container">
       {{ content }}
     </main>
 
@@ -15,6 +18,10 @@
     {% comment %}
     {% include translate.html %}
     {% endcomment %}
+
+  <!-- PJAX -->
+  <script src="https://cdn.tungchiahui.cn/assets/js/pjax.min.js"></script>
+  <script src="/assets/js/pjax-init.js"></script>
 
   </body>
 </html>

@@ -1,0 +1,47 @@
+<div id="music-player">
+  <iframe
+    id="netease-iframe"
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+    src="//music.163.com/outchain/player?type=0&id=17401109156&auto=0&height=430">
+  </iframe>
+</div>
+
+<button id="toggle-player-fixed" aria-pressed="false">🎧 收起</button>
+
+<script>
+(() => {
+  const container = document.getElementById('music-player');
+  const btnFixed = document.getElementById('toggle-player-fixed');
+  let hidden = false;
+
+  try {
+    const saved = localStorage.getItem('music_player_hidden');
+    if (saved === 'true') {
+      hidden = true;
+      container.classList.add('hidden');
+      btnFixed.textContent = '🎧 展开';
+      btnFixed.classList.remove('open');
+    } else {
+      btnFixed.textContent = '🎧 收起';
+      btnFixed.classList.add('open');
+    }
+  } catch(e){}
+
+  btnFixed.addEventListener('click', () => {
+    hidden = !hidden;
+    if (hidden) {
+      container.classList.add('hidden');
+      btnFixed.textContent = '🎧 展开';
+      btnFixed.classList.remove('open');
+    } else {
+      container.classList.remove('hidden');
+      btnFixed.textContent = '🎧 收起';
+      btnFixed.classList.add('open');
+    }
+    try { localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false'); } catch(e){}
+  });
+})();
+</script>
