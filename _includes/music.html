@@ -6,44 +6,9 @@
      data-autoplay="false">
 </div>
 
-<!-- 🎧 按钮 -->
+<!-- 🎧 控制按钮 -->
 <button id="toggle-player-fixed" aria-pressed="false">🎧 收起</button>
 
-<!-- 🔧 JS脚本 -->
+<!-- 🔧 外部库 -->
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
-
-<script>
-(() => {
-  const container = document.getElementById('music-player');
-  const btnFixed = document.getElementById('toggle-player-fixed');
-  let hidden = false;
-
-  try {
-    const saved = localStorage.getItem('music_player_hidden');
-    if (saved === 'true') {
-      hidden = true;
-      container.classList.add('hidden');
-      btnFixed.textContent = '🎧 展开';
-      btnFixed.classList.remove('open');
-    } else {
-      btnFixed.textContent = '🎧 收起';
-      btnFixed.classList.add('open');
-    }
-  } catch(e){}
-
-  btnFixed.addEventListener('click', () => {
-    hidden = !hidden;
-    if (hidden) {
-      container.classList.add('hidden');
-      btnFixed.textContent = '🎧 展开';
-      btnFixed.classList.remove('open');
-    } else {
-      container.classList.remove('hidden');
-      btnFixed.textContent = '🎧 收起';
-      btnFixed.classList.add('open');
-    }
-    try { localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false'); } catch(e){}
-  });
-})();
-</script>
