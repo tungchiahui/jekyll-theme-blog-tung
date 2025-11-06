@@ -1,47 +1,61 @@
-<div id="music-player">
-  <iframe
-    id="netease-iframe"
-    frameborder="no"
-    border="0"
-    marginwidth="0"
-    marginheight="0"
-    src="//music.163.com/outchain/player?type=0&id=17401109156&auto=0&height=430&m=0">
-  </iframe>
-</div>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>音乐播放器</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
+  <link rel="stylesheet" href="music-player.css">
+</head>
 
-<button id="toggle-player-fixed" aria-pressed="false">🎧 收起</button>
+<body>
+  <!-- 🎵 播放器 -->
+  <div id="music-player" class="aplayer player" 
+       data-id="17401109156" 
+       data-server="netease" 
+       data-type="playlist" 
+       data-autoplay="false">
+  </div>
 
-<script>
-(() => {
-  const container = document.getElementById('music-player');
-  const btnFixed = document.getElementById('toggle-player-fixed');
-  let hidden = false;
+  <!-- 🎧 按钮 -->
+  <button id="toggle-player-fixed" aria-pressed="false">🎧 收起</button>
 
-  try {
-    const saved = localStorage.getItem('music_player_hidden');
-    if (saved === 'true') {
-      hidden = true;
-      container.classList.add('hidden');
-      btnFixed.textContent = '🎧 展开';
-      btnFixed.classList.remove('open');
-    } else {
-      btnFixed.textContent = '🎧 收起';
-      btnFixed.classList.add('open');
-    }
-  } catch(e){}
+  <!-- 🔧 JS脚本 -->
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
 
-  btnFixed.addEventListener('click', () => {
-    hidden = !hidden;
-    if (hidden) {
-      container.classList.add('hidden');
-      btnFixed.textContent = '🎧 展开';
-      btnFixed.classList.remove('open');
-    } else {
-      container.classList.remove('hidden');
-      btnFixed.textContent = '🎧 收起';
-      btnFixed.classList.add('open');
-    }
-    try { localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false'); } catch(e){}
-  });
-})();
-</script>
+  <script>
+  (() => {
+    const container = document.getElementById('music-player');
+    const btnFixed = document.getElementById('toggle-player-fixed');
+    let hidden = false;
+
+    try {
+      const saved = localStorage.getItem('music_player_hidden');
+      if (saved === 'true') {
+        hidden = true;
+        container.classList.add('hidden');
+        btnFixed.textContent = '🎧 展开';
+        btnFixed.classList.remove('open');
+      } else {
+        btnFixed.textContent = '🎧 收起';
+        btnFixed.classList.add('open');
+      }
+    } catch(e){}
+
+    btnFixed.addEventListener('click', () => {
+      hidden = !hidden;
+      if (hidden) {
+        container.classList.add('hidden');
+        btnFixed.textContent = '🎧 展开';
+        btnFixed.classList.remove('open');
+      } else {
+        container.classList.remove('hidden');
+        btnFixed.textContent = '🎧 收起';
+        btnFixed.classList.add('open');
+      }
+      try { localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false'); } catch(e){}
+    });
+  })();
+  </script>
+</body>
+</html>
