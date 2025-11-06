@@ -1,17 +1,17 @@
-<!-- 🎵 音乐播放器 -->
-<div id="music-player" class="aplayer player"
-     data-id="17401109156"
-     data-server="netease"
-     data-type="playlist"
-     data-autoplay="false">
+<link rel="stylesheet" href="/assets/css/music.css">
+
+<div id="music-player">
+  <iframe
+    id="netease-iframe"
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+    src="//music.163.com/outchain/player?type=0&id=17401109156&auto=0&height=430">
+  </iframe>
 </div>
 
-<!-- 🎧 按钮 -->
 <button id="toggle-player-fixed" aria-pressed="false">🎧 收起</button>
-
-<!-- 🔧 JS脚本 -->
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
 
 <script>
 (() => {
