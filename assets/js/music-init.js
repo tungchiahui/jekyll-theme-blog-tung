@@ -1,40 +1,49 @@
-// /assets/js/music-player.js
-(function () {
-  // 防止重复初始化
-  if (window.__music_player_inited) return;
-  window.__music_player_inited = true;
+// assets/js/music-init.js
 
-  console.log('[music] player bootstrap loaded');
+(() => {
+  // 防止 PJAX 页面切换时重复初始化
+  if (window.musicPlayerInitialized) return;
+  window.musicPlayerInitialized = true;
 
-  function domReady(fn) {
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', fn);
+  const container = document.getElementById('music-player');
+  const btnFixed = document.getElementById('toggle-player-fixed');
+  if (!container || !btnFixed) return; // 保险：防止模板没加载好时报错
+
+  let hidden = false;
+
+  // 读取上次隐藏状态
+  try {
+    const saved = localStorage.getItem('music_player_hidden');
+    if (saved === 'true') {
+      hidden = true;
+      container.classList.add('hidden');
+      btnFixed.textContent = '🎧 展开';
+      btnFixed.classList.remove('open');
     } else {
-      fn();
+      btnFixed.textContent = '🎧 收起';
+      btnFixed.classList.add('open');
     }
+  } catch (e) {
+    console.warn('音乐播放器状态读取失败：', e);
   }
 
-  domReady(function () {
-    // 播放器容器（全局保留）
-    let root = document.getElementById('music-root');
-    if (!root) {
-      root = document.createElement('div');
-      root.id = 'music-root';
-      document.body.appendChild(root);
+  // 切换隐藏/显示
+  btnFixed.addEventListener('click', () => {
+    hidden = !hidden;
+    if (hidden) {
+      container.classList.add('hidden');
+      btnFixed.textContent = '🎧 展开';
+      btnFixed.classList.remove('open');
+    } else {
+      container.classList.remove('hidden');
+      btnFixed.textContent = '🎧 收起';
+      btnFixed.classList.add('open');
     }
-
-    // 若已经创建过播放器，不重复注入
-    if (document.getElementById('music-player')) {
-      console.log('[music] player DOM already exists, skip injection');
-      return;
-    }
-
-    // 插入播放器 HTML
-    root.innerHTML = `
-      <!-- 🎵 音乐播放器 -->
-      <div id="music-player" class="aplayer player"
-          data-id="17401109156"
-          data-server="netease"
+    try {
+      localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false');
+    } catch (e) {}
+  });
+})();          data-server="netease"
           data-type="playlist"
           data-autoplay="false">
       </div>
