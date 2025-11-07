@@ -1,4 +1,3 @@
-<script>
 // 页面内容加载完成后执行
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -39,4 +38,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
   imgs.forEach(img => observer.observe(img));
 });
-</script>
