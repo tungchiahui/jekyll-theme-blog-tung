@@ -1,10 +1,8 @@
-// 页面内容加载完成后执行
-document.addEventListener("DOMContentLoaded", function() {
-
+// lazyload.js
+function initLazyLoad() {
   const imgs = document.querySelectorAll('.post-content img');
 
   imgs.forEach(img => {
-    // 如果图片还没有 data-src，就把 src 移过去
     if (!img.dataset.src) {
       img.dataset.src = img.src; 
       img.removeAttribute('src'); 
@@ -20,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
           img.src = img.dataset.src;
           img.removeAttribute('data-src');
 
-          // ✅ 新增：当图片真正加载完成后，触发自定义事件
           img.addEventListener('load', () => {
             const event = new CustomEvent('lazyloaded', { detail: { img } });
             document.dispatchEvent(event);
@@ -31,10 +28,16 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   }, {
-    root: null,           
+    root: null,
     rootMargin: '666px 0px',
-    threshold: 0          
+    threshold: 0
   });
 
   imgs.forEach(img => observer.observe(img));
-});
+}
+
+// 页面首次加载时初始化
+document.addEventListener("DOMContentLoaded", initLazyLoad);
+
+// PJAX 切换后也要初始化
+document.addEventListener("pjax:complete", initLazyLoad);
