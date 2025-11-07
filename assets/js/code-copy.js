@@ -1,10 +1,9 @@
-<script>
-document.addEventListener("DOMContentLoaded", () => {
+function addCopyButtons() {
   document.querySelectorAll('div[class*="language-"].highlighter-rouge').forEach((highlightDiv) => {
+    if (highlightDiv.querySelector('.copy-button')) return; // 防止重复添加
     const codePre = highlightDiv.querySelector('td.rouge-code pre');
     if (!codePre) return;
 
-    // 创建复制按钮
     const button = document.createElement('button');
     button.className = 'copy-button';
     button.type = 'button';
@@ -18,8 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    // 挂到 highlightDiv 上，保证按钮固定在代码框右上角
-    highlightDiv.style.position = 'relative';   // 父容器相对定位
+    highlightDiv.style.position = 'relative';
     button.style.position = 'absolute';
     button.style.top = '8px';
     button.style.right = '8px';
@@ -29,5 +27,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     highlightDiv.appendChild(button);
   });
-});
-</script>
+}
+
+// 页面首次加载
+document.addEventListener('DOMContentLoaded', addCopyButtons);
+
+// PJAX 页面切换后也调用
+document.addEventListener('pjax:complete', addCopyButtons);

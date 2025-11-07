@@ -1,5 +1,4 @@
-<!-- === 图片点击放大效果 === -->
-<script>
+// 引入 Medium Zoom 库(图片点击放大效果)
 window.addEventListener("load", () => {
   // 等所有资源（包括图片）加载完后再执行，防止初始化阻塞
   const images = document.querySelectorAll('.post-content img');
@@ -22,4 +21,3 @@ window.addEventListener("load", () => {
     zoom.attach('.post-content img');
   });
 });
-</script>
