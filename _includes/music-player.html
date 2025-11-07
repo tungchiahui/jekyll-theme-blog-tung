@@ -43,7 +43,9 @@
       btnFixed.textContent = '🎧 收起';
       btnFixed.classList.add('open');
     }
-    try { localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false'); } catch(e){}
+    try { 
+      localStorage.setItem('music_player_hidden', hidden ? 'true' : 'false'); 
+    } catch(e){}
   });
 })();
 </script>
