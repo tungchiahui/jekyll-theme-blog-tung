@@ -4,9 +4,13 @@
   right: 10px;
   z-index: 9999;
   width: 330px;
-  height: 450px;
+  height: auto; /* 改成自适应高度 */
   box-sizing: content-box;
   transition: transform .32s ease, opacity .32s ease;
+}
+
+.aplayer {
+  height: auto !important; /* 让APlayer自动调节自身高度 */
 }
 
 #music-player.hidden {
