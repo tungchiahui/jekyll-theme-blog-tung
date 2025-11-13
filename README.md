@@ -3,7 +3,7 @@
 ---
 
 ✨ 访问国内站点  
-👉 [**me.tungchiahui.cn**](https://me.tungchiahui.cn)  
+👉 [**blog.tungchiahui.cn**](https://blog.tungchiahui.cn)  
 🛠 部署平台：*腾讯云 EO Pages*  
 ⚡ 内容分发网络：*腾讯云边缘安全加速平台(EdgeOne)*  
 🌐 线路解析：*腾讯云 DNSPod*
@@ -19,7 +19,7 @@
 ---
 
 🌎 Visit the Global Site  
-👉 [**me.tungchiahui.cn**](https://me.tungchiahui.cn)  
+👉 [**blog.tungchiahui.cn**](https://blog.tungchiahui.cn)  
 🛠 Deployed to: *Cloudflare Pages*  
 ⚡ Content Delivery Network: *Cloudflare CDN*  
 🌐 Route Resolution: *Tencent Cloud DNSPod*
