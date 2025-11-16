@@ -63,11 +63,26 @@ title: 首页
 ## 🎬 ROBOCON
 
 <div class="video-container">
-  <video controls preload="metadata">
-    <source src="https://cdn.tungchiahui.cn/tungwebsite/assets/videos/header-bg.mp4" type="video/mp4">
+  <video id="myVideo" controls preload="none" style="max-width:100%;">
     您的浏览器不支持视频播放。
   </video>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const video = document.getElementById("myVideo");
+
+  // 用户第一次点击播放器时才加载视频
+  video.addEventListener("play", function () {
+    if (!video.getAttribute("src")) {
+      video.src = "https://cdn.tungchiahui.cn/tungwebsite/assets/videos/header-bg.mp4";
+      video.load();
+      // play() 放到 load 后，否则有些浏览器可能需再点一次
+      video.play();
+    }
+  }, { once: true }); // 只触发一次
+});
+</script>
 
 ---
 
