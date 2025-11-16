@@ -62,26 +62,69 @@ title: 首页
 
 ## 🎬 ROBOCON
 
-<div class="video-container">
-  <video id="myVideo" controls preload="none" style="max-width:100%;">
+<!-- 封面 + 播放按钮 + 真正的视频 -->
+<div class="video-container" style="position: relative; max-width: 100%;">
+
+  <!-- 封面图 -->
+  <img id="videoCover"
+       src="https:https://cdn.tungchiahui.cn/tungwebsite/assets/vedios/header-bg-cover.jpg"
+       alt="video cover"
+       style="width:100%; display:block; cursor:pointer; border-radius:10px;">
+
+  <!-- 播放按钮 -->
+  <div id="videoPlayButton"
+       style="
+         position:absolute;
+         top:50%;
+         left:50%;
+         transform:translate(-50%, -50%);
+         width:80px;
+         height:80px;
+         background:rgba(0,0,0,0.6);
+         border-radius:50%;
+         display:flex;
+         justify-content:center;
+         align-items:center;
+         cursor:pointer;
+       ">
+    <div style="
+      width:0;
+      height:0;
+      border-left:28px solid white;
+      border-top:18px solid transparent;
+      border-bottom:18px solid transparent;
+      margin-left:6px;
+    "></div>
+  </div>
+
+  <!-- 视频 -->
+  <video id="myVideo" controls preload="none" style="display:none; width:100%; border-radius:10px;">
+    <source id="videoSource" type="video/mp4">
     您的浏览器不支持视频播放。
   </video>
+
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const video = document.getElementById("myVideo");
+document.getElementById("videoCover").onclick = loadVideo;
+document.getElementById("videoPlayButton").onclick = loadVideo;
 
-  // 用户第一次点击播放器时才加载视频
-  video.addEventListener("play", function () {
-    if (!video.getAttribute("src")) {
-      video.src = "https://cdn.tungchiahui.cn/tungwebsite/assets/videos/header-bg.mp4";
-      video.load();
-      // play() 放到 load 后，否则有些浏览器可能需再点一次
-      video.play();
-    }
-  }, { once: true }); // 只触发一次
-});
+function loadVideo() {
+  const video = document.getElementById("myVideo");
+  const source = document.getElementById("videoSource");
+
+  // 隐藏封面图和播放按钮
+  document.getElementById("videoCover").style.display = "none";
+  document.getElementById("videoPlayButton").style.display = "none";
+
+  // 显示 video
+  video.style.display = "block";
+
+  // 加载真正的视频
+  source.src = "https://cdn.tungchiahui.cn/tungwebsite/assets/videos/header-bg.mp4";
+  video.load();
+  video.play();
+}
 </script>
 
 ---
