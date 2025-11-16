@@ -67,7 +67,7 @@ title: 首页
 
   <!-- 封面图 -->
   <img id="videoCover"
-       src="https:https://cdn.tungchiahui.cn/tungwebsite/assets/videos/header-bg-cover.webp"
+       src="https://cdn.tungchiahui.cn/tungwebsite/assets/videos/header-bg-cover.webp"
        alt="video cover"
        style="width:100%; display:block; cursor:pointer; border-radius:10px;">
 
