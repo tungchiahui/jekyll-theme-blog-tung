@@ -734,7 +734,7 @@ add_subdirectory(cmake/user)
 
 大功告成，编译一次试试。可以看到下图，那些新加的文件都编译上了。
 
-```cpp
+```bash
 cmake ..
 make
 ```
@@ -757,7 +757,7 @@ make
 
 此时在build文件夹下进行编译程序，发现成功!
 
-```cpp
+```bash
 cmake ..
 make
 ```
@@ -798,7 +798,7 @@ add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
 
 然后再次编译
 
-```
+```bash
 cmake ..
 make
 ```
@@ -813,7 +813,7 @@ make
 
 ##### 图形界面烧录
 
-```Plain Text
+```bash
 #打开终端输入
 JFlashLite
 ```
