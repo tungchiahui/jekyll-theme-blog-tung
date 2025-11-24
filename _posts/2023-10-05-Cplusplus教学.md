@@ -771,7 +771,8 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
    ```
 
 ## modules模块
-扩展名为.cppm(国际标准)或.ixx(项目通用)
+modules始于C++20，在C++26有了较大的变化。
+扩展名为.cppm(社区常用)或.ixx(微软推广)
 https://learn.microsoft.com/zh-cn/cpp/cpp/modules-cpp?view=msvc-170
 
 ## 安全空指针
