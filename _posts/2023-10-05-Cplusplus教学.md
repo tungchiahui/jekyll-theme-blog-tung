@@ -770,6 +770,10 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
     }
    ```
 
+## modules模块
+扩展名为.cppm(国际标准)或.ixx(项目通用)
+https://learn.microsoft.com/zh-cn/cpp/cpp/modules-cpp?view=msvc-170
+
 ## 安全空指针
 
 `nullptr` 是一个类型安全的空指针常量，代替传统的 `NULL`，避免了空指针类型不匹配的问题。
