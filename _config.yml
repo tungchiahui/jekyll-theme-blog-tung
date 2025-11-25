@@ -62,3 +62,4 @@ kramdown:
   input: GFM
   auto_ids: true         # 自动给标题生成 id
   toc_levels: 1..6       # 包含 H1~H6 级标题
+  transliterated_header_ids: true   # ← 关键！！让中文标题转成拼音
