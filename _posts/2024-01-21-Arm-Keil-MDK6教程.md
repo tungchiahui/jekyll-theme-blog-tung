@@ -14,7 +14,7 @@ tags:
 
 `但是由于ARM仍在更新完善MDK6，所以教程会有所出入，但是大体上的步骤不会有太大的变化，有太大的变化的地方本文可能会更新。`
 
-# 一、简介
+# 简介
 
 https://www.keil.arm.com/
 
@@ -22,11 +22,11 @@ As flexible as you are: from cloud to desktop, from CLI to GUI, running on macOS
 
 暂时无法在飞书文档外展示此内容
 
-# 二、官方教程
+# 官方教程
 
 https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project
 
-# 三、Linux配置MDK6环境教程
+# Linux配置MDK6环境教程
 
 ***`（本教程为2024年1月创建的，可能与以后的版本有些出入）`***
 
@@ -296,7 +296,7 @@ sudo apt install ./st-stlink-udev-rules-1.0.3-2-linux-all.deb
 
 (下方还有其他有关的教程操作，请往下滑)
 
-# **四、Windows配置MDK6环境教程**
+# Windows配置MDK6环境教程
 
 ## 需要准备的软件
 
@@ -460,7 +460,7 @@ Windows就更简单了，根本不用多下其他东西，只要你在MDK5上能
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image64.webp)
 
-# **五、进阶使用教程(全平台通用)**
+# 进阶使用教程(全平台通用)
 
 ## Run（运行程序）和Debug（调试程序）？
 
@@ -768,7 +768,7 @@ ARM团队更新了什么图形化功能，下方教程就会推迟几天更新�
 
 等待ARM公司更新功能中... ...
 
-# 六 **、** 常见问题
+# 常见问题
 
 ## FreeRTOS使用ARMCLANG(AC6)编译报错的问题
 

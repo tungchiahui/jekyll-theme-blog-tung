@@ -41,7 +41,7 @@ social:
 plugins:
   - jekyll-feed      # 自动生成 RSS feed（/feed.xml），可选，博客用得多
   - jekyll-seo-tag   # 自动生成 SEO 相关的 meta 标签，推荐开启
-  - jekyll-toc       # 生成目录,需要在文章中添加 * TOC {:toc} 来生成目录
+  # - jekyll-toc       # 生成目录,需要在文章中添加 * TOC {:toc} 来生成目录(但后面已经用kramdown的toc_levels生成目录了，这个可以不启用)
 
 # 自定义集合配置（这里定义了 _pages 文件夹）
 collections:
@@ -62,4 +62,4 @@ kramdown:
   input: GFM
   auto_ids: true         # 自动给标题生成 id
   toc_levels: 1..6       # 包含 H1~H6 级标题
-  transliterated_header_ids: true   # ← 关键！！让中文标题转成拼音
+  transliterated_header_ids: true   # ← 关键！！让中文标题转成拼音(有bug暂时没成功)

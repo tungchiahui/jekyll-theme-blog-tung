@@ -40,3 +40,9 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # ​​消除警告（推荐）：​​ 按照警告的建议，打开你博客项目根目录下的
 gem 'logger'
 gem "em-eventsource", "~> 0.3.2"
+
+gem "pinyin", "~> 0.1.4"
+
+# Markdown 处理相关
+gem "kramdown", "~> 2.5.1"
+gem "kramdown-parser-gfm", "~> 1.1.0"
