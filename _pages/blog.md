@@ -9,6 +9,11 @@ permalink: /blog/
 <section class="blog-container">
   <h1 class="blog-title">📝 博客文章</h1>
 
+  <p class="blog-notice">
+    ⚠️ 本页博客已停止更新，已迁移至新的 VitePress 博客界面。请访问 
+    <a href="https://blog.tungchiahui.cn/" target="_blank" rel="noopener">https://blog.tungchiahui.cn/</a> 阅读最新文章。
+  </p>
+
   <!-- 搜索框 -->
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="搜索文章标题或简介..." />
