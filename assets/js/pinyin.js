@@ -1,5 +1,5 @@
 <!-- 正确的 pinyin-pro CDN -->
-<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.27.0/dist/index.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.27.0/dist/index.min.js"></script>
 
 <script>
 function convertChineseToPinyin() {
