@@ -1,4 +1,6 @@
-<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.27.0/dist/index.umd.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/pinyin-pro@3.27.0/dist/index.min.js
+"></script>
 <script>
 document.addEventListener("DOMContentLoaded", convertTocToPinyin);
 document.addEventListener("pjax:complete", convertTocToPinyin);     // jquery.pjax
