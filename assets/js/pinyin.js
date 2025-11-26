@@ -1,7 +1,4 @@
-<!-- 正确的 pinyin-pro CDN -->
-<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.27.0/dist/index.min.js"></script>
-
-<script>
+//仍然有bug未解决，比如无法正常改掉id
 function convertChineseToPinyin() {
   // 等 kramdown 把 {:toc} 真正插进 DOM 之后再执行
   const observer = new MutationObserver((mutations, obs) => {
@@ -37,4 +34,3 @@ convertChineseToPinyin();
 
 // PJAX 切换后重新执行（你用的是 jquery.pjax 对吧？）
 document.addEventListener('pjax:complete', convertChineseToPinyin);
-</script>
