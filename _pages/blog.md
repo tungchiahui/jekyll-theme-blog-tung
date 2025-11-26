@@ -58,3 +58,16 @@ permalink: /blog/
     });
   });
 </script>
+
+<style>
+  .blog-notice {
+  margin-top: 8px;       /* 标题下方一点点间距 */
+  font-size: 0.95rem;    /* 稍微比正文小一点 */
+  color: #555;           /* 深灰色，不抢眼 */
+}
+
+.blog-notice a {
+  color: #007acc;        /* 链接颜色 */
+  text-decoration: underline;
+}
+  </style>
