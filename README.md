@@ -3,7 +3,7 @@
 ---
 
 ✨ 访问国内站点  
-👉 [**blog.tungchiahui.cn(维护中)**](https://blog.tungchiahui.cn)  
+👉 [**tungchiahui.cn(维护中)**](https://tungchiahui.cn)  
 🛠 部署平台：*腾讯云 EO Pages*  
 ⚡ 内容分发网络：*腾讯云边缘安全加速平台(EdgeOne)*  
 🌐 线路解析：*腾讯云 DNSPod*
@@ -11,7 +11,7 @@
 ---
 
 ✨ 访问国内站点  
-👉 [**blog.tungchiahui.cn**](https://blog.tungchiahui.cn)  
+👉 [**tungchiahui.cn**](https://tungchiahui.cn)  
 🛠 部署平台：*阿里云 ESA Pages*  
 ⚡ 内容分发网络：*阿里云边缘安全加速平台(ESA)*  
 🌐 线路解析：*阿里云 ESA NS*
@@ -19,7 +19,7 @@
 ---
 
 🌎 Visit the Global Site  
-👉 [**blog.tungchiahui.cn(Under maintenance)**](https://blog.tungchiahui.cn)  
+👉 [**tungchiahui.cn(Under maintenance)**](https://tungchiahui.cn)  
 🛠 Deployed to: *Cloudflare Pages*  
 ⚡ Content Delivery Network: *Cloudflare CDN*  
 🌐 Route Resolution: *Tencent Cloud DNSPod*
