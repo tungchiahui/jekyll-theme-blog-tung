@@ -1,11 +1,26 @@
-document.addEventListener('click', function(e) {
-  const a = e.target.closest('a');
-  if (!a) return;
+function fixChineseTocLinks() {
+  document.querySelectorAll('.toc a').forEach(a => {
+    const hash = a.getAttribute('href').slice(1);
+    a.href = '#' + encodeURIComponent(hash);
+  });
+}
 
-  if (a.hash && a.pathname === window.location.pathname) {
-    // 本页锚点，不触发 PJAX
-    e.preventDefault();
-    const el = document.getElementById(a.hash.slice(1));
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
+function scrollToHash() {
+  if (window.location.hash) {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView();
   }
+}
+
+// 页面初次加载
+document.addEventListener('DOMContentLoaded', () => {
+  fixChineseTocLinks();
+  scrollToHash();
+});
+
+// PJAX 切换完成后
+document.addEventListener('pjax:complete', () => {
+  fixChineseTocLinks();
+  scrollToHash();
 });
