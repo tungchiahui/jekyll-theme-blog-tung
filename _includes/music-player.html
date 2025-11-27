@@ -1,10 +1,11 @@
 <!-- 🎵 音乐播放器 -->
 <div id="music-player" class="aplayer player"
-     data-id="17401109156"
-     data-server="netease"
-     data-type="playlist"
-     data-autoplay="false">
+     data-id="{{ site.aplayer.id }}"
+     data-server="{{ site.aplayer.server }}"
+     data-type="{{ site.aplayer.type }}"
+     data-autoplay="{{ site.aplayer.autoplay }}">
 </div>
+
 
 <!-- 🎧 按钮 -->
 <button id="toggle-player-fixed" aria-pressed="false">🎧 收起</button>

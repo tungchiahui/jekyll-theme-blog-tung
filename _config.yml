@@ -13,28 +13,6 @@ url: "https://me.tungchiahui.cn" # 网站主域名，建议写完整带 https://
 favicon: https://cdn.tungchiahui.cn/tungwebsite/assets/images/favicon.webp # 网站图标路径
 header_bg: https://cdn.tungchiahui.cn/tungwebsite/assets/images/header-bg.webp # 头部背景图路径
 
-
-# ICP 与公安备案号（自定义字段）
-icp: "鲁ICP备2025185601号-2"       # 工信部备案号
-beian: "鲁公网安备37030302001121号"            # 公安备案号
-# 自定义变量，可以在 footer.html 中用 {{ site.icp }} 和 {{ site.beian }} 调用
-
-# 社交/联系方式配置(没有就注释掉或者删掉这一项就行)
-social:
-  email: "mailto:tungchiahui@gmail.com"
-  website: "https://me.tungchiahui.cn"
-  github: "https://github.com/tungchiahui"
-  qq: "https://qm.qq.com/q/JRhksaNK82?from=qq"
-  telegram: "https://t.me/tungchiahui"
-  bilibili: "https://space.bilibili.com/141482453"
-  coolapk: "http://www.coolapk.com/u/3224578"
-  twitter: "https://twitter.com/tungchiahui"
-  youtube: "https://www.youtube.com/@Chia-huiTung"
-  facebook: "https://www.facebook.com/tungchiahui"
-  instagram: "https://www.instagram.com/tungchiahui"
-
-
-
 # 构建相关配置
 # theme: tung_theme # 主题，这里被注释掉了，说明你可能用了自己写的布局而不是 gem-based 主题
 
@@ -62,4 +40,32 @@ kramdown:
   input: GFM
   auto_ids: true         # 自动给标题生成 id
   toc_levels: 1..6       # 包含 H1~H6 级标题
+
+
+# ICP 与公安备案号（自定义字段）
+icp: "鲁ICP备2025185601号-2"       # 工信部备案号
+beian: "鲁公网安备37030302001121号"            # 公安备案号
+# 自定义变量，可以在 footer.html 中用 {{ site.icp }} 和 {{ site.beian }} 调用
+
+# 社交/联系方式配置(没有就注释掉或者删掉这一项就行)
+social:
+  email: "mailto:tungchiahui@gmail.com"
+  website: "https://me.tungchiahui.cn"
+  github: "https://github.com/tungchiahui"
+  qq: "https://qm.qq.com/q/JRhksaNK82?from=qq"
+  telegram: "https://t.me/tungchiahui"
+  bilibili: "https://space.bilibili.com/141482453"
+  coolapk: "http://www.coolapk.com/u/3224578"
+  twitter: "https://twitter.com/tungchiahui"
+  youtube: "https://www.youtube.com/@Chia-huiTung"
+  facebook: "https://www.facebook.com/tungchiahui"
+  instagram: "https://www.instagram.com/tungchiahui"
+
+# 音乐播放器配置
+aplayer:
+  server: tencent # 音乐服务器：netease、tencent、kugou
+  type: playlist # 默认是歌单
+  id: 9607777997 # 歌单播放列表 ID
+  autoplay: false # 是否自动播放，true 或 false
+
 
