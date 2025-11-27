@@ -65,7 +65,7 @@ social:
 aplayer:
   server: tencent # 音乐服务器：netease、tencent、kugou
   type: playlist # 默认是歌单
-  id: 9607777997 # 歌单播放列表 ID
+  id: 9619599108 # 歌单播放列表 ID
   autoplay: false # 是否自动播放，true 或 false
 
 
