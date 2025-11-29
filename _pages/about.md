@@ -4,6 +4,12 @@ title: 关于
 permalink: /about/
 ---
 
+## ⚠️博客正在准备迁移至WordPress.⚠️
+
+
+---
+
+
 ## 🌍 本站CDN服务
 
 | 对象存储 | CDN | 链接 |
