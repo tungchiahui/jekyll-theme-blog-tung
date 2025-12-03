@@ -66,3 +66,16 @@ footer .footer-records a:hover img {
   opacity: 1;
 }
 
+/* IPv6和SSL */
+.footer-cert {
+  display: flex;
+  justify-content: center;   /* 水平居中 */
+  align-items: center;        /* 垂直对齐 */
+  gap: 10px;                  /* 两图标间距 */
+  margin-top: 10px;           /* 适当留白 */
+}
+
+.footer-cert img {
+  height: 28px;               /* 稍微统一一下大小 */
+  vertical-align: middle;
+}
