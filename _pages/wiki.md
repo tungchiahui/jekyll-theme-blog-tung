@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: default
 title: 知识库
 ---
 
