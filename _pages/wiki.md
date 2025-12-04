@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 知识库
+permalink: /wiki/
 ---
 
 # Wiki 主页
