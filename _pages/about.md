@@ -29,9 +29,9 @@ permalink: /about/
 
 ---
 
-本站访客统计由 [Vercount](https://vercount.one/) 提供:
+本站访客统计由 [Vercount](https://vercount.one/)和[Umami](https://umami.zhcndoc.com/) 提供:
 
 📊 本站总访问量：<span id="vercount_value_site_pv">Loading</span> 次  
 👥 本站总访客数：<span id="vercount_value_site_uv">Loading</span> 人
 
-> 更详细的请在 [数据统计]({{ '/stats/' | relative_url }}) 中查阅。
+更详细的请在 [数据统计]({{ '/stats/' | relative_url }}) 中查阅。
