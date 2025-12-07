@@ -717,7 +717,7 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
    #include <print>
     int main(int argc,char **argv)
     {
-        std::println("Hello, world!");
+        std::println(std::cout, "HelloWorld!");
     }
    ```
    3. 打印一个变量
@@ -727,7 +727,7 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
     int main(int argc,char **argv)
     {
         int value = 42;
-        std::println("value = {}", value);
+        std::print("value = {}", value);
     }
     ```
     4. 打印多个变量
@@ -737,7 +737,7 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
     {
         int a = 10;
         float b = 3.14f;
-        std::println("a = {}, b = {}", a, b);
+        std::print("a = {}, b = {}", a, b);
     }
    ```
     5. 控制小数点输出
@@ -746,7 +746,7 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
     int main(int argc,char **argv)
     {
         double pi = 3.1415926;
-        std::println("pi = {:.2f}", pi);  // 输出：pi = 3.14
+        std::print("pi = {:.2f}", pi);  // 输出：pi = 3.14
     }
    ```
    6. 对齐方式（左对齐 / 右对齐 / 居中）
@@ -754,9 +754,9 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
    #include <print>
     int main(int argc,char **argv)
     {
-        std::println("[{:>10}]", 42);  // 右对齐
-        std::println("[{:<10}]", 42);  // 左对齐
-        std::println("[{:^10}]", 42);  // 居中
+        std::print("[{:>10}]", 42);  // 右对齐
+        std::print("[{:<10}]", 42);  // 左对齐
+        std::print("[{:^10}]", 42);  // 居中
     }
    ```
    7. 打印整数为十六进制
@@ -766,7 +766,7 @@ std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（�
     int main(int argc,char **argv)
     {
         int x = 255;
-        std::println("hex = {:#x}", x);   // 输出：hex = 0xff
+        std::print("hex = {:#x}", x);   // 输出：hex = 0xff
     }
    ```
 
