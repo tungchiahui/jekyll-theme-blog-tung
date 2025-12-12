@@ -4,7 +4,7 @@ title: 关于
 permalink: /about/
 ---
 
-## ⚠️博客正在准备迁移至WordPress.⚠️
+## ⚠️博客正在准备迁移至Nuxt.⚠️
 
 
 ---
