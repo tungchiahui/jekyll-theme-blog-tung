@@ -8,6 +8,12 @@ permalink: /blog/
 
 <section class="blog-container">
   <h1 class="blog-title">📝 博客文章</h1>
+  
+  <p class="blog-notice">
+    本博客已迁移至 <a href="https://tungchiahui.cn" target="_blank" rel="noopener">
+    Nuxt 框架新版站点 tungchiahui.cn</a>，  
+    本页面仅作历史文章存档展示，最新内容请前往新站查看。
+  </p>
 
 
   <!-- 搜索框 -->

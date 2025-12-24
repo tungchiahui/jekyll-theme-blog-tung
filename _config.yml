@@ -9,7 +9,7 @@ description: >-  # 网站描述，用于 meta 标签和搜索引擎
 
 # 网站的根路径配置
 baseurl: "" # 子路径，如果你的网站不是放在根目录，比如 /blog，就填 "/blog"；放在根域名上就留空
-url: "https://www.tungchiahui.cn" # 网站主域名，建议写完整带 https:// 的，比如 "https://www.tungchiahui.cn"
+url: "https://blog.tungchiahui.cn" # 网站主域名，建议写完整带 https:// 的，比如 "https://www.tungchiahui.cn"
 favicon: https://cdn.tungchiahui.cn/tungwebsite/assets/images/favicon.webp # 网站图标路径
 header_bg: https://cdn.tungchiahui.cn/tungwebsite/assets/images/header-bg.webp # 头部背景图路径
 
@@ -50,7 +50,7 @@ beian: "鲁公网安备37030302001121号"            # 公安备案号
 # 社交/联系方式配置(没有就注释掉或者删掉这一项就行)
 social:
   email: "mailto:tungchiahui@gmail.com"
-  website: "https://www.tungchiahui.cn"
+  website: "https://blog.tungchiahui.cn"
   github: "https://github.com/tungchiahui"
   qq: "https://qm.qq.com/q/JRhksaNK82?from=qq"
   telegram: "https://t.me/tungchiahui"

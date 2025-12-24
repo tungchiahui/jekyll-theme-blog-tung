@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## ⚠️博客正在准备迁移至Nuxt.⚠️
-
+[tungchiahui.cn](https://www.tungchiahui.cn/)
 
 ---
 
